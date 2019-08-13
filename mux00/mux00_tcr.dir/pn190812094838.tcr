@@ -1,0 +1,7 @@
+#Start recording tcl command: 8/12/2019 09:21:39
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/mux00; Project name: mux00
+prj_project new -name "mux00" -impl "mux0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/mux00/mux00.vhd"
+prj_run Export -impl mux0 -task Jedecgen
+#Stop recording: 8/12/2019 09:48:38

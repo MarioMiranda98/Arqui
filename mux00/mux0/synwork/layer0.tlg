@@ -1,0 +1,9 @@
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mux00\mux00.vhd":6:7:6:11|Synthesizing work.mux00.mux0.
+Post processing for work.mux00.mux0
+Running optimization stage 1 on mux00 .......
+Running optimization stage 2 on mux00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mux00\mux0\synwork\layer0.rt.csv
+

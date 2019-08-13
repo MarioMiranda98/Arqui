@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mux00\mux00.vhd":6:7:6:11|Top entity is set to mux00.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mux00\mux00.vhd":6:7:6:11|Synthesizing work.mux00.mux0.
+@N|Running in 64-bit mode
+
