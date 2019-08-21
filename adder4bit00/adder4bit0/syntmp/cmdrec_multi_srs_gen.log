@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topadder4bit00  -multisrs  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder4bit00\adder4bit0\synwork\adder4bit00_adder4bit0_comp.srs  -osyn  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder4bit00\adder4bit0\synwork\adder4bit00_adder4bit0_mult.srs  -log  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder4bit00\adder4bit0\synlog\adder4bit00_adder4bit0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top topadder4bit00 -multisrs ..\synwork\adder4bit00_adder4bit0_comp.srs -osyn ..\synwork\adder4bit00_adder4bit0_mult.srs -log ..\synlog\adder4bit00_adder4bit0_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\adder4bit00_adder4bit0_comp.srs|io:i|time:1566423125|size:5582|exec:0|csum:7B5B9BB952653F74DE5C4EB0EFF43961
+file:..\synwork\adder4bit00_adder4bit0_mult.srs|io:o|time:1566423127|size:3218|exec:0|csum:
+file:..\synlog\adder4bit00_adder4bit0_multi_srs_gen.srr|io:o|time:1566423127|size:1072|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

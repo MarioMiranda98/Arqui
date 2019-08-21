@@ -1,0 +1,50 @@
+#Start recording tcl command: 8/21/2019 15:55:41
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00; Project name: adder4bit00
+prj_project new -name "adder4bit00" -impl "adder4bit0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_run Export -impl adder4bit0 -task Jedecgen
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/and00.vhd"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/or00.vhd"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/xor00.vhd"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/xnor00.vhd"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/ha00.vhd"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/packageha00.vhd"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/packagefa00.vhd"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/fa00.vhd"
+pwc_command new -project "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/packageadder4bit00.pcf"
+prj_src add -exclude "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/packageadder4bit00.pcf"
+prj_src enable "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/packageadder4bit00.pcf"
+pwc_command exit
+prj_src remove "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/packageadder4bit00.pcf"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/packageadder4bit00.vhd"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/topadder4bit00.vhd"
+prj_run Export -impl adder4bit0 -task Jedecgen
+prj_run Export -impl adder4bit0 -task Jedecgen
+pgr_project save "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/adder4bit0/adder4bit0.xcf"
+prj_src add -exclude "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/adder4bit0/adder4bit0.xcf"
+prj_src enable "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/adder4bit0/adder4bit0.xcf"
+pgr_program set -cable 
+pgr_program set -port FTUSB-1
+pgr_project save "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/adder4bit0/adder4bit0.xcf"
+pgr_program run
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_project save "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/adder4bit0/adder4bit0.xcf"
+pgr_program run
+pgr_project save "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/adder4bit0/adder4bit0.xcf"
+pgr_program run
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_project save "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/adder4bit0/adder4bit0.xcf"
+pgr_program run
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program run
+pgr_program set -cable 
+pgr_program set -port FTUSB-1
+pgr_project save "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/adder4bit0/adder4bit0.xcf"
+pgr_program run
+pgr_project close
+#Stop recording: 8/21/2019 16:50:23

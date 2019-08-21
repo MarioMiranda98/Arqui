@@ -1,0 +1,8 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, Entity: ha00 Architecture: ha0, 0h:00m:00s,     75 MB
+work, Entity: or00 Architecture: or0, 0h:00m:00s,     75 MB
+work, Entity: fa00 Architecture: fa0, 0h:00m:00s,     75 MB
+work, Entity: and00 Architecture: and0, 0h:00m:00s,     75 MB
+work, Entity: xnor00 Architecture: xnor0, 0h:00m:00s,     75 MB
+work, Entity: xor00 Architecture: xor0, 0h:00m:00s,     75 MB
+work, Entity: topadder4bit00 Architecture: topadder4bit0, 0h:00m:00s,     75 MB
