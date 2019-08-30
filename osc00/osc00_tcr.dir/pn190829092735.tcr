@@ -1,0 +1,10 @@
+#Start recording tcl command: 8/29/2019 08:56:47
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/osc00; Project name: osc00
+prj_project new -name "osc00" -impl "osc0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/osc00/osc00.vhdl"
+prj_run Export -impl osc0 -task Jedecgen
+prj_run Export -impl osc0 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 8/29/2019 09:27:35

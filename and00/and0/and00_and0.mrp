@@ -10,12 +10,13 @@ Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial
      -lpf C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/and00/and0/and
      00_and0_synplify.lpf -lpf
      C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/and00/and00.lpf -c
-     0 -gui 
+     0 -gui -msgset
+     C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/and00/promote.xml 
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   4
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
-Mapped on:  08/08/19  09:28:16
+Mapped on:  08/27/19  18:54:48
 
 Design Summary
 --------------
@@ -59,17 +60,17 @@ Design Summary
      ripple logic.
    Number of clocks:  0
    Number of Clock Enables:  0
-   Number of LSRs:  0
 
                                     Page 1
 
 
 
 
-Design:  and00                                         Date:  08/08/19  09:28:16
+Design:  and00                                         Date:  08/27/19  18:54:48
 
 Design Summary (cont)
 ---------------------
+   Number of LSRs:  0
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
      Net Aa_c[0]: 1 loads
@@ -125,17 +126,17 @@ IO (PIO) Attributes
 | Ba[6]               | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | Ba[5]               | INPUT     | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
 
                                     Page 2
 
 
 
 
-Design:  and00                                         Date:  08/08/19  09:28:16
+Design:  and00                                         Date:  08/27/19  18:54:48
 
 IO (PIO) Attributes (cont)
 --------------------------
++---------------------+-----------+-----------+------------+
 | Ba[4]               | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | Ba[3]               | INPUT     | LVCMOS25  |            |
@@ -175,10 +176,9 @@ Run Time and Memory Usage
 -------------------------
 
    Total CPU Time: 0 secs  
-   Total REAL Time: 2 secs  
-   Peak Memory Usage: 35 MB
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 57 MB
         
-
 
 
 

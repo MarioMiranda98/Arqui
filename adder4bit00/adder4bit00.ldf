@@ -18,13 +18,13 @@
         <Source name="packageha00.vhd" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
-        <Source name="packagefa00.vhd" type="VHDL" type_short="VHDL">
-            <Options/>
-        </Source>
         <Source name="ha00.vhd" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
         <Source name="fa00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packagefa00.vhd" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
         <Source name="packageadder4bit00.vhd" type="VHDL" type_short="VHDL">

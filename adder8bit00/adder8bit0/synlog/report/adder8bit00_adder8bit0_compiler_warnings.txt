@@ -1,0 +1,18 @@
+@W: CD638 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":18:7:18:8|Signal sb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":18:7:18:8|Bit 0 of signal SB is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":18:7:18:8|Bit 1 of signal SB is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":18:7:18:8|Bit 2 of signal SB is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":18:7:18:8|Bit 3 of signal SB is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":18:7:18:8|Bit 4 of signal SB is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":18:7:18:8|Bit 5 of signal SB is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":18:7:18:8|Bit 6 of signal SB is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":18:7:18:8|Bit 7 of signal SB is floating -- simulation mismatch possible.
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":127:1:127:4|Input b00 of instance AD15 is floating
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":119:1:119:4|Input b00 of instance AD14 is floating
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":111:1:111:4|Input b00 of instance AD13 is floating
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":103:1:103:4|Input b00 of instance AD12 is floating
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":95:1:95:4|Input b00 of instance AD11 is floating
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":87:1:87:4|Input b00 of instance AD10 is floating
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":79:1:79:4|Input b00 of instance AD09 is floating
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit.vhdl":71:1:71:4|Input b00 of instance AD08 is floating
+

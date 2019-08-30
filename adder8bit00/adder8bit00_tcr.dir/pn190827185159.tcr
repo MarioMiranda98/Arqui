@@ -1,0 +1,8 @@
+#Start recording tcl command: 8/27/2019 18:48:36
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder8bit00; Project name: adder8bit00
+prj_project new -name "adder8bit00" -impl "adder8bit0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder8bit00/and00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 8/27/2019 18:51:59

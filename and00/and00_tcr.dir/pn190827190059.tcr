@@ -1,0 +1,15 @@
+#Start recording tcl command: 8/27/2019 18:52:00
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/and00; Project name: and00
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/and00/and00.ldf"
+prj_run Export -impl and0 -task Jedecgen
+prj_run Export -impl and0 -task Jedecgen
+pgr_project save "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/and00/and0/and0.xcf"
+prj_src add -exclude "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/and00/and0/and0.xcf"
+prj_src enable "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/and00/and0/and0.xcf"
+pgr_program set -cable 
+pgr_program set -port FTUSB-1
+pgr_project save "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/and00/and0/and0.xcf"
+pgr_program run
+prj_project save
+prj_project close
+#Stop recording: 8/27/2019 19:00:59

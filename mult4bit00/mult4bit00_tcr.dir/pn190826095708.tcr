@@ -1,0 +1,8 @@
+#Start recording tcl command: 8/26/2019 09:07:48
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/mult4bit00; Project name: mult4bit00
+prj_project new -name "mult4bit00" -impl "mult4bit0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/fa00VHDL/andadd.vhd" "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/fa00VHDL/fa00.vhd" "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/fa00VHDL/ha00.vhd" "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/fa00VHDL/oradd.vhd" "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/fa00VHDL/packagefa00.vhd" "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/fa00VHDL/packageha00.vhd" "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/fa00VHDL/xoradd.vhd"
+prj_project save
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/mult4bit00/packagemult4bit00.vhd"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/mult4bit00/mult4bit00.vhd"
+#Stop recording: 8/26/2019 09:57:08

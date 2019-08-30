@@ -1,0 +1,7 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, Entity: xoradd Architecture: xorad, 0h:00m:00s,     75 MB
+work, Entity: andadd Architecture: andad, 0h:00m:00s,     75 MB
+work, Entity: ha00 Architecture: ha0, 0h:00m:00s,     75 MB
+work, Entity: oradd Architecture: orad, 0h:00m:00s,     75 MB
+work, Entity: fa00 Architecture: fa0, 0h:00m:00s,     75 MB
+work, Entity: mult4bit00 Architecture: mult4bit0, 0h:00m:00s,     75 MB

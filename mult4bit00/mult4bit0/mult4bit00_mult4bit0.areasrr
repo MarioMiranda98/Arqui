@@ -1,0 +1,601 @@
+----------------------------------------------------------------------
+Report for cell mult4bit00.mult4bit0
+
+Register bits: 0 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       16
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GSR        1       100.0
+                                 IB        8       100.0
+                                 OB        8       100.0
+                           ORCALUT4       26       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        6       100.0
+SUB MODULES 
+                             andadd        1       100.0
+                           andadd_1        1       100.0
+                          andadd_17        1       100.0
+                           andadd_2        1       100.0
+                          andadd_28        1       100.0
+                           andadd_7        1       100.0
+                               fa00        1       100.0
+                             fa00_0        1       100.0
+                           fa00_0_0        1       100.0
+                           fa00_0_1        1       100.0
+                           fa00_0_2        1       100.0
+                           fa00_0_3        1       100.0
+                           fa00_0_4        1       100.0
+                           fa00_0_5        1       100.0
+                           fa00_0_6        1       100.0
+                             fa00_1        1       100.0
+                             fa00_2        1       100.0
+                             fa00_8        1       100.0
+                               ha00        1       100.0
+                             ha00_1        1       100.0
+                            ha00_10        1       100.0
+                            ha00_12        1       100.0
+                            ha00_13        1       100.0
+                            ha00_15        1       100.0
+                            ha00_17        1       100.0
+                            ha00_19        1       100.0
+                             ha00_4        1       100.0
+                             ha00_5        1       100.0
+                             ha00_6        1       100.0
+                             ha00_7        1       100.0
+                            oradd_0        1       100.0
+                          oradd_0_0        1       100.0
+                          oradd_0_1        1       100.0
+                          oradd_0_2        1       100.0
+                          oradd_0_3        1       100.0
+                          oradd_0_4        1       100.0
+                          oradd_0_5        1       100.0
+                          oradd_0_6        1       100.0
+                             xoradd        1       100.0
+                           xoradd_0        1       100.0
+                          xoradd_10        1       100.0
+                          xoradd_12        1       100.0
+                          xoradd_13        1       100.0
+                          xoradd_15        1       100.0
+                          xoradd_17        1       100.0
+                          xoradd_19        1       100.0
+                           xoradd_4        1       100.0
+                           xoradd_5        1       100.0
+                           xoradd_6        1       100.0
+                           xoradd_7        1       100.0
+                            
+                         TOTAL           101           
+----------------------------------------------------------------------
+Report for cell fa00_0_6.netlist
+  Original Cell name fa00_0
+     Instance path:  MU27
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+SUB MODULES 
+                            ha00_19        1       100.0
+                          oradd_0_6        1       100.0
+                          xoradd_19        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell oradd_0_6.netlist
+  Original Cell name oradd_0
+     Instance path:  MU27.F02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell ha00_19.netlist
+  Original Cell name ha00
+     Instance path:  MU27.F01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+SUB MODULES 
+                          xoradd_19        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xoradd_19.netlist
+  Original Cell name xoradd
+     Instance path:  MU27.F01.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell fa00_0_5.netlist
+  Original Cell name fa00_0
+     Instance path:  MU26
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+SUB MODULES 
+                            ha00_17        1       100.0
+                          oradd_0_5        1       100.0
+                          xoradd_17        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell oradd_0_5.netlist
+  Original Cell name oradd_0
+     Instance path:  MU26.F02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell ha00_17.netlist
+  Original Cell name ha00
+     Instance path:  MU26.F01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+SUB MODULES 
+                          xoradd_17        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xoradd_17.netlist
+  Original Cell name xoradd
+     Instance path:  MU26.F01.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell fa00_0_4.netlist
+  Original Cell name fa00_0
+     Instance path:  MU25
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+SUB MODULES 
+                            ha00_15        1       100.0
+                          oradd_0_4        1       100.0
+                          xoradd_15        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell oradd_0_4.netlist
+  Original Cell name oradd_0
+     Instance path:  MU25.F02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell ha00_15.netlist
+  Original Cell name ha00
+     Instance path:  MU25.F01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+SUB MODULES 
+                          xoradd_15        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xoradd_15.netlist
+  Original Cell name xoradd
+     Instance path:  MU25.F01.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell fa00_2.netlist
+  Original Cell name fa00
+     Instance path:  MU24
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+SUB MODULES 
+                          andadd_28        1       100.0
+                            ha00_13        1       100.0
+                          xoradd_13        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell ha00_13.netlist
+  Original Cell name ha00
+     Instance path:  MU24.F00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+SUB MODULES 
+                          andadd_28        1       100.0
+                          xoradd_13        1       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell andadd_28.netlist
+  Original Cell name andadd
+     Instance path:  MU24.F00.H01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell xoradd_13.netlist
+  Original Cell name xoradd
+     Instance path:  MU24.F00.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell fa00_0_3.netlist
+  Original Cell name fa00_0
+     Instance path:  MU19
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+SUB MODULES 
+                            ha00_12        1       100.0
+                          oradd_0_3        1       100.0
+                          xoradd_12        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell oradd_0_3.netlist
+  Original Cell name oradd_0
+     Instance path:  MU19.F02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell ha00_12.netlist
+  Original Cell name ha00
+     Instance path:  MU19.F01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+SUB MODULES 
+                          xoradd_12        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xoradd_12.netlist
+  Original Cell name xoradd
+     Instance path:  MU19.F01.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell fa00_0_2.netlist
+  Original Cell name fa00_0
+     Instance path:  MU18
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+SUB MODULES 
+                            ha00_10        1       100.0
+                          oradd_0_2        1       100.0
+                          xoradd_10        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell oradd_0_2.netlist
+  Original Cell name oradd_0
+     Instance path:  MU18.F02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell ha00_10.netlist
+  Original Cell name ha00
+     Instance path:  MU18.F01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+SUB MODULES 
+                          xoradd_10        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xoradd_10.netlist
+  Original Cell name xoradd
+     Instance path:  MU18.F01.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell fa00_0_1.netlist
+  Original Cell name fa00_0
+     Instance path:  MU17
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VLO        1        16.7
+SUB MODULES 
+                             ha00_7        1       100.0
+                          oradd_0_1        1       100.0
+                           xoradd_7        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell oradd_0_1.netlist
+  Original Cell name oradd_0
+     Instance path:  MU17.F02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell ha00_7.netlist
+  Original Cell name ha00
+     Instance path:  MU17.F00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VLO        1        16.7
+SUB MODULES 
+                           xoradd_7        1       100.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell xoradd_7.netlist
+  Original Cell name xoradd
+     Instance path:  MU17.F00.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VLO        1        16.7
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell fa00_1.netlist
+  Original Cell name fa00
+     Instance path:  MU16
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+SUB MODULES 
+                          andadd_17        1       100.0
+                             ha00_6        1       100.0
+                           xoradd_6        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell ha00_6.netlist
+  Original Cell name ha00
+     Instance path:  MU16.F00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+SUB MODULES 
+                          andadd_17        1       100.0
+                           xoradd_6        1       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell andadd_17.netlist
+  Original Cell name andadd
+     Instance path:  MU16.F00.H01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell xoradd_6.netlist
+  Original Cell name xoradd
+     Instance path:  MU16.F00.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell fa00_8.netlist
+  Original Cell name fa00
+     Instance path:  MU11
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VLO        1        16.7
+SUB MODULES 
+                             ha00_5        1       100.0
+                           xoradd_5        1       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell ha00_5.netlist
+  Original Cell name ha00
+     Instance path:  MU11.F01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VLO        1        16.7
+SUB MODULES 
+                           xoradd_5        1       100.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell xoradd_5.netlist
+  Original Cell name xoradd
+     Instance path:  MU11.F01.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VLO        1        16.7
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell fa00_0_0.netlist
+  Original Cell name fa00_0
+     Instance path:  MU10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+SUB MODULES 
+                             ha00_4        1       100.0
+                          oradd_0_0        1       100.0
+                           xoradd_4        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell oradd_0_0.netlist
+  Original Cell name oradd_0
+     Instance path:  MU10.F02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell ha00_4.netlist
+  Original Cell name ha00
+     Instance path:  MU10.F01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+SUB MODULES 
+                           xoradd_4        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xoradd_4.netlist
+  Original Cell name xoradd
+     Instance path:  MU10.F01.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell fa00_0.netlist
+  Original Cell name fa00
+     Instance path:  MU09
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+SUB MODULES 
+                             ha00_1        1       100.0
+                            oradd_0        1       100.0
+                           xoradd_0        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell oradd_0.netlist
+  Original Cell name oradd
+     Instance path:  MU09.F02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell ha00_1.netlist
+  Original Cell name ha00
+     Instance path:  MU09.F00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+SUB MODULES 
+                           xoradd_0        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell xoradd_0.netlist
+  Original Cell name xoradd
+     Instance path:  MU09.F00.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell fa00.netlist
+  Original Cell name fa00
+     Instance path:  MU08
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+SUB MODULES 
+                           andadd_7        1       100.0
+                               ha00        1       100.0
+                             xoradd        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell ha00.netlist
+  Original Cell name ha00
+     Instance path:  MU08.F00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+SUB MODULES 
+                           andadd_7        1       100.0
+                             xoradd        1       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell andadd_7.netlist
+  Original Cell name andadd
+     Instance path:  MU08.F00.H01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell xoradd.netlist
+  Original Cell name xoradd
+     Instance path:  MU08.F00.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell andadd_2.netlist
+  Original Cell name andadd
+     Instance path:  MU03
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VLO        1        16.7
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell andadd_1.netlist
+  Original Cell name andadd
+     Instance path:  MU02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VLO        1        16.7
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell andadd.netlist
+  Original Cell name andadd
+     Instance path:  MU00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VLO        1        16.7
+                            
+                         TOTAL             2           

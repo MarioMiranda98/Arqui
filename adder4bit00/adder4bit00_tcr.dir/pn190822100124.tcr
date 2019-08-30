@@ -1,0 +1,13 @@
+#Start recording tcl command: 8/22/2019 08:43:17
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00; Project name: adder4bit00
+D:/adder4bit00
+adder4bit00
+#Start recording tcl command: 8/22/2019 10:01:23
+#Project Location: D:/adder4bit00; Project name: adder4bit00
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/adder4bit00.ldf"
+pgr_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/adder4bit0/adder4bit0.xcf"
+pgr_program run
+pgr_project save "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/adder4bit0/adder4bit0.xcf"
+prj_project close
+prj_project open "D:/adder4bit00/adder4bit00.ldf"
+#Stop recording: 8/22/2019 10:01:24

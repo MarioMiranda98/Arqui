@@ -1,0 +1,12 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN115 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\fa00vhdl\ha00.vhd":25:1:25:3|Removing instance H01 (in view: work.ha00_0(ha0)) of type view:work.andadd_16_0(andad) because it does not drive other instances.
+@N: BN115 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\fa00vhdl\ha00.vhd":25:1:25:3|Removing instance H01 (in view: work.ha00_1_6(ha0)) of type view:work.andadd_0_5(andad) because it does not drive other instances.
+@N: BN115 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\fa00vhdl\ha00.vhd":25:1:25:3|Removing instance H01 (in view: work.ha00_1_7(ha0)) of type view:work.andadd_0_8(andad) because it does not drive other instances.
+@N: BN115 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\fa00vhdl\ha00.vhd":25:1:25:3|Removing instance H01 (in view: work.ha00_1_15(ha0)) of type view:work.andadd_0_16(andad) because it does not drive other instances.
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

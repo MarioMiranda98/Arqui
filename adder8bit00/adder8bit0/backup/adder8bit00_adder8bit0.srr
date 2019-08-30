@@ -1,0 +1,345 @@
+#Build: Synplify Pro (R) N-2018.03L-SP1-1, Build 443R, Apr  1 2019
+#install: C:\lscc\diamond\3.11_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-OVV5D9K5
+
+# Tue Aug 27 20:36:57 2019
+
+#Implementation: adder8bit0
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-OVV5D9K5
+
+Implementation : adder8bit0
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-OVV5D9K5
+
+Implementation : adder8bit0
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":7:7:7:17|Top entity is set to adder8bit00.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":7:7:7:17|Synthesizing work.adder8bit00.adder8bit0.
+@W: CD638 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":18:7:18:8|Signal sb is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+Running optimization stage 1 on xor00 .......
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\xnor00.vhdl":6:7:6:12|Synthesizing work.xnor00.xnor0.
+Post processing for work.xnor00.xnor0
+Running optimization stage 1 on xnor00 .......
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+Running optimization stage 1 on and00 .......
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\fa00.vhdl":7:7:7:10|Synthesizing work.fa00.fa0.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+Running optimization stage 1 on or00 .......
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\ha00.vhdl":7:7:7:10|Synthesizing work.ha00.ha0.
+Post processing for work.ha00.ha0
+Running optimization stage 1 on ha00 .......
+Post processing for work.fa00.fa0
+Running optimization stage 1 on fa00 .......
+Post processing for work.adder8bit00.adder8bit0
+Running optimization stage 1 on adder8bit00 .......
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":18:7:18:8|Bit 0 of signal SB is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":18:7:18:8|Bit 1 of signal SB is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":18:7:18:8|Bit 2 of signal SB is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":18:7:18:8|Bit 3 of signal SB is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":18:7:18:8|Bit 4 of signal SB is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":18:7:18:8|Bit 5 of signal SB is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":18:7:18:8|Bit 6 of signal SB is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":18:7:18:8|Bit 7 of signal SB is floating -- simulation mismatch possible.
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":127:1:127:4|Input b00 of instance AD15 is floating
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":119:1:119:4|Input b00 of instance AD14 is floating
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":111:1:111:4|Input b00 of instance AD13 is floating
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":103:1:103:4|Input b00 of instance AD12 is floating
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":95:1:95:4|Input b00 of instance AD11 is floating
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":87:1:87:4|Input b00 of instance AD10 is floating
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":79:1:79:4|Input b00 of instance AD09 is floating
+@W: CL167 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit00.vhdl":71:1:71:4|Input b00 of instance AD08 is floating
+Running optimization stage 2 on ha00 .......
+Running optimization stage 2 on or00 .......
+Running optimization stage 2 on fa00 .......
+Running optimization stage 2 on and00 .......
+Running optimization stage 2 on xnor00 .......
+Running optimization stage 2 on xor00 .......
+Running optimization stage 2 on adder8bit00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit0\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Aug 27 20:36:58 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-OVV5D9K5
+
+Implementation : adder8bit0
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Aug 27 20:36:59 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit0\synwork\adder8bit00_adder8bit0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Aug 27 20:36:59 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-OVV5D9K5
+
+Database state : C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit0\synwork\|adder8bit0
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Aug 27 20:37:00 2019
+
+###########################################################]
+Premap Report
+
+# Tue Aug 27 20:37:01 2019
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-OVV5D9K5
+
+Implementation : adder8bit0
+Synopsys Lattice Technology Pre-mapping, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit0\adder8bit00_adder8bit0_scck.rpt 
+Printing clock  summary report in "C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adder8bit00\adder8bit0\adder8bit00_adder8bit0_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN115 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\adder8bit00\ha00.vhdl":24:1:24:3|Removing instance H01 (in view: work.ha00_1_0(ha0)) of type view:work.and00_0_0(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\adder8bit00\ha00.vhdl":24:1:24:3|Removing instance H01 (in view: work.ha00_1_2(ha0)) of type view:work.and00_0_1(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\adder8bit00\ha00.vhdl":24:1:24:3|Removing instance H01 (in view: work.ha00_1_4(ha0)) of type view:work.and00_0_3(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\adder8bit00\ha00.vhdl":24:1:24:3|Removing instance H01 (in view: work.ha00_1_6(ha0)) of type view:work.and00_0_5(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\adder8bit00\ha00.vhdl":24:1:24:3|Removing instance H01 (in view: work.ha00_1_8(ha0)) of type view:work.and00_0_7(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\adder8bit00\ha00.vhdl":24:1:24:3|Removing instance H01 (in view: work.ha00_1_10(ha0)) of type view:work.and00_0_9(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\adder8bit00\ha00.vhdl":24:1:24:3|Removing instance H01 (in view: work.ha00_1_12(ha0)) of type view:work.and00_0_11(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\adder8bit00\ha00.vhdl":24:1:24:3|Removing instance H01 (in view: work.ha00_1_14(ha0)) of type view:work.and00_0_13(and0) because it does not drive other instances.
+syn_allowed_resources : blockrams=26  set on top level netlist adder8bit00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+
+Clock Summary
+******************
+
+          Start     Requested     Requested     Clock     Clock     Clock
+Level     Clock     Frequency     Period        Type      Group     Load 
+-------------------------------------------------------------------------
+=========================================================================
+
+
+
+Clock Load Summary
+***********************
+
+          Clock     Source     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock     Load      Pin        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------
+==============================================================================
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 143MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Aug 27 20:37:03 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Tue Aug 27 20:37:03 2019
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-OVV5D9K5
+
+Implementation : adder8bit0
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@A: BN321 |Found multiple drivers on net So[0] (in view: work.adder8bit00(adder8bit0)); if one driver is a constant (true or false), use Resolve Mixed Drivers option to connect the net to VCC or GND.
+@E: Net So[0] (in view: work.adder8bit00(adder8bit0)) has conflicting drivers, the connections are
+Connection 1: Direction is (Output ) pin:OUT inst:AD00.Yx of PrimLib.xor(prim)
+Connection 2: Direction is (Output ) pin:OUT inst:AD16.Ya of PrimLib.and(prim)
+@E: BN314 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\adder8bit00\adder8bit00.vhdl":7:7:7:17|Net So[0] (in view: work.adder8bit00(adder8bit0)) has multiple drivers 
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Aug 27 20:37:03 2019
+
+###########################################################]

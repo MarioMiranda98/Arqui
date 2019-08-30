@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="adder8bitLib00" device="LCMXO2-7000HE-5TG144C" default_implementation="adder8bitLib0">
+    <Options/>
+    <Implementation title="adder8bitLib0" dir="adder8bitLib0" description="adder8bitLib0" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="adder8bitLib00"/>
+        <Source name="adder8bitLib00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="adder8bitLib00"/>
+        </Source>
+        <Source name="adder8bitLib00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="adder8bitLib001.sty"/>
+</BaliProject>

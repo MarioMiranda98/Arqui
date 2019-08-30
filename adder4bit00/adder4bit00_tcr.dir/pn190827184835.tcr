@@ -1,0 +1,6 @@
+#Start recording tcl command: 8/27/2019 18:43:13
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00; Project name: adder4bit00
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adder4bit00/adder4bit00.ldf"
+prj_project save
+prj_project close
+#Stop recording: 8/27/2019 18:48:35
