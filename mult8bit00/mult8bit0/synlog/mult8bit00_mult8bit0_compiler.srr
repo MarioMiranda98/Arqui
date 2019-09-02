@@ -1,0 +1,124 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-OVV5D9K5
+
+Implementation : mult8bit0
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-OVV5D9K5
+
+Implementation : mult8bit0
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl":7:7:7:16|Top entity is set to mult8bit00.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl":7:7:7:16|Synthesizing work.mult8bit00.mult8bit0.
+@W: CD796 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl":16:7:16:10|Bit 0 of signal sa00 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD638 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl":17:43:17:46|Signal ss06 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD796 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl":18:7:18:10|Bit 7 of signal sc00 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl":18:13:18:16|Bit 7 of signal sc01 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl":18:19:18:22|Bit 7 of signal sc02 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl":18:25:18:28|Bit 7 of signal sc03 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl":18:31:18:34|Bit 7 of signal sc04 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl":18:37:18:40|Bit 7 of signal sc05 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl":18:43:18:46|Bit 7 of signal sc06 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\fa00.vhdl":7:7:7:10|Synthesizing work.fa00.fa0.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+Running optimization stage 1 on or00 .......
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\ha00.vhdl":7:7:7:10|Synthesizing work.ha00.ha0.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+Running optimization stage 1 on and00 .......
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+Running optimization stage 1 on xor00 .......
+Post processing for work.ha00.ha0
+Running optimization stage 1 on ha00 .......
+Post processing for work.fa00.fa0
+Running optimization stage 1 on fa00 .......
+Post processing for work.mult8bit00.mult8bit0
+Running optimization stage 1 on mult8bit00 .......
+Running optimization stage 2 on xor00 .......
+Running optimization stage 2 on and00 .......
+Running optimization stage 2 on ha00 .......
+Running optimization stage 2 on or00 .......
+Running optimization stage 2 on fa00 .......
+Running optimization stage 2 on mult8bit00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit0\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 76MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Aug 30 23:38:23 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-OVV5D9K5
+
+Implementation : mult8bit0
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Aug 30 23:38:24 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit0\synwork\mult8bit00_mult8bit0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Aug 30 23:38:24 2019
+
+###########################################################]

@@ -1,0 +1,7 @@
+i clkdiv
+m 0 0
+u 2 23
+p {p:clkdiv}{t:sdiv[21:0].C}
+e ckid0_0 {t:sdiv[21:0].C} sdffr
+c ckid0_0 {p:clkdiv} Unconstrained_port Inferred clock from port
+l 0 0 0 0 0

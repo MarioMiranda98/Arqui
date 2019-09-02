@@ -1,0 +1,20 @@
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":28:7:28:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":36:7:36:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":44:7:44:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":52:7:52:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":60:7:60:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":68:7:68:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":76:7:76:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":84:7:84:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":92:7:92:12|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+Running optimization stage 2 on div00 .......
+@N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":20:3:20:4|Register bit sdiv(22) is always 0.
+@W: CL260 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":20:3:20:4|Pruning register bit 22 of sdiv(22 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div0\synwork\layer0.rt.csv
+

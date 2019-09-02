@@ -16,5 +16,12 @@ end adder8bitLib00;
 
 architecture adder8bitLib0 of adder8bitLib00 is
 begin
-	
+	process (Mux, Ai, Bi)
+	begin 
+		if(Mux = '0') then
+			So <= Ai + Bi;
+		else 
+			So <= Ai - Bi;
+		end if;
+	end process;
 end architecture;

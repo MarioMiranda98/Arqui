@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  mult8bit00  -multisrs  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit0\synwork\mult8bit00_mult8bit0_comp.srs  -osyn  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit0\synwork\mult8bit00_mult8bit0_mult.srs  -log  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit0\synlog\mult8bit00_mult8bit0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top mult8bit00 -multisrs ..\synwork\mult8bit00_mult8bit0_comp.srs -osyn ..\synwork\mult8bit00_mult8bit0_mult.srs -log ..\synlog\mult8bit00_mult8bit0_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\mult8bit00_mult8bit0_comp.srs|io:i|time:1567226304|size:7564|exec:0|csum:61DC1F4C2F61D450E386C14539E1F31F
+file:..\synwork\mult8bit00_mult8bit0_mult.srs|io:o|time:1567226305|size:5272|exec:0|csum:
+file:..\synlog\mult8bit00_mult8bit0_multi_srs_gen.srr|io:o|time:1567226305|size:1069|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

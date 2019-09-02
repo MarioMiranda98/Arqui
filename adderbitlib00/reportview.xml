@@ -4,7 +4,7 @@
     <Implement name="adder8bitLib0">
         <ToolReport id="tooldec" path="" status="0"/>
         <ToolReport id="toolhle_genhierarchy" path="C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adderbitlib00/adder8bitLib0/hdla_gen_hierarchy.html" status="1"/>
-        <ToolReport id="toolpio" path="" status="0"/>
-        <ToolReport id="toolsso" path="" status="0"/>
+        <ToolReport id="toolpio" path="" status="2"/>
+        <ToolReport id="toolsso" path="" status="2"/>
     </Implement>
 </ReportView>

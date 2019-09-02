@@ -4,7 +4,7 @@
     <Implement name="div0">
         <ToolReport id="tooldec" path="" status="0"/>
         <ToolReport id="toolhle_genhierarchy" path="C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/div0/hdla_gen_hierarchy.html" status="1"/>
-        <ToolReport id="toolpio" path="" status="0"/>
-        <ToolReport id="toolsso" path="" status="0"/>
+        <ToolReport id="toolpio" path="" status="2"/>
+        <ToolReport id="toolsso" path="" status="2"/>
     </Implement>
 </ReportView>

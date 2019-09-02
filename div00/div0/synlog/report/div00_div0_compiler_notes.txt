@@ -1,0 +1,16 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":8:7:8:11|Top entity is set to div00.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":28:7:28:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":36:7:36:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":44:7:44:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":52:7:52:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":60:7:60:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":68:7:68:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":76:7:76:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":84:7:84:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":92:7:92:12|Removing redundant assignment.
+@N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":20:3:20:4|Register bit sdiv(22) is always 0.
+@N|Running in 64-bit mode
+

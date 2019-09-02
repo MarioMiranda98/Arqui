@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "div00_div0.log"
+-o "div00_div0.csv"
+-pr "div00_div0.prf"

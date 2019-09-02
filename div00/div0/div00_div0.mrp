@@ -1,0 +1,204 @@
+
+            Lattice Mapping Report File for Design Module 'div00'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     div00_div0.ngd -o div00_div0_map.ncd -pr div00_div0.prf -mp div00_div0.mrp
+     -lpf C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/div0/div
+     00_div0_synplify.lpf -lpf
+     C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/div00.lpf -c
+     0 -gui -msgset
+     C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
+Mapped on:  09/02/19  09:09:15
+
+Design Summary
+--------------
+
+   Number of registers:     23 out of  7209 (0%)
+      PFU registers:           23 out of  6864 (0%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:        29 out of  3432 (1%)
+      SLICEs as Logic/ROM:     29 out of  3432 (1%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         12 out of  3432 (0%)
+   Number of LUT4s:         57 out of  6864 (1%)
+      Number used as logic LUTs:         33
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       24
+      Number used as shift registers:     0
+   Number of PIO sites used: 7 + 4(JTAG) out of 115 (10%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : No
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net clkdiv_c: 13 loads, 13 rising, 0 falling (Driver: PIO clkdiv )
+
+                                    Page 1
+
+
+
+
+Design:  div00                                         Date:  09/02/19  09:09:15
+
+Design Summary (cont)
+---------------------
+   Number of Clock Enables:  0
+   Number of LSRs:  1
+     Net N_8_i: 12 loads, 12 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net N_8_i: 13 loads
+     Net cdiv_c[0]: 9 loads
+     Net sdiv[18]: 7 loads
+     Net sdiv[19]: 7 loads
+     Net cdiv_c[2]: 6 loads
+     Net cdiv_c[1]: 5 loads
+     Net cdiv_c[3]: 5 loads
+     Net N_41: 5 loads
+     Net sdiv[16]: 5 loads
+     Net sdiv[17]: 5 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| oscout              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clkdiv              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv[4]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv[3]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv[2]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv[1]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv[0]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Signal GND undriven or does not drive anything - clipped.
+
+                                    Page 2
+
+
+
+
+Design:  div00                                         Date:  09/02/19  09:09:15
+
+Removed logic (cont)
+--------------------
+Signal VCC undriven or does not drive anything - clipped.
+Signal un1_sdiv_s_21_0_S1 undriven or does not drive anything - clipped.
+Signal un1_sdiv_s_21_0_COUT undriven or does not drive anything - clipped.
+Signal un1_sdiv_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_1 undriven or does not drive anything - clipped.
+Block GND was optimized away.
+
+     
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 57 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 3
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights
+     reserved.

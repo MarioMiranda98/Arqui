@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adderbitlib00\adder8bitLib00.vhdl":8:7:8:20|Top entity is set to adder8bitLib00.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\adderbitlib00\adder8bitLib00.vhdl":8:7:8:20|Synthesizing work.adder8bitlib00.adder8bitlib0.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl&quot;:16:7:16:10|Bit 0 of signal sa00 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Bit 0 of signal sa00 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl&quot;:17:43:17:46|Signal ss06 is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>Signal ss06 is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl&quot;:18:7:18:10|Bit 7 of signal sc00 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Bit 7 of signal sc00 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl&quot;:18:13:18:16|Bit 7 of signal sc01 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Bit 7 of signal sc01 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl&quot;:18:19:18:22|Bit 7 of signal sc02 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Bit 7 of signal sc02 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl&quot;:18:25:18:28|Bit 7 of signal sc03 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Bit 7 of signal sc03 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl&quot;:18:31:18:34|Bit 7 of signal sc04 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Bit 7 of signal sc04 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl&quot;:18:37:18:40|Bit 7 of signal sc05 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Bit 7 of signal sc05 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl&quot;:18:43:18:46|Bit 7 of signal sc06 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\mult8bit00\mult8bit00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>Bit 7 of signal sc06 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>
