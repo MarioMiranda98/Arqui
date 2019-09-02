@@ -1,0 +1,10 @@
+#Start recording tcl command: 9/2/2019 09:57:33
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adderbitlib00; Project name: adder8bitLib00
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adderbitlib00/adder8bitLib00.ldf"
+pgr_project save "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adderbitlib00/adder8bitLib0/adder8bitLib0.xcf"
+prj_src add -exclude "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adderbitlib00/adder8bitLib0/adder8bitLib0.xcf"
+prj_src enable "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adderbitlib00/adder8bitLib0/adder8bitLib0.xcf"
+pgr_project save "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/adderbitlib00/adder8bitLib0/adder8bitLib0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 9/2/2019 10:00:42

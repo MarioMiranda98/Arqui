@@ -13,11 +13,11 @@ Hostname: LAPTOP-OVV5D9K5
 
 Implementation : div0
 
-# Written on Mon Sep  2 08:53:42 2019
+# Written on Mon Sep  2 09:46:36 2019
 
 ##### DESIGN INFO #######################################################
 
-Top View:                "div00"
+Top View:                "topdiv00"
 Constraint File(s):      (none)
 
 
@@ -35,10 +35,10 @@ Found 0 issues in 0 out of 0 constraints
 Clock Relationships
 *******************
 
-Starting         Ending           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
----------------------------------------------------------------------------------------------------------------------------------------------
-div00|clkdiv     div00|clkdiv     |     10.000           |     No paths         |     No paths         |     No paths                         
-=============================================================================================================================================
+Starting                         Ending                           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     osc00|osc_int_inferred_clock     |     480.769          |     No paths         |     No paths         |     No paths                         
+=============================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -46,12 +46,12 @@ div00|clkdiv     div00|clkdiv     |     10.000           |     No paths         
 Unconstrained Start/End Points
 ******************************
 
-p:cdiv[0]
-p:cdiv[1]
-p:cdiv[2]
-p:cdiv[3]
-p:cdiv[4]
-p:oscout
+p:cdiv0[0]
+p:cdiv0[1]
+p:cdiv0[2]
+p:cdiv0[3]
+p:cdiv0[4]
+p:clk0
 
 
 Inapplicable constraints

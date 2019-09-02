@@ -7,7 +7,7 @@ use lattice.all;
 
 entity div00 is 
 port(clkdiv: in std_logic;
-		cdiv: in std_logic_vector(4 downto 0);
+		indiv: in std_logic_vector(4 downto 0);
 		oscout: inout std_logic
 		);
 end div00;
@@ -18,9 +18,9 @@ begin
 		pdiv: process(clkdiv)
 		begin 
 			if(clkdiv'event and clkdiv = '1' ) then
-				case cdiv is
+				case indiv is
 					when "00000" =>  
-						if(sdiv > "1000000000000000000000") then
+						if(sdiv > "10000000000000000000000") then
 							sdiv <= (others => '0');
 							oscout <= not(oscout);
 						else

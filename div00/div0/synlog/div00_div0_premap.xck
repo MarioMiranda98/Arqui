@@ -1,1 +1,1 @@
-ckid0_0:@|S:clkdiv@|E:sdiv[21:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_0:@|S:D00.OSCinst0.OSC@|E:D01.sdiv[22:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0

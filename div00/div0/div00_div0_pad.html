@@ -14,27 +14,27 @@ Performance Grade:      5
 PACKAGE:          TQFP144
 Package Status:                     Final          Version 1.39
 
-Mon Sep 02 09:09:19 2019
+Mon Sep 02 09:53:21 2019
 
 Pinout by Port Name:
 +-----------+----------+--------------+-------+-----------+-----------+--------------------------------------+
 | Port Name | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties                           |
 +-----------+----------+--------------+-------+-----------+-----------+--------------------------------------+
-| cdiv[0]   | 5/5      | LVCMOS25_IN  | PL6A  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
-| cdiv[1]   | 4/5      | LVCMOS25_IN  | PL4B  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
-| cdiv[2]   | 3/5      | LVCMOS25_IN  | PL4A  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
-| cdiv[3]   | 2/5      | LVCMOS25_IN  | PL3B  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
-| cdiv[4]   | 1/5      | LVCMOS25_IN  | PL3A  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
-| clkdiv    | 55/2     | LVCMOS25_IN  | PB23A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
-| oscout    | 61/2     | LVCMOS25_OUT | PB31A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| cdiv0[0]  | 132/0    | LVCMOS25_IN  | PT15B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| cdiv0[1]  | 22/4     | LVCMOS25_IN  | PL15B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| cdiv0[2]  | 21/4     | LVCMOS25_IN  | PL15A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| cdiv0[3]  | 20/4     | LVCMOS25_IN  | PL12B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| cdiv0[4]  | 19/4     | LVCMOS25_IN  | PL12A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| clk0      | 99/1     | LVCMOS25_OUT | PR5B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 +-----------+----------+--------------+-------+-----------+-----------+--------------------------------------+
 
 Vccio by Bank:
 +------+-------+
 | Bank | Vccio |
 +------+-------+
-| 2    | 2.5V  |
-| 5    | 2.5V  |
+| 0    | 2.5V  |
+| 1    | 2.5V  |
+| 4    | 2.5V  |
 +------+-------+
 
 
@@ -48,11 +48,11 @@ Vccio by Bank:
 +----------+-----------------------+------------+--------------+-------+----------------+-----------+-----------+
 | Pin/Bank | Pin Info              | Preference | Buffer Type  | Site  | Dual Function  | PG Enable | BC Enable |
 +----------+-----------------------+------------+--------------+-------+----------------+-----------+-----------+
-| 1/5      | cdiv[4]               | LOCATED    | LVCMOS25_IN  | PL3A  | L_GPLLT_FB     |           |           |
-| 2/5      | cdiv[3]               | LOCATED    | LVCMOS25_IN  | PL3B  | L_GPLLC_FB     |           |           |
-| 3/5      | cdiv[2]               | LOCATED    | LVCMOS25_IN  | PL4A  | L_GPLLT_IN     |           |           |
-| 4/5      | cdiv[1]               | LOCATED    | LVCMOS25_IN  | PL4B  | L_GPLLC_IN     |           |           |
-| 5/5      | cdiv[0]               | LOCATED    | LVCMOS25_IN  | PL6A  | PCLKT5_0       |           |           |
+| 1/5      |     unused, PULL:DOWN |            |              | PL3A  | L_GPLLT_FB     |           |           |
+| 2/5      |     unused, PULL:DOWN |            |              | PL3B  | L_GPLLC_FB     |           |           |
+| 3/5      |     unused, PULL:DOWN |            |              | PL4A  | L_GPLLT_IN     |           |           |
+| 4/5      |     unused, PULL:DOWN |            |              | PL4B  | L_GPLLC_IN     |           |           |
+| 5/5      |     unused, PULL:DOWN |            |              | PL6A  | PCLKT5_0       |           |           |
 | 6/5      |     unused, PULL:DOWN |            |              | PL6B  | PCLKC5_0       |           |           |
 | 9/5      |     unused, PULL:DOWN |            |              | PL8A  |                |           |           |
 | 10/5     |     unused, PULL:DOWN |            |              | PL8B  |                |           |           |
@@ -62,10 +62,10 @@ Vccio by Bank:
 | 14/4     |     unused, PULL:DOWN |            |              | PL10B |                |           |           |
 | 15/4     |     unused, PULL:DOWN |            |              | PL11A |                |           |           |
 | 17/4     |     unused, PULL:DOWN |            |              | PL11B |                |           |           |
-| 19/4     |     unused, PULL:DOWN |            |              | PL12A | PCLKT4_0       |           |           |
-| 20/4     |     unused, PULL:DOWN |            |              | PL12B | PCLKC4_0       |           |           |
-| 21/4     |     unused, PULL:DOWN |            |              | PL15A |                |           |           |
-| 22/4     |     unused, PULL:DOWN |            |              | PL15B |                |           |           |
+| 19/4     | cdiv0[4]              | LOCATED    | LVCMOS25_IN  | PL12A | PCLKT4_0       |           |           |
+| 20/4     | cdiv0[3]              | LOCATED    | LVCMOS25_IN  | PL12B | PCLKC4_0       |           |           |
+| 21/4     | cdiv0[2]              | LOCATED    | LVCMOS25_IN  | PL15A |                |           |           |
+| 22/4     | cdiv0[1]              | LOCATED    | LVCMOS25_IN  | PL15B |                |           |           |
 | 23/4     |     unused, PULL:DOWN |            |              | PL17A |                |           |           |
 | 24/4     |     unused, PULL:DOWN |            |              | PL17B |                |           |           |
 | 25/3     |     unused, PULL:DOWN |            |              | PL19A |                |           |           |
@@ -91,13 +91,13 @@ Vccio by Bank:
 | 50/2     |     unused, PULL:DOWN |            |              | PB16B | PCLKC2_0       |           |           |
 | 52/2     |     unused, PULL:DOWN |            |              | PB18A |                |           |           |
 | 54/2     |     unused, PULL:DOWN |            |              | PB18B |                |           |           |
-| 55/2     | clkdiv                |            | LVCMOS25_IN  | PB23A | PCLKT2_1       |           |           |
+| 55/2     |     unused, PULL:DOWN |            |              | PB23A | PCLKT2_1       |           |           |
 | 56/2     |     unused, PULL:DOWN |            |              | PB23B | PCLKC2_1       |           |           |
 | 57/2     |     unused, PULL:DOWN |            |              | PB26A |                |           |           |
 | 58/2     |     unused, PULL:DOWN |            |              | PB26B |                |           |           |
 | 59/2     |     unused, PULL:DOWN |            |              | PB29A |                |           |           |
 | 60/2     |     unused, PULL:DOWN |            |              | PB29B |                |           |           |
-| 61/2     | oscout                | LOCATED    | LVCMOS25_OUT | PB31A |                |           |           |
+| 61/2     |     unused, PULL:DOWN |            |              | PB31A |                |           |           |
 | 62/2     |     unused, PULL:DOWN |            |              | PB31B |                |           |           |
 | 63/2     |     unused, PULL:DOWN |            |              | PB31D |                |           |           |
 | 65/2     |     unused, PULL:DOWN |            |              | PB35A |                |           |           |
@@ -128,7 +128,7 @@ Vccio by Bank:
 | 96/1     |     unused, PULL:DOWN |            |              | PR9A  | DQ0            |           |           |
 | 97/1     |     unused, PULL:DOWN |            |              | PR7B  | DQ0            |           |           |
 | 98/1     |     unused, PULL:DOWN |            |              | PR7A  | DQ0            |           |           |
-| 99/1     |     unused, PULL:DOWN |            |              | PR5B  | DQ0            |           |           |
+| 99/1     | clk0                  | LOCATED    | LVCMOS25_OUT | PR5B  | DQ0            |           |           |
 | 100/1    |     unused, PULL:DOWN |            |              | PR5A  | DQ0            |           |           |
 | 103/1    |     unused, PULL:DOWN |            |              | PR4C  |                |           |           |
 | 104/1    |     unused, PULL:DOWN |            |              | PR3B  | R_GPLLC_IN/DQ0 |           |           |
@@ -153,7 +153,7 @@ Vccio by Bank:
 | 128/0    |     unused, PULL:DOWN |            |              | PT18A | PCLKT0_1       |           |           |
 | 130/0    | Reserved: sysCONFIG   |            |              | PT17D | TMS            |           |           |
 | 131/0    | Reserved: sysCONFIG   |            |              | PT17C | TCK            |           |           |
-| 132/0    |     unused, PULL:DOWN |            |              | PT15B |                |           |           |
+| 132/0    | cdiv0[0]              | LOCATED    | LVCMOS25_IN  | PT15B |                |           |           |
 | 133/0    |     unused, PULL:DOWN |            |              | PT15A |                |           |           |
 | 136/0    | Reserved: sysCONFIG   |            |              | PT14D | TDI            |           |           |
 | 137/0    | Reserved: sysCONFIG   |            |              | PT14C | TDO            |           |           |
@@ -402,13 +402,12 @@ Dedicated sysCONFIG Pins:
 List of All Pins' Locate Preferences Based on Final Placement After PAR 
 to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
 
-LOCATE  COMP  "cdiv[0]"  SITE  "5";
-LOCATE  COMP  "cdiv[1]"  SITE  "4";
-LOCATE  COMP  "cdiv[2]"  SITE  "3";
-LOCATE  COMP  "cdiv[3]"  SITE  "2";
-LOCATE  COMP  "cdiv[4]"  SITE  "1";
-LOCATE  COMP  "clkdiv"  SITE  "55";
-LOCATE  COMP  "oscout"  SITE  "61";
+LOCATE  COMP  "cdiv0[0]"  SITE  "132";
+LOCATE  COMP  "cdiv0[1]"  SITE  "22";
+LOCATE  COMP  "cdiv0[2]"  SITE  "21";
+LOCATE  COMP  "cdiv0[3]"  SITE  "20";
+LOCATE  COMP  "cdiv0[4]"  SITE  "19";
+LOCATE  COMP  "clk0"  SITE  "99";
 
 
 
@@ -420,7 +419,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Sep 02 09:09:19 2019
+Mon Sep 02 09:53:21 2019
 
 
 

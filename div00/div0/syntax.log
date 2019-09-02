@@ -15,13 +15,13 @@ Implementation : div0
 Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
-@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":8:7:8:11|Top entity is set to div00.
+@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\topdiv00.vhdl":7:7:7:14|Top entity is set to topdiv00.
 
 At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 74MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep  2 08:53:35 2019
+# Mon Sep  2 09:46:31 2019
 
 ###########################################################]

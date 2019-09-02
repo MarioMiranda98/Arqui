@@ -32,8 +32,14 @@ Implementation : div0
 Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
-@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":8:7:8:11|Top entity is set to div00.
+@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\topdiv00.vhdl":7:7:7:14|Top entity is set to topdiv00.
+File C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\packagediv00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\topdiv00.vhdl changed - recompiling
 VHDL syntax check successful!
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\topdiv00.vhdl changed - recompiling
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
 @N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
 @N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":28:7:28:12|Removing redundant assignment.
 @N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":36:7:36:12|Removing redundant assignment.
@@ -46,21 +52,31 @@ VHDL syntax check successful!
 @N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":92:7:92:12|Removing redundant assignment.
 Post processing for work.div00.div0
 Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Running optimization stage 1 on OSCH .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.topdiv00.topdiv0
+Running optimization stage 1 on topdiv00 .......
+Running optimization stage 2 on OSCH .......
+Running optimization stage 2 on osc00 .......
 Running optimization stage 2 on div00 .......
-@N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":20:3:20:4|Register bit sdiv(22) is always 0.
-@W: CL260 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div00.vhdl":20:3:20:4|Pruning register bit 22 of sdiv(22 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on topdiv00 .......
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
 @L: C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div0\synwork\layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 81MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 78MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep  2 08:53:37 2019
+# Mon Sep  2 09:46:32 2019
 
 ###########################################################]
 
@@ -80,13 +96,14 @@ Implementation : div0
 Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00\div0\synwork\layer0.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep  2 08:53:37 2019
+# Mon Sep  2 09:46:33 2019
 
 ###########################################################]
 
@@ -96,11 +113,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep  2 08:53:37 2019
+# Mon Sep  2 09:46:33 2019
 
 ###########################################################]

@@ -1,5 +1,5 @@
 
-            Lattice Mapping Report File for Design Module 'div00'
+           Lattice Mapping Report File for Design Module 'topdiv00'
 
 
 Design Information
@@ -16,30 +16,30 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
-Mapped on:  09/02/19  09:09:15
+Mapped on:  09/02/19  09:53:14
 
 Design Summary
 --------------
 
-   Number of registers:     23 out of  7209 (0%)
-      PFU registers:           23 out of  6864 (0%)
+   Number of registers:     24 out of  7209 (0%)
+      PFU registers:           24 out of  6864 (0%)
       PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:        29 out of  3432 (1%)
-      SLICEs as Logic/ROM:     29 out of  3432 (1%)
+   Number of SLICEs:        41 out of  3432 (1%)
+      SLICEs as Logic/ROM:     41 out of  3432 (1%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:         12 out of  3432 (0%)
-   Number of LUT4s:         57 out of  6864 (1%)
-      Number used as logic LUTs:         33
+   Number of LUT4s:         81 out of  6864 (1%)
+      Number used as logic LUTs:         57
       Number used as distributed RAM:     0
       Number used as ripple logic:       24
       Number used as shift registers:     0
-   Number of PIO sites used: 7 + 4(JTAG) out of 115 (10%)
+   Number of PIO sites used: 6 + 4(JTAG) out of 115 (9%)
    Number of block RAMs:  0 out of 26 (0%)
    Number of GSRs:        0 out of 1 (0%)
    EFB used :        No
    JTAG used :       No
    Readback used :   No
-   Oscillator used : No
+   Oscillator used : Yes
    Startup used :    No
    POR :             On
    Bandgap :         On
@@ -59,44 +59,61 @@ Design Summary
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  1
-     Net clkdiv_c: 13 loads, 13 rising, 0 falling (Driver: PIO clkdiv )
+     Net sclk: 13 loads, 13 rising, 0 falling (Driver: D00/OSCinst0 )
 
                                     Page 1
 
 
 
 
-Design:  div00                                         Date:  09/02/19  09:09:15
+Design:  topdiv00                                      Date:  09/02/19  09:53:14
 
 Design Summary (cont)
 ---------------------
    Number of Clock Enables:  0
    Number of LSRs:  1
-     Net N_8_i: 12 loads, 12 LSLICEs
+     Net D01/un1_sdiv77_7_2_RNIJ58E: 12 loads, 12 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net N_8_i: 13 loads
-     Net cdiv_c[0]: 9 loads
-     Net sdiv[18]: 7 loads
-     Net sdiv[19]: 7 loads
-     Net cdiv_c[2]: 6 loads
-     Net cdiv_c[1]: 5 loads
-     Net cdiv_c[3]: 5 loads
-     Net N_41: 5 loads
-     Net sdiv[16]: 5 loads
-     Net sdiv[17]: 5 loads
+     Net D01/un1_sdiv77_7_2_RNIJ58E: 12 loads
+     Net D01/sdiv[16]: 8 loads
+     Net D01/sdiv[17]: 8 loads
+     Net D01/sdiv[18]: 8 loads
+     Net cdiv0_c[0]: 7 loads
+     Net cdiv0_c[1]: 7 loads
+     Net D01/sdiv[19]: 7 loads
+     Net D01/sdiv[20]: 7 loads
+     Net D01/N_3_20: 6 loads
+     Net D01/sdiv[22]: 6 loads
 
 
 
 
-   Number of warnings:  0
+   Number of warnings:  6
    Number of errors:    0
      
 
 Design Errors/Warnings
 ----------------------
 
-   No errors or warnings present.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/div
+     00.lpf(3): Semantic error in "LOCATE COMP "oscout" SITE "61" ;": COMP
+     "oscout" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/div
+     00.lpf(4): Semantic error in "LOCATE COMP "cdiv[4]" SITE "1" ;": COMP
+     "cdiv[4]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/div
+     00.lpf(5): Semantic error in "LOCATE COMP "cdiv[3]" SITE "2" ;": COMP
+     "cdiv[3]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/div
+     00.lpf(6): Semantic error in "LOCATE COMP "cdiv[2]" SITE "3" ;": COMP
+     "cdiv[2]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/div
+     00.lpf(7): Semantic error in "LOCATE COMP "cdiv[1]" SITE "4" ;": COMP
+     "cdiv[1]" cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/div
+     00.lpf(8): Semantic error in "LOCATE COMP "cdiv[0]" SITE "5" ;": COMP
+     "cdiv[0]" cannot be found in design. This preference has been disabled.
 
 IO (PIO) Attributes
 -------------------
@@ -105,19 +122,27 @@ IO (PIO) Attributes
 | IO Name             | Direction | Levelmode | IO         |
 |                     |           |  IO_TYPE  | Register   |
 +---------------------+-----------+-----------+------------+
-| oscout              | OUTPUT    | LVCMOS25  |            |
+| clk0                | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| clkdiv              | INPUT     | LVCMOS25  |            |
+| cdiv0[0]            | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv[4]             | INPUT     | LVCMOS25  |            |
+
+                                    Page 2
+
+
+
+
+Design:  topdiv00                                      Date:  09/02/19  09:53:14
+
+IO (PIO) Attributes (cont)
+--------------------------
+| cdiv0[4]            | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv[3]             | INPUT     | LVCMOS25  |            |
+| cdiv0[3]            | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv[2]             | INPUT     | LVCMOS25  |            |
+| cdiv0[2]            | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv[1]             | INPUT     | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| cdiv[0]             | INPUT     | LVCMOS25  |            |
+| cdiv0[1]            | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 
 Removed logic
@@ -125,25 +150,36 @@ Removed logic
 
 Block VCC undriven or does not drive anything - clipped.
 Block GSR_INST undriven or does not drive anything - clipped.
-Signal GND undriven or does not drive anything - clipped.
-
-                                    Page 2
-
-
-
-
-Design:  div00                                         Date:  09/02/19  09:09:15
-
-Removed logic (cont)
---------------------
+Block GND undriven or does not drive anything - clipped.
+Block D01/VCC undriven or does not drive anything - clipped.
+Signal D00/GND undriven or does not drive anything - clipped.
+Signal D01/GND undriven or does not drive anything - clipped.
 Signal VCC undriven or does not drive anything - clipped.
-Signal un1_sdiv_s_21_0_S1 undriven or does not drive anything - clipped.
-Signal un1_sdiv_s_21_0_COUT undriven or does not drive anything - clipped.
-Signal un1_sdiv_cry_0_0_S0 undriven or does not drive anything - clipped.
-Signal N_1 undriven or does not drive anything - clipped.
-Block GND was optimized away.
+Signal D00/OSCinst0_SEDSTDBY undriven or does not drive anything - clipped.
+Signal D01/un1_sdiv_cry_21_0_COUT undriven or does not drive anything - clipped.
+     
+Signal D01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal D01/N_1 undriven or does not drive anything - clipped.
+Block D00/GND was optimized away.
+Block D01/GND was optimized away.
 
      
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                D00/OSCinst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     sclk
+  OSC Nominal Frequency (MHz):                      2.08
+
+ASIC Components
+---------------
+
+Instance Name: D00/OSCinst0
+         Type: OSCH
 
 Run Time and Memory Usage
 -------------------------
@@ -152,42 +188,6 @@ Run Time and Memory Usage
    Total REAL Time: 0 secs  
    Peak Memory Usage: 57 MB
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -47,9 +47,11 @@ set_option -resolve_multiple_driver 0
 add_file -vhdl {C:/lscc/diamond/3.11_x64/cae_library/synthesis/vhdl/machxo2.vhd}
 add_file -vhdl -lib "work" {C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/osc00.vhd}
 add_file -vhdl -lib "work" {C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/div00.vhdl}
+add_file -vhdl -lib "work" {C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/packagediv00.vhdl}
+add_file -vhdl -lib "work" {C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/topdiv00.vhdl}
 
 #-- top module name
-set_option -top_module div00
+set_option -top_module topdiv00
 
 #-- set result format/file last
 project -result_file {C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00/div0/div00_div0.edi}

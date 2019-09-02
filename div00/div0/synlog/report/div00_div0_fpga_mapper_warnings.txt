@@ -1,1 +1,1 @@
-@W: MT420 |Found inferred clock div00|clkdiv with period 10.00ns. Please declare a user-defined clock on port clkdiv.
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net D00.sclk.
