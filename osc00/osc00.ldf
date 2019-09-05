@@ -6,6 +6,9 @@
         <Source name="osc00.vhdl" type="VHDL" type_short="VHDL">
             <Options top_module="osc00"/>
         </Source>
+        <Source name="osc0/osc0.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
         <Source name="osc00.lpf" type="Logic Preference" type_short="LPF">
             <Options/>
         </Source>

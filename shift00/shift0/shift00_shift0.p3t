@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "shift00_shift0.log"
+-o "shift00_shift0.csv"
+-pr "shift00_shift0.prf"

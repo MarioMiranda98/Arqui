@@ -1,0 +1,51 @@
+---------------------------------------------------
+Report for cell topshift00
+   Instance path: topshift00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      46.00        100.0
+                                 IOLGC	       8.00        100.0
+                                  LUT4	      68.00        100.0
+                                 IOREG	          8        100.0
+                                 IOBUF	         25        100.0
+                                PFUREG	         32        100.0
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              topdiv00	          1        82.6
+                               shift00	          1        17.4
+---------------------------------------------------
+Report for cell shift00
+   Instance path: topshift00/SRL01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00        17.4
+                                  LUT4	      16.00        23.5
+                                PFUREG	          8        25.0
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topshift00/SRL00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      38.00        82.6
+                                  LUT4	      52.00        76.5
+                                PFUREG	         24        75.0
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        82.6
+---------------------------------------------------
+Report for cell div00
+   Instance path: topshift00/SRL00/D01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      38.00        82.6
+                                  LUT4	      52.00        76.5
+                                PFUREG	         24        75.0
+                                RIPPLE	         12        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topshift00/SRL00/D00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
