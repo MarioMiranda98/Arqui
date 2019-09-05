@@ -1,0 +1,5 @@
+#Start recording tcl command: 9/5/2019 09:13:52
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/shift00; Project name: shift00
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/shift00/shift00.ldf"
+prj_project close
+#Stop recording: 9/5/2019 09:21:19

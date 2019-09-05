@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topdiv00  -multisrs  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\word0\synwork\word00_word0_comp.srs  -osyn  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\word0\synwork\word00_word0_mult.srs  -log  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\word0\synlog\word00_word0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top topdiv00 -multisrs ..\synwork\word00_word0_comp.srs -osyn ..\synwork\word00_word0_mult.srs -log ..\synlog\word00_word0_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\word00_word0_comp.srs|io:i|time:1567692274|size:5236|exec:0|csum:31A21880712BDDE2C54F7290B710504D
+file:..\synwork\word00_word0_mult.srs|io:o|time:1567692276|size:2146|exec:0|csum:
+file:..\synlog\word00_word0_multi_srs_gen.srr|io:o|time:1567692276|size:1057|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2
