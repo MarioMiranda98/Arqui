@@ -7,7 +7,7 @@
 </STYLE>
 </HEAD>
 <PRE><A name="Mrp"></A>
-           Lattice Mapping Report File for Design Module 'topdiv00'
+          Lattice Mapping Report File for Design Module 'topword00'
 
 
 
@@ -18,28 +18,30 @@ Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
      word00_word0.mrp -lpf C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3C
      M1/word00/word0/word00_word0_synplify.lpf -lpf
      C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/word00/word00.lpf
-     -c 0 -gui 
+     -c 0 -gui -msgset
+     C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/word00/promote.xml
+     
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
-Mapped on:  09/05/19  09:04:48
+Mapped on:  09/10/19  08:41:21
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
-   Number of registers:     24 out of  7209 (0%)
-      PFU registers:           24 out of  6864 (0%)
-      PIO registers:            0 out of   345 (0%)
+   Number of registers:     32 out of  7209 (0%)
+      PFU registers:           31 out of  6864 (0%)
+      PIO registers:            1 out of   345 (0%)
    Number of SLICEs:        41 out of  3432 (1%)
       SLICEs as Logic/ROM:     41 out of  3432 (1%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:         12 out of  3432 (0%)
-   Number of LUT4s:         81 out of  6864 (1%)
-      Number used as logic LUTs:         57
+   Number of LUT4s:         82 out of  6864 (1%)
+      Number used as logic LUTs:         58
       Number used as distributed RAM:     0
       Number used as ripple logic:       24
       Number used as shift registers:     0
-   Number of PIO sites used: 6 + 4(JTAG) out of 115 (9%)
+   Number of PIO sites used: 18 + 4(JTAG) out of 115 (19%)
    Number of block RAMs:  0 out of 26 (0%)
    Number of GSRs:        0 out of 1 (0%)
    EFB used :        No
@@ -64,24 +66,27 @@ Mapped on:  09/05/19  09:04:48
      distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
-   Number of clocks:  1
-     Net sclk: 13 loads, 13 rising, 0 falling (Driver: D00/OSCinst0 )
-   Number of Clock Enables:  0
+   Number of clocks:  2
 
-   Number of LSRs:  1
-     Net D01/un1_sdiv77_7_2_RNIJ58E: 12 loads, 12 LSLICEs
+     Net clk00_c: 5 loads, 5 rising, 0 falling (Driver: W00/D01/oscout )
+     Net W00/sclk: 13 loads, 13 rising, 0 falling (Driver: W00/D00/OSCinst0 )
+   Number of Clock Enables:  0
+   Number of LSRs:  3
+     Net enable0_c: 4 loads, 4 LSLICEs
+     Net w01.pring.sshift_4_i[0]: 1 loads, 0 LSLICEs
+     Net W00/D01/oscout_0_sqmuxa_i_RNIKBTF5: 12 loads, 12 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net D01/un1_sdiv77_7_2_RNIJ58E: 12 loads
-     Net D01/sdiv[16]: 8 loads
-     Net D01/sdiv[17]: 8 loads
-     Net D01/sdiv[18]: 8 loads
-     Net cdiv0_c[0]: 7 loads
-     Net cdiv0_c[1]: 7 loads
-     Net D01/sdiv[19]: 7 loads
-     Net D01/sdiv[20]: 7 loads
-     Net D01/N_3_20: 6 loads
-     Net D01/sdiv[22]: 6 loads
+     Net W00/D01/oscout_0_sqmuxa_i_RNIKBTF5: 12 loads
+     Net cdiv00_c[0]: 11 loads
+     Net cdiv00_c[2]: 9 loads
+     Net cdiv00_c[1]: 7 loads
+     Net W00/D01/sdiv[14]: 7 loads
+     Net enable0_c: 6 loads
+     Net W00/D01/N_70: 6 loads
+     Net W00/D01/sdiv[16]: 6 loads
+     Net W00/D01/sdiv[17]: 6 loads
+     Net W00/D01/sdiv[19]: 6 loads
 
 
 
@@ -105,17 +110,42 @@ Mapped on:  09/05/19  09:04:48
 | IO Name             | Direction | Levelmode | IO         |
 |                     |           |  IO_TYPE  | Register   |
 +---------------------+-----------+-----------+------------+
-| clk0                | OUTPUT    | LVCMOS25  |            |
+| clk00               | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv0[0]            | INPUT     | LVCMOS25  |            |
+| cdiv00[0]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv0[4]            | INPUT     | LVCMOS25  |            |
+| outbcd70[6]         | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv0[3]            | INPUT     | LVCMOS25  |            |
+| outbcd70[5]         | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv0[2]            | INPUT     | LVCMOS25  |            |
+| outbcd70[4]         | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv0[1]            | INPUT     | LVCMOS25  |            |
+| outbcd70[3]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outbcd70[2]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outbcd70[1]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outbcd70[0]         | OUTPUT    | LVCMOS25  |            |
+
++---------------------+-----------+-----------+------------+
+| outtran0[3]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outtran0[2]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outtran0[1]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outtran0[0]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| enable0             | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| cdiv00[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[1]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 
 
@@ -125,18 +155,23 @@ Mapped on:  09/05/19  09:04:48
 Block VCC undriven or does not drive anything - clipped.
 Block GSR_INST undriven or does not drive anything - clipped.
 Block GND undriven or does not drive anything - clipped.
-Block D01/VCC undriven or does not drive anything - clipped.
-Signal D00/GND undriven or does not drive anything - clipped.
-Signal D01/GND undriven or does not drive anything - clipped.
-
+Block W00/D01/VCC undriven or does not drive anything - clipped.
+Block w01/GND undriven or does not drive anything - clipped.
+Block w01/VCC undriven or does not drive anything - clipped.
+Block W02/GND undriven or does not drive anything - clipped.
+Signal enable0_c_i was merged into signal enable0_c
+Signal W00/D00/GND undriven or does not drive anything - clipped.
+Signal W00/D01/GND undriven or does not drive anything - clipped.
 Signal VCC undriven or does not drive anything - clipped.
-Signal D00/OSCinst0_SEDSTDBY undriven or does not drive anything - clipped.
-Signal D01/un1_sdiv_cry_21_0_COUT undriven or does not drive anything - clipped.
-     
-Signal D01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything - clipped.
-Signal D01/N_1 undriven or does not drive anything - clipped.
-Block D00/GND was optimized away.
-Block D01/GND was optimized away.
+Signal W00/D00/OSCinst0_SEDSTDBY undriven or does not drive anything - clipped.
+Signal W00/D01/un1_sdiv_cry_21_0_COUT undriven or does not drive anything -
+     clipped.
+Signal W00/D01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal W00/D01/N_1 undriven or does not drive anything - clipped.
+Block enable0_pad_RNIB6SA was optimized away.
+Block W00/D00/GND was optimized away.
+Block W00/D01/GND was optimized away.
 
      
 
@@ -144,18 +179,19 @@ OSC Summary
 -----------
 
 OSC 1:                                     Pin/Node Value
-  OSC Instance Name:                                D00/OSCinst0
+  OSC Instance Name:                                W00/D00/OSCinst0
   OSC Type:                                         OSCH
   STDBY Input:                                      NONE
-  OSC Output:                              NODE     sclk
+  OSC Output:                              NODE     W00/sclk
   OSC Nominal Frequency (MHz):                      2.08
+
 
 
 
 <A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
 ---------------
 
-Instance Name: D00/OSCinst0
+Instance Name: W00/D00/OSCinst0
          Type: OSCH
 
 
@@ -164,9 +200,32 @@ Instance Name: D00/OSCinst0
 -------------------------
 
    Total CPU Time: 0 secs  
-   Total REAL Time: 0 secs  
-   Peak Memory Usage: 34 MB
+   Total REAL Time: 2 secs  
+   Peak Memory Usage: 57 MB
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

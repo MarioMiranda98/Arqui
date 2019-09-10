@@ -19,12 +19,12 @@ begin
 		if(clks'event and clks = '1') then
 			case resets is
 				when '0' =>
-					outs <= (others => '0');
+					outs <= (others => '1');
 					sshift <= "1110";
 				when '1' =>
 					sshift(0) <= sshift(3);
 					sshift(3 downto 1) <= sshift(2 downto 0);
-					outs <= sshift;
+					outs <= not (sshift);
 				when others => null;
 			end case;
 		end if;

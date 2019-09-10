@@ -13,11 +13,11 @@ Hostname: LAPTOP-OVV5D9K5
 
 Implementation : word0
 
-# Written on Thu Sep  5 09:04:39 2019
+# Written on Tue Sep 10 08:41:13 2019
 
 ##### DESIGN INFO #######################################################
 
-Top View:                "topdiv00"
+Top View:                "topword00"
 Constraint File(s):      (none)
 
 
@@ -38,6 +38,7 @@ Clock Relationships
 Starting                         Ending                           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 osc00|osc_int_inferred_clock     osc00|osc_int_inferred_clock     |     480.769          |     No paths         |     No paths         |     No paths                         
+div00|oscout_derived_clock       div00|oscout_derived_clock       |     480.769          |     No paths         |     No paths         |     No paths                         
 =============================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -46,12 +47,23 @@ osc00|osc_int_inferred_clock     osc00|osc_int_inferred_clock     |     480.769 
 Unconstrained Start/End Points
 ******************************
 
-p:cdiv0[0]
-p:cdiv0[1]
-p:cdiv0[2]
-p:cdiv0[3]
-p:cdiv0[4]
-p:clk0
+p:cdiv00[0]
+p:cdiv00[1]
+p:cdiv00[2]
+p:cdiv00[3]
+p:cdiv00[4]
+p:enable0
+p:outbcd70[0]
+p:outbcd70[1]
+p:outbcd70[2]
+p:outbcd70[3]
+p:outbcd70[4]
+p:outbcd70[5]
+p:outbcd70[6]
+p:outtran0[0]
+p:outtran0[1]
+p:outtran0[2]
+p:outtran0[3]
 
 
 Inapplicable constraints

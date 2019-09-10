@@ -49,9 +49,13 @@ add_file -vhdl -lib "work" {C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3
 add_file -vhdl -lib "work" {C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00VHDL/osc00.vhd}
 add_file -vhdl -lib "work" {C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00VHDL/packagediv00.vhdl}
 add_file -vhdl -lib "work" {C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/div00VHDL/topdiv00.vhdl}
+add_file -vhdl -lib "work" {C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/word00/contring00.vhdl}
+add_file -vhdl -lib "work" {C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/word00/coder00.vhdl}
+add_file -vhdl -lib "work" {C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/word00/packageword00.vhdl}
+add_file -vhdl -lib "work" {C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/word00/topword00.vhdl}
 
 #-- top module name
-set_option -top_module topdiv00
+set_option -top_module topword00
 
 #-- set result format/file last
 project -result_file {C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/word00/word0/word00_word0.edi}

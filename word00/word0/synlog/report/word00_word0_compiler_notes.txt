@@ -1,6 +1,9 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
-@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl":7:7:7:14|Top entity is set to topdiv00.
+@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\topword00.vhdl":9:7:9:15|Top entity is set to topword00.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\topword00.vhdl":9:7:9:15|Synthesizing work.topword00.topword0.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\coder00.vhdl":6:7:6:13|Synthesizing work.coder00.coder0.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
 @N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
 @N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
 @N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":28:7:28:12|Removing redundant assignment.

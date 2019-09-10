@@ -1,4 +1,4 @@
-# Thu Sep  5 09:04:37 2019
+# Tue Sep 10 08:41:11 2019
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -41,33 +41,35 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: MF284 |Setting synthesis effort to medium for the design
 @N: MH105 |UMR3 is only supported for HAPS-80.
 @N: MH105 |UMR3 is only supported for HAPS-80.
-syn_allowed_resources : blockrams=26  set on top level netlist topdiv00
+syn_allowed_resources : blockrams=26  set on top level netlist topword00
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
 
 
 
 Clock Summary
 ******************
 
-          Start                            Requested     Requested     Clock        Clock                   Clock
-Level     Clock                            Frequency     Period        Type         Group                   Load 
------------------------------------------------------------------------------------------------------------------
-0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred     Inferred_clkgroup_0     24   
-=================================================================================================================
+          Start                            Requested     Requested     Clock                                           Clock                   Clock
+Level     Clock                            Frequency     Period        Type                                            Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     24   
+1 .         div00|oscout_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     8    
+====================================================================================================================================================
 
 
 
 Clock Load Summary
 ***********************
 
-                                 Clock     Source                     Clock Pin        Non-clock Pin     Non-clock Pin
-Clock                            Load      Pin                        Seq Example      Seq Example       Comb Example 
-----------------------------------------------------------------------------------------------------------------------
-osc00|osc_int_inferred_clock     24        D00.OSCinst0.OSC(OSCH)     D01.oscout.C     -                 -            
-======================================================================================================================
+                                 Clock     Source                         Clock Pin             Non-clock Pin     Non-clock Pin
+Clock                            Load      Pin                            Seq Example           Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     24        W00.D00.OSCinst0.OSC(OSCH)     W00.D01.oscout.C      -                 -            
+div00|oscout_derived_clock       8         W00.D01.oscout.Q[0](dffe)      w01.sshift[3:0].C     -                 -            
+===============================================================================================================================
 
-@W: MT529 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\div00vhdl\div00.vhdl":20:3:20:4|Found inferred clock osc00|osc_int_inferred_clock which controls 24 sequential elements including D01.sdiv[22:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\div00vhdl\div00.vhdl":20:3:20:4|Found inferred clock osc00|osc_int_inferred_clock which controls 24 sequential elements including W00.D01.sdiv[22:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 ICG Latch Removal Summary:
 Number of ICG latches removed: 0
@@ -81,14 +83,15 @@ Number of ICG latches not removed:	0
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 24 clock pin(s) of sequential element(s)
-0 instances converted, 24 sequential instances remain driven by gated/generated clocks
+2 gated/generated clock tree(s) driving 32 clock pin(s) of sequential element(s)
+0 instances converted, 32 sequential instances remain driven by gated/generated clocks
 
-==================================================== Gated/Generated Clocks ====================================================
-Clock Tree ID     Driving Element      Drive Element Type     Unconverted Fanout     Sample Instance     Explanation            
---------------------------------------------------------------------------------------------------------------------------------
-@KP:ckid0_0       D00.OSCinst0.OSC     OSCH                   24                     D01.sdiv[22:0]      Black box on clock path
-================================================================================================================================
+================================================================= Gated/Generated Clocks =================================================================
+Clock Tree ID     Driving Element          Drive Element Type     Unconverted Fanout     Sample Instance        Explanation                               
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       W00.D01.oscout.Q[0]      dffe                   8                      w01.outs[3:0]          Derived clock on input (not legal for GCC)
+@KP:ckid0_2       W00.D00.OSCinst0.OSC     OSCH                   24                     W00.D01.sdiv[22:0]     Black box on clock path                   
+==========================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######
@@ -96,21 +99,21 @@ Clock Tree ID     Driving Element      Drive Element Type     Unconverted Fanout
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
 
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 142MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 143MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Sep  5 09:04:39 2019
+# Tue Sep 10 08:41:13 2019
 
 ###########################################################]

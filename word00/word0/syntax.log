@@ -15,13 +15,13 @@ Implementation : word0
 Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
-@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl":7:7:7:14|Top entity is set to topdiv00.
+@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\topword00.vhdl":9:7:9:15|Top entity is set to topword00.
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 74MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 74MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Sep  5 09:04:31 2019
+# Tue Sep 10 08:41:05 2019
 
 ###########################################################]

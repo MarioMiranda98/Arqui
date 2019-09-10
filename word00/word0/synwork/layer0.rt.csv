@@ -3,3 +3,6 @@ work, Entity: OSCH Architecture: syn_black_box, 0h:00m:00s,     78 MB
 work, Entity: osc00 Architecture: osc0, 0h:00m:00s,     78 MB
 work, Entity: div00 Architecture: div0, 0h:00m:00s,     78 MB
 work, Entity: topdiv00 Architecture: topdiv0, 0h:00m:00s,     78 MB
+work, Entity: contring00 Architecture: contring0, 0h:00m:00s,     78 MB
+work, Entity: coder00 Architecture: coder0, 0h:00m:00s,     78 MB
+work, Entity: topword00 Architecture: topword0, 0h:00m:00s,     78 MB

@@ -1,5 +1,5 @@
 #defaultlanguage:vhdl
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\word00\\word0\\synwork\\word00_word0_comp.srs|-top|topdiv00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\word00\\word0\\synwork\\word00_word0_comp.srs|-top|topword00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\bin64\\c_vhdl.exe":1554128468
 #CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\location.map":1554152480
 #CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std.vhd":1554127664
@@ -14,31 +14,53 @@
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\div00VHDL\\div00.vhdl":1567434920
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\div00VHDL\\osc00.vhd":1567089016
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\div00VHDL\\packagediv00.vhdl":1567435043
+#CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\word00\\contring00.vhdl":1568040025
+#CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\word00\\coder00.vhdl":1568122850
+#CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\word00\\packageword00.vhdl":1568038527
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\div00VHDL\\topdiv00.vhdl":1567435587
+#CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\word00\\topword00.vhdl":1568038632
 0 "C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
 1 "C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl" vhdl
 2 "C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd" vhdl
 3 "C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\packagediv00.vhdl" vhdl
-4 "C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl" vhdl
+4 "C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\contring00.vhdl" vhdl
+5 "C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\coder00.vhdl" vhdl
+6 "C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\packageword00.vhdl" vhdl
+7 "C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl" vhdl
+8 "C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\topword00.vhdl" vhdl
 
 # Dependency Lists (Uses list)
 0 -1
 1 -1
 2 -1
 3 -1
-4 2 1 3 
+4 -1
+5 -1
+6 -1
+7 2 1 3 
+8 7 4 5 6 
 
 # Dependency Lists (Users Of)
 0 -1
-1 4 
-2 4 
-3 4 
-4 -1
+1 7 
+2 7 
+3 7 
+4 8 
+5 8 
+6 8 
+7 8 
+8 -1
 
 # Design Unit to File Association
 arch work div00 div0 1
 module work div00 1
 arch work osc00 osc0 2
 module work osc00 2
-arch work topdiv00 topdiv0 4
-module work topdiv00 4
+arch work contring00 contring0 4
+module work contring00 4
+arch work coder00 coder0 5
+module work coder00 5
+arch work topdiv00 topdiv0 7
+module work topdiv00 7
+arch work topword00 topword0 8
+module work topword00 8

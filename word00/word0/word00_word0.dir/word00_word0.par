@@ -4,10 +4,11 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Sep 05 09:04:50 2019
+Tue Sep 10 08:41:24 2019
 
 C:/lscc/diamond/3.11_x64/ispfpga\bin\nt64\par -f word00_word0.p2t
-word00_word0_map.ncd word00_word0.dir word00_word0.prf -gui
+word00_word0_map.ncd word00_word0.dir word00_word0.prf -gui -msgset
+C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/word00/promote.xml
 
 
 Preference file: word00_word0.prf.
@@ -15,11 +16,11 @@ Preference file: word00_word0.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            466.332      0            0.379        0            10           Completed
+5_1   *      0            465.750      0            0.379        0            11           Completed
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 10 secs 
+Total (real) run time for 1-seed: 11 secs 
 
 par done!
 

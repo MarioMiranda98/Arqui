@@ -15,12 +15,13 @@ Database state : C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\
 Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\word0\synwork\word00_word0_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Sep  5 09:04:36 2019
+# Tue Sep 10 08:41:10 2019
 
 ###########################################################]

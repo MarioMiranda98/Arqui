@@ -5,8 +5,8 @@
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>D00/OSCinst0_SEDSTDBY</Dynamic>
-            <Navigation>D00/OSCinst0_SEDSTDBY</Navigation>
+            <Dynamic>W00/D00/OSCinst0_SEDSTDBY</Dynamic>
+            <Navigation>W00/D00/OSCinst0_SEDSTDBY</Navigation>
         </Message>
         <Message>
             <ID>1163101</ID>
@@ -34,21 +34,21 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT529 :&quot;c:\users\farol\documents\arquitecturadecomputadoras3cm1\div00vhdl\div00.vhdl&quot;:20:3:20:4|Found inferred clock osc00|osc_int_inferred_clock which controls 24 sequential elements including D01.sdiv[22:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Dynamic>MT529 :&quot;c:\users\farol\documents\arquitecturadecomputadoras3cm1\div00vhdl\div00.vhdl&quot;:20:3:20:4|Found inferred clock osc00|osc_int_inferred_clock which controls 24 sequential elements including W00.D01.sdiv[22:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
             <Navigation>MT529</Navigation>
             <Navigation>c:\users\farol\documents\arquitecturadecomputadoras3cm1\div00vhdl\div00.vhdl</Navigation>
             <Navigation>20</Navigation>
             <Navigation>3</Navigation>
             <Navigation>20</Navigation>
             <Navigation>4</Navigation>
-            <Navigation>Found inferred clock osc00|osc_int_inferred_clock which controls 24 sequential elements including D01.sdiv[22:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock which controls 24 sequential elements including W00.D01.sdiv[22:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
         </Message>
         <Message>
             <ID>2019993</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net D00.sclk.</Dynamic>
+            <Dynamic>MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net W00.D00.sclk.</Dynamic>
             <Navigation>MT420</Navigation>
-            <Navigation>Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net D00.sclk.</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net W00.D00.sclk.</Navigation>
         </Message>
     </Task>
 </BaliMessageLog>

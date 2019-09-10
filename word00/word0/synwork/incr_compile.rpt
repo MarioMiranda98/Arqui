@@ -14,40 +14,48 @@ Hostname: LAPTOP-OVV5D9K5
 Implementation : word0
 Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
-Modified Files: 15
+Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-0        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl (N/A, 2019-09-02 09:35:20)
-1        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd (N/A, 2019-08-29 09:30:16)
-2        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\packagediv00.vhdl (N/A, 2019-09-02 09:37:23)
-3        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl (N/A, 2019-09-02 09:46:27)
-4        C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (N/A, 2018-11-15 00:32:12)
-5        C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (N/A, 2019-04-01 08:08:08)
-6        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (N/A, 2019-04-01 08:07:44)
-7        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (N/A, 2019-04-01 08:07:44)
-8        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (N/A, 2019-04-01 15:01:20)
-9        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (N/A, 2019-04-01 08:07:44)
-10       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (N/A, 2019-04-01 08:07:44)
-11       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (N/A, 2019-04-01 08:07:44)
-12       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (N/A, 2019-04-01 08:07:44)
-13       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (N/A, 2019-04-01 08:07:44)
-14       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (N/A, 2019-04-01 08:07:44)
+15       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\coder00.vhdl (2019-09-09 09:54:08, 2019-09-10 08:40:50)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 3
+Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
-0        work.div00.div0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl (N/A, 2019-09-02 09:35:20) <-- (architecture and entity definition)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl (N/A, 2019-09-02 09:46:27) <-- (may instantiate this module)
-2        work.osc00.osc0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd (N/A, 2019-08-29 09:30:16) <-- (architecture and entity definition)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl (N/A, 2019-09-02 09:46:27) <-- (may instantiate this module)
-4        work.topdiv00.topdiv0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl (N/A, 2019-09-02 09:46:27) <-- (architecture and entity definition)
+6        work.coder00.coder0 may have changed because the following files changed:
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\coder00.vhdl (2019-09-09 09:54:08, 2019-09-10 08:40:50) <-- (architecture and entity definition)
 
 *******************************************************************
-Unmodified files: 0
+Unmodified files: 18
 FID:  path (timestamp)
+0        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl (2019-09-02 09:35:20)
+1        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd (2019-08-29 09:30:16)
+2        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\packagediv00.vhdl (2019-09-02 09:37:23)
+3        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl (2019-09-02 09:46:27)
+16       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\contring00.vhdl (2019-09-09 09:40:25)
+17       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\packageword00.vhdl (2019-09-09 09:15:27)
+18       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\word00\topword00.vhdl (2019-09-09 09:17:12)
+4        C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+5        C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (2019-04-01 08:08:08)
+6        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 08:07:44)
+7        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 08:07:44)
+8        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 15:01:20)
+9        C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 08:07:44)
+10       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 08:07:44)
+11       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 08:07:44)
+12       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 08:07:44)
+13       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 08:07:44)
+14       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 08:07:44)
 
 *******************************************************************
-Unchanged modules: 0
+Unchanged modules: 10
 MID:  lib.cell.view
+8        work.contring00.contring0
+9        work.contring00.vhdl
+0        work.div00.div0
+1        work.div00.vhdl
+2        work.osc00.osc0
+3        work.osc00.vhdl
+4        work.topdiv00.topdiv0
+5        work.topdiv00.vhdl
+10       work.topword00.topword0
+11       work.topword00.vhdl
