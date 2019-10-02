@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topram00  -multisrs  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\ram00\ram0\synwork\ram00_ram0_comp.srs  -osyn  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\ram00\ram0\synwork\ram00_ram0_mult.srs  -log  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\ram00\ram0\synlog\ram00_ram0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top topram00 -multisrs ..\synwork\ram00_ram0_comp.srs -osyn ..\synwork\ram00_ram0_mult.srs -log ..\synlog\ram00_ram0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\ram00_ram0_comp.srs|io:i|time:1570023914|size:13288|exec:0|csum:262F73FEE8DEA8F39A7E416CE0FDF51B
+file:..\synwork\ram00_ram0_mult.srs|io:o|time:1570023915|size:4411|exec:0|csum:
+file:..\synlog\ram00_ram0_multi_srs_gen.srr|io:o|time:1570023915|size:1177|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

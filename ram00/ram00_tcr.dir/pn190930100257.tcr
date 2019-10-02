@@ -1,0 +1,8 @@
+#Start recording tcl command: 9/30/2019 08:48:56
+#Project Location: C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/ram00; Project name: ram00
+prj_project open "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/ram00/ram00.ldf"
+prj_src add "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/ram00/packageram00.vhdl"
+prj_src add "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/ram00/topram00.vhdl"
+prj_run Export -impl ram0 -task Jedecgen
+prj_run Export -impl ram0 -task Jedecgen
+#Stop recording: 9/30/2019 10:02:57

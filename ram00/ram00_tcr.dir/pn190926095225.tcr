@@ -1,0 +1,9 @@
+#Start recording tcl command: 9/26/2019 08:51:59
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/ram00; Project name: ram00
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/ram00/ram00.ldf"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/ram00/ram00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/ram00/contRead00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/ram00/muxRam00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 9/26/2019 09:52:25

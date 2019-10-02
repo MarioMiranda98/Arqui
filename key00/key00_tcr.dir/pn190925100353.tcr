@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/25/2019 09:59:49
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/key00; Project name: key00
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/key00/key00.ldf"
+pgr_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/key00/key0/key0.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 9/25/2019 10:03:53

@@ -45,7 +45,7 @@
 	</ProjectOptions>
 	<CableOptions>
 		<CableName>USB2</CableName>
-		<PortAdd>FTUSB-0</PortAdd>
-		<USBID>Lattice FTUSB Interface Cable A Location 0000 Serial A</USBID>
+		<PortAdd>FTUSB-1</PortAdd>
+		<USBID>Lattice FTUSB Interface Cable B Location 0001 Serial B</USBID>
 	</CableOptions>
 </ispXCF>
