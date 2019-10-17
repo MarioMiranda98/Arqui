@@ -1,0 +1,73 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-OVV5D9K5
+
+Implementation : lcd0
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 4
+FID:  path (prevtimestamp, timestamp)
+4        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\configLCD00.vhdl (2019-10-17 10:26:18, 2019-10-17 10:47:05)
+6        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl (2019-10-14 09:49:08, 2019-10-17 10:50:06)
+10       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\topLCD00.vhdl (2019-10-17 09:35:35, N/A)
+22       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl (N/A, 2019-10-17 11:00:26)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 9
+MID:  lib.cell.view
+0        work.configlcd00.configlcd0 may have changed because the following files changed:
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\configLCD00.vhdl (2019-10-17 10:26:18, 2019-10-17 10:47:05) <-- (architecture and entity definition)
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl (N/A, 2019-10-17 11:00:26) <-- (may instantiate this module)
+2        work.contconfiglcd00.contconfiglcd0 may have changed because the following files changed:
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl (N/A, 2019-10-17 11:00:26) <-- (may instantiate this module)
+4        work.contdatalcd00.contdatalcd0 may have changed because the following files changed:
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl (2019-10-14 09:49:08, 2019-10-17 10:50:06) <-- (architecture and entity definition)
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl (N/A, 2019-10-17 11:00:26) <-- (may instantiate this module)
+6        work.datalcd00.datalcd0 may have changed because the following files changed:
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl (N/A, 2019-10-17 11:00:26) <-- (may instantiate this module)
+8        work.div00.div0 may have changed because the following files changed:
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl (N/A, 2019-10-17 11:00:26) <-- (may instantiate this module)
+10       work.muxlcd00.muxlcd0 may have changed because the following files changed:
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl (N/A, 2019-10-17 11:00:26) <-- (may instantiate this module)
+12       work.osc00.osc0 may have changed because the following files changed:
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl (N/A, 2019-10-17 11:00:26) <-- (may instantiate this module)
+14       work.topdiv00.topdiv0 may have changed because the following files changed:
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl (N/A, 2019-10-17 11:00:26) <-- (may instantiate this module)
+16       work.toplcd00.toplcd0 may have changed because the following files changed:
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl (N/A, 2019-10-17 11:00:26) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 19
+FID:  path (timestamp)
+0        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl (2019-09-02 09:35:20)
+1        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd (2019-08-29 09:30:16)
+2        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\packagediv00.vhdl (2019-09-02 09:37:23)
+3        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl (2019-09-02 09:46:27)
+5        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contconfigLCD00.vhdl (2019-10-10 08:49:22)
+7        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\dataLCD00.vhdl (2019-10-16 09:22:52)
+8        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\muxLCD00.vhdl (2019-10-17 09:38:07)
+9        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\packageLCD00.vhdl (2019-10-17 08:46:13)
+11       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+12       C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (2019-04-01 08:08:08)
+13       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 08:07:44)
+14       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 08:07:44)
+15       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 15:01:20)
+16       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 08:07:44)
+17       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 08:07:44)
+18       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 08:07:44)
+19       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 08:07:44)
+20       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 08:07:44)
+21       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 08:07:44)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

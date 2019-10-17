@@ -1,0 +1,30 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl":9:7:9:14|Top entity is set to toplcd00.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl":9:7:9:14|Synthesizing work.toplcd00.toplcd0.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\muxLCD00.vhdl":8:7:8:14|Synthesizing work.muxlcd00.muxlcd0.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\dataLCD00.vhdl":8:7:8:15|Synthesizing work.datalcd00.datalcd0.
+@N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\dataLCD00.vhdl":41:2:41:3|Register bit outwordd(7) is always 0.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl":8:7:8:19|Synthesizing work.contdatalcd00.contdatalcd0.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl":41:5:41:13|Removing redundant assignment.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\configLCD00.vhdl":8:7:8:17|Synthesizing work.configlcd00.configlcd0.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contconfigLCD00.vhdl":8:7:8:21|Synthesizing work.contconfiglcd00.contconfiglcd0.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contconfigLCD00.vhdl":31:7:31:15|Removing redundant assignment.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":28:7:28:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":36:7:36:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":44:7:44:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":52:7:52:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":60:7:60:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":68:7:68:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":76:7:76:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":84:7:84:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":92:7:92:12|Removing redundant assignment.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\configLCD00.vhdl":25:2:25:3|Register bit outwordcf(6) is always 0.
+@N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl":28:2:28:3|Register bit RScw is always 1.
+@N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl":28:2:28:3|Register bit outcontcw(4) is always 0.
+@N|Running in 64-bit mode
+

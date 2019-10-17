@@ -1,0 +1,11 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, Entity: OSCH Architecture: syn_black_box, 0h:00m:00s,     79 MB
+work, Entity: osc00 Architecture: osc0, 0h:00m:00s,     79 MB
+work, Entity: div00 Architecture: div0, 0h:00m:00s,     79 MB
+work, Entity: topdiv00 Architecture: topdiv0, 0h:00m:00s,     79 MB
+work, Entity: contring00 Architecture: contring0, 0h:00m:00s,     79 MB
+work, Entity: coderStack00 Architecture: coderstack0, 0h:00m:00s,     79 MB
+work, Entity: stack00 Architecture: stack0, 0h:00m:00s,     79 MB
+work, Entity: stackPointer00 Architecture: stackpointer0, 0h:00m:00s,     79 MB
+work, Entity: muxStack00 Architecture: muxstack0, 0h:00m:00s,     79 MB
+work, Entity: topStack00 Architecture: topstack0, 0h:00m:00s,     79 MB

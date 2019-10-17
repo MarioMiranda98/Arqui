@@ -1,0 +1,7 @@
+D:\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topram00  -multisrs  C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\stack01\00\ram0\synwork\ram00_ram0_comp.srs  -osyn  C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\stack01\00\ram0\synwork\ram00_ram0_mult.srs  -log  C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\stack01\00\ram0\synlog\ram00_ram0_multi_srs_gen.srr 
+relcom:D:\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top topram00 -multisrs ..\synwork\ram00_ram0_comp.srs -osyn ..\synwork\ram00_ram0_mult.srs -log ..\synlog\ram00_ram0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\ram00_ram0_comp.srs|io:i|time:1570665476|size:14071|exec:0|csum:F13DD671812E8AAC38DDF3EC5086EC51
+file:..\synwork\ram00_ram0_mult.srs|io:o|time:1570665477|size:4362|exec:0|csum:
+file:..\synlog\ram00_ram0_multi_srs_gen.srr|io:o|time:1570665477|size:1164|exec:0|csum:
+file:D:\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

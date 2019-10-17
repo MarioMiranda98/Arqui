@@ -1,0 +1,158 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-OVV5D9K5
+
+Implementation : lcd0
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-OVV5D9K5
+
+Implementation : lcd0
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl":9:7:9:14|Top entity is set to toplcd00.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl":9:7:9:14|Synthesizing work.toplcd00.toplcd0.
+@W: CD326 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl":65:2:65:5|Port outflagcw of entity work.contdatalcd00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\muxLCD00.vhdl":8:7:8:14|Synthesizing work.muxlcd00.muxlcd0.
+Post processing for work.muxlcd00.muxlcd0
+Running optimization stage 1 on muxLCD00 .......
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\dataLCD00.vhdl":8:7:8:15|Synthesizing work.datalcd00.datalcd0.
+Post processing for work.datalcd00.datalcd0
+Running optimization stage 1 on dataLCD00 .......
+@N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\dataLCD00.vhdl":41:2:41:3|Register bit outwordd(7) is always 0.
+@W: CL260 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\dataLCD00.vhdl":41:2:41:3|Pruning register bit 7 of outwordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl":8:7:8:19|Synthesizing work.contdatalcd00.contdatalcd0.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl":41:5:41:13|Removing redundant assignment.
+Post processing for work.contdatalcd00.contdatalcd0
+Running optimization stage 1 on contdataLCD00 .......
+@W: CL240 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl":16:2:16:10|Signal outFlagcw is floating; a simulation mismatch is possible.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\configLCD00.vhdl":8:7:8:17|Synthesizing work.configlcd00.configlcd0.
+Post processing for work.configlcd00.configlcd0
+Running optimization stage 1 on configLCD00 .......
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contconfigLCD00.vhdl":8:7:8:21|Synthesizing work.contconfiglcd00.contconfiglcd0.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contconfigLCD00.vhdl":31:7:31:15|Removing redundant assignment.
+Post processing for work.contconfiglcd00.contconfiglcd0
+Running optimization stage 1 on contconfigLCD00 .......
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":28:7:28:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":36:7:36:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":44:7:44:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":52:7:52:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":60:7:60:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":68:7:68:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":76:7:76:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":84:7:84:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl":92:7:92:12|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Running optimization stage 1 on OSCH .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.topdiv00.topdiv0
+Running optimization stage 1 on topdiv00 .......
+Post processing for work.toplcd00.toplcd0
+Running optimization stage 1 on toplcd00 .......
+Running optimization stage 2 on OSCH .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on topdiv00 .......
+Running optimization stage 2 on contconfigLCD00 .......
+Running optimization stage 2 on configLCD00 .......
+@W: CL138 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\configLCD00.vhdl":25:2:25:3|Removing register 'RScf' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\configLCD00.vhdl":25:2:25:3|Removing register 'RWcf' because it is only assigned 0 or its original value.
+@N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\configLCD00.vhdl":25:2:25:3|Register bit outwordcf(6) is always 0.
+@W: CL260 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\configLCD00.vhdl":25:2:25:3|Pruning register bit 6 of outwordcf(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on contdataLCD00 .......
+@W: CL138 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl":28:2:28:3|Removing register 'RWcw' because it is only assigned 0 or its original value.
+@N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl":28:2:28:3|Register bit RScw is always 1.
+@N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl":28:2:28:3|Register bit outcontcw(4) is always 0.
+@W: CL260 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl":28:2:28:3|Pruning register bit 4 of outcontcw(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on dataLCD00 .......
+Running optimization stage 2 on muxLCD00 .......
+Running optimization stage 2 on toplcd00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\lcd0\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Oct 17 11:00:34 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-OVV5D9K5
+
+Implementation : lcd0
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\lcd0\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Oct 17 11:00:34 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\lcd0\synwork\lcd00_lcd0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Oct 17 11:00:34 2019
+
+###########################################################]

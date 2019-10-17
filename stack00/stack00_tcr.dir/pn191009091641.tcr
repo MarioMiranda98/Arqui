@@ -1,0 +1,27 @@
+#Start recording tcl command: 10/9/2019 08:46:07
+#Project Location: C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/stack00; Project name: stack00
+C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/stack01
+stack01
+#Start recording tcl command: 10/9/2019 09:16:40
+#Project Location: C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/stack01; Project name: stack01
+prj_project new -name "stack00" -impl "stack0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/div00VHDL/div00.vhdl" "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/div00VHDL/osc00.vhd" "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/div00VHDL/packagediv00.vhdl" "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/div00VHDL/topdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/truestack00/coderStack00.vhd" "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/truestack00/contring00.vhd" "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/truestack00/muxstack00.vhd" "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/truestack00/packageStack00.vhd" "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/truestack00/stack00.vhd" "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/truestack00/stackPointer00.vhd" "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/truestack00/topStack00.vhd"
+prj_run Export -impl stack0 -task Jedecgen
+prj_run Export -impl stack0 -task Jedecgen
+pgr_project save "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/stack00/stack0/stack0.xcf"
+prj_src add -exclude "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/stack00/stack0/stack0.xcf"
+prj_src enable "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/stack00/stack0/stack0.xcf"
+pgr_project save "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/stack00/stack0/stack0.xcf"
+pgr_program run
+prj_run Export -impl stack0 -task Jedecgen
+pgr_project save "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/stack00/stack0/stack0.xcf"
+pgr_program run
+pgr_project close
+prj_project save
+prj_project close
+prj_project new -name "stack01" -impl "stack1" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/div00VHDL/div00.vhdl" "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/div00VHDL/osc00.vhd" "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/div00VHDL/packagediv00.vhdl" "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/div00VHDL/topdiv00.vhdl"
+prj_project save
+#Stop recording: 10/9/2019 09:16:41

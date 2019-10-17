@@ -1,0 +1,178 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: D:\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-O0G86UVC
+
+Implementation : stack0
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: D:\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-O0G86UVC
+
+Implementation : stack0
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@N:"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\topStack00.vhd":9:7:9:16|Top entity is set to topStack00.
+File D:\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\osc00.vhd changed - recompiling
+File C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\packagediv00.vhdl changed - recompiling
+File C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd changed - recompiling
+File C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\contring00.vhd changed - recompiling
+File C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\muxstack00.vhd changed - recompiling
+File C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\packageStack00.vhd changed - recompiling
+File C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\stack00.vhd changed - recompiling
+File C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\stackPointer00.vhd changed - recompiling
+File C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\topdiv00.vhdl changed - recompiling
+File C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\topStack00.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\muxstack00.vhd changed - recompiling
+@N: CD630 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\topStack00.vhd":9:7:9:16|Synthesizing work.topstack00.topstack0.
+@N: CD630 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\muxstack00.vhd":7:7:7:16|Synthesizing work.muxstack00.muxstack0.
+Post processing for work.muxstack00.muxstack0
+Running optimization stage 1 on muxStack00 .......
+@N: CD630 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\stackPointer00.vhd":9:7:9:20|Synthesizing work.stackpointer00.stackpointer0.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\stackPointer00.vhd":41:10:41:18|Removing redundant assignment.
+Post processing for work.stackpointer00.stackpointer0
+Running optimization stage 1 on stackPointer00 .......
+@N: CD630 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\stack00.vhd":9:7:9:13|Synthesizing work.stack00.stack0.
+Post processing for work.stack00.stack0
+Running optimization stage 1 on stack00 .......
+@N: CL134 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\stack00.vhd":26:7:26:13|Found RAM wordram, depth=64, width=7
+@N: CD630 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":8:7:8:18|Synthesizing work.coderstack00.coderstack0.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":52:9:52:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":62:10:62:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":73:10:73:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":84:10:84:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":95:10:95:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":106:9:106:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":116:10:116:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":127:10:127:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":138:10:138:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":149:10:149:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":160:9:160:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":170:10:170:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":181:10:181:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":192:10:192:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":203:10:203:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":214:9:214:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":224:10:224:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":235:10:235:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":246:10:246:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":257:10:257:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\coderStack00.vhd":269:6:269:13|Removing redundant assignment.
+Post processing for work.coderstack00.coderstack0
+Running optimization stage 1 on coderStack00 .......
+@N: CD630 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\contring00.vhd":7:7:7:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+Running optimization stage 1 on contring00 .......
+@W: CL279 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\truestack00\contring00.vhd":21:2:21:3|Pruning register bits 2 to 0 of scont(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\div00.vhdl":28:7:28:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\div00.vhdl":36:7:36:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\div00.vhdl":44:7:44:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\div00.vhdl":52:7:52:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\div00.vhdl":60:7:60:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\div00.vhdl":68:7:68:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\div00.vhdl":76:7:76:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\div00.vhdl":84:7:84:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\div00.vhdl":92:7:92:12|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\div00VHDL\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"D:\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"D:\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Running optimization stage 1 on OSCH .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.topdiv00.topdiv0
+Running optimization stage 1 on topdiv00 .......
+Post processing for work.topstack00.topstack0
+Running optimization stage 1 on topStack00 .......
+Running optimization stage 2 on OSCH .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on topdiv00 .......
+Running optimization stage 2 on contring00 .......
+Running optimization stage 2 on coderStack00 .......
+Running optimization stage 2 on stack00 .......
+Running optimization stage 2 on stackPointer00 .......
+Running optimization stage 2 on muxStack00 .......
+Running optimization stage 2 on topStack00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\stack00\stack0\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Oct  9 09:10:15 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: D:\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-O0G86UVC
+
+Implementation : stack0
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+File C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\stack00\stack0\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Oct  9 09:10:15 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\omarf\OneDrive\Documentos\ESCOM\Arqui\stack00\stack0\synwork\stack00_stack0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Oct  9 09:10:15 2019
+
+###########################################################]

@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/9/2019 09:18:12
+#Project Location: C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/stack00; Project name: stack00
+prj_project open "C:/Users/omarf/OneDrive/Documentos/ESCOM/Arqui/stack00/stack00.ldf"
+prj_project save
+prj_project close
+#Stop recording: 10/9/2019 09:20:37

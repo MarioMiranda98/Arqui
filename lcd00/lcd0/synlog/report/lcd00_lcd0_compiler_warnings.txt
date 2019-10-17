@@ -1,0 +1,10 @@
+@W: CD326 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl":65:2:65:5|Port outflagcw of entity work.contdatalcd00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CL260 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\dataLCD00.vhdl":41:2:41:3|Pruning register bit 7 of outwordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL240 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl":16:2:16:10|Signal outFlagcw is floating; a simulation mismatch is possible.
+@W: CD276 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL138 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\configLCD00.vhdl":25:2:25:3|Removing register 'RScf' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\configLCD00.vhdl":25:2:25:3|Removing register 'RWcf' because it is only assigned 0 or its original value.
+@W: CL260 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\configLCD00.vhdl":25:2:25:3|Pruning register bit 6 of outwordcf(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL138 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl":28:2:28:3|Removing register 'RWcw' because it is only assigned 0 or its original value.
+@W: CL260 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl":28:2:28:3|Pruning register bit 4 of outcontcw(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

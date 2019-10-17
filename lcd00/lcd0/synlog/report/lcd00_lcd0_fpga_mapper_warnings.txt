@@ -1,0 +1,5 @@
+@W: FA239 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\lcd00\datalcd00.vhdl":44:17:44:24|ROM outwordd_1_1[6:5] (in view: work.dataLCD00(datalcd0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\lcd00\datalcd00.vhdl":44:17:44:24|ROM outwordd_1_1[3:0] (in view: work.dataLCD00(datalcd0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\lcd00\datalcd00.vhdl":44:17:44:24|ROM outwordd_1_1[6:5] (in view: work.dataLCD00(datalcd0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\lcd00\datalcd00.vhdl":44:17:44:24|ROM outwordd_1_1[3:0] (in view: work.dataLCD00(datalcd0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net LC00.D00.sclk.

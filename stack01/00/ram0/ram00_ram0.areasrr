@@ -1,0 +1,135 @@
+----------------------------------------------------------------------
+Report for cell topram00.topram0
+
+Register bits: 54 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       44
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       17       100.0
+                           DPR16X4C        4       100.0
+                            FD1P3AX       13       100.0
+                            FD1P3IX        7       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       31       100.0
+                            FD1S3JX        1       100.0
+                                GSR        1       100.0
+                                 IB       11       100.0
+                           IFS1P3DX        1       100.0
+                                INV        1       100.0
+                                 OB       33       100.0
+                           ORCALUT4       92       100.0
+                               OSCH        1       100.0
+                              PFUMX        1       100.0
+                                PUR        1       100.0
+                                VHI        6       100.0
+                                VLO        7       100.0
+SUB MODULES 
+                            coder00        1       100.0
+                         contRead00        1       100.0
+                         contring00        1       100.0
+                              div00        1       100.0
+                              mux00        1       100.0
+                              osc00        1       100.0
+                              ram00        1       100.0
+                           topdiv00        1       100.0
+                            
+                         TOTAL           237           
+----------------------------------------------------------------------
+Report for cell contRead00.netlist
+     Instance path:  RA05
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        3        17.6
+                            FD1P3AX        5        38.5
+                            FD1S3IX        1         3.2
+                           ORCALUT4        3         3.3
+                                VHI        1        16.7
+                                VLO        1        14.3
+                            
+                         TOTAL            14           
+----------------------------------------------------------------------
+Report for cell mux00.netlist
+     Instance path:  RA04
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4       10        10.9
+                                VLO        1        14.3
+                            
+                         TOTAL            11           
+----------------------------------------------------------------------
+Report for cell ram00.netlist
+     Instance path:  RA03
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           DPR16X4C        4       100.0
+                            FD1P3IX        7       100.0
+                           ORCALUT4        9         9.8
+                                VHI        1        16.7
+                                VLO        1        14.3
+                            
+                         TOTAL            22           
+----------------------------------------------------------------------
+Report for cell coder00.netlist
+     Instance path:  RA02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        3        17.6
+                            FD1P3AX        8        61.5
+                            FD1S3IX        5        16.1
+                           ORCALUT4       43        46.7
+                                VHI        1        16.7
+                                VLO        1        14.3
+                            
+                         TOTAL            61           
+----------------------------------------------------------------------
+Report for cell contring00.netlist
+     Instance path:  RA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3IX        4        12.9
+                            FD1S3JX        1       100.0
+                                VHI        1        16.7
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell topdiv00.netlist
+     Instance path:  RA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11        64.7
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21        67.7
+                           ORCALUT4       27        29.3
+                               OSCH        1       100.0
+                              PFUMX        1       100.0
+                                VHI        1        16.7
+                                VLO        2        28.6
+SUB MODULES 
+                              div00        1       100.0
+                              osc00        1       100.0
+                            
+                         TOTAL            67           
+----------------------------------------------------------------------
+Report for cell div00.netlist
+     Instance path:  RA00.DI01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11        64.7
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21        67.7
+                           ORCALUT4       27        29.3
+                              PFUMX        1       100.0
+                                VHI        1        16.7
+                                VLO        1        14.3
+                            
+                         TOTAL            63           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  RA00.DI00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VLO        1        14.3
+                            
+                         TOTAL             2           
