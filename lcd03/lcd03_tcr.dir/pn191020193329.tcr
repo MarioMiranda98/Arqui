@@ -1,0 +1,21 @@
+#Start recording tcl command: 10/20/2019 19:15:14
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd03; Project name: lcd03
+C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd02
+lcd02
+#Start recording tcl command: 10/20/2019 19:33:28
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd02; Project name: lcd02
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd03/lcd03.ldf"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd03/muxram00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd03/packageram00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd03/topram00.vhdl"
+prj_run Export -impl lcd3 -task Jedecgen
+prj_run Export -impl lcd3 -task Jedecgen
+pgr_project save "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd03/lcd3/lcd3.xcf"
+prj_src add -exclude "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd03/lcd3/lcd3.xcf"
+prj_src enable "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd03/lcd3/lcd3.xcf"
+pgr_program run
+pgr_project save "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd03/lcd3/lcd3.xcf"
+prj_project save
+prj_project close
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd02/lcd02.ldf"
+#Stop recording: 10/20/2019 19:33:29

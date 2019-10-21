@@ -1,0 +1,5 @@
+#Start recording tcl command: 10/20/2019 18:09:44
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd02; Project name: lcd02
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd02/lcd02.ldf"
+prj_project close
+#Stop recording: 10/20/2019 19:15:14
