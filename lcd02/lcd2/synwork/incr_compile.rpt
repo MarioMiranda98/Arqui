@@ -14,75 +14,62 @@ Hostname: LAPTOP-OVV5D9K5
 Implementation : lcd2
 Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
-Modified Files: 25
+Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-0        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl (N/A, 2019-09-02 09:35:20)
-1        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd (N/A, 2019-08-29 09:30:16)
-2        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\packagediv00.vhdl (N/A, 2019-09-02 09:37:23)
-3        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl (N/A, 2019-09-02 09:46:27)
-4        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl (N/A, 2019-10-20 17:32:00)
-5        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\contring00.vhdl (N/A, 2019-10-20 17:32:43)
-6        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdconfig00.vhdl (N/A, 2019-10-20 17:34:20)
-7        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdcontconfig00.vhdl (N/A, 2019-10-20 17:34:45)
-8        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdmux00.vhdl (N/A, 2019-10-20 17:35:15)
-9        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\packagekey00.vhdl (N/A, 2019-10-20 17:33:24)
-10       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\packagelcd00.vhdl (N/A, 2019-10-20 17:36:37)
-11       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\topkey00.vhdl (N/A, 2019-10-20 17:33:47)
-12       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl (N/A, 2019-10-20 17:36:26)
-13       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (N/A, 2018-11-15 00:32:12)
-14       C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (N/A, 2019-04-01 08:08:08)
-15       C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\machxo2.vhd (N/A, 2019-04-01 08:08:08)
-16       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (N/A, 2019-04-01 08:07:44)
-17       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (N/A, 2019-04-01 08:07:44)
-18       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (N/A, 2019-04-01 15:01:20)
-19       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (N/A, 2019-04-01 08:07:44)
-20       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (N/A, 2019-04-01 08:07:44)
-21       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (N/A, 2019-04-01 08:07:44)
-22       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (N/A, 2019-04-01 08:07:44)
-23       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (N/A, 2019-04-01 08:07:44)
-24       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (N/A, 2019-04-01 08:07:44)
+4        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl (2019-10-20 17:32:00, 2019-11-05 18:07:59)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 10
+Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
 0        work.coder00.coder0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl (N/A, 2019-10-20 17:32:00) <-- (architecture and entity definition)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\topkey00.vhdl (N/A, 2019-10-20 17:33:47) <-- (may instantiate this module)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl (N/A, 2019-10-20 17:36:26) <-- (may instantiate this module)
-2        work.contring00.contring0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\contring00.vhdl (N/A, 2019-10-20 17:32:43) <-- (architecture and entity definition)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\topkey00.vhdl (N/A, 2019-10-20 17:33:47) <-- (may instantiate this module)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl (N/A, 2019-10-20 17:36:26) <-- (may instantiate this module)
-4        work.div00.div0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl (N/A, 2019-09-02 09:35:20) <-- (architecture and entity definition)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl (N/A, 2019-09-02 09:46:27) <-- (may instantiate this module)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl (N/A, 2019-10-20 17:36:26) <-- (may instantiate this module)
-6        work.lcdconfig00.lcdconfig0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdconfig00.vhdl (N/A, 2019-10-20 17:34:20) <-- (architecture and entity definition)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl (N/A, 2019-10-20 17:36:26) <-- (may instantiate this module)
-8        work.lcdcontconfig00.lcdcontconfig0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdcontconfig00.vhdl (N/A, 2019-10-20 17:34:45) <-- (architecture and entity definition)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl (N/A, 2019-10-20 17:36:26) <-- (may instantiate this module)
-10       work.lcdmux00.lcdmux0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdmux00.vhdl (N/A, 2019-10-20 17:35:15) <-- (architecture and entity definition)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl (N/A, 2019-10-20 17:36:26) <-- (may instantiate this module)
-12       work.osc00.osc0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd (N/A, 2019-08-29 09:30:16) <-- (architecture and entity definition)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl (N/A, 2019-09-02 09:46:27) <-- (may instantiate this module)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl (N/A, 2019-10-20 17:36:26) <-- (may instantiate this module)
-14       work.topdiv00.topdiv0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl (N/A, 2019-09-02 09:46:27) <-- (architecture and entity definition)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl (N/A, 2019-10-20 17:36:26) <-- (may instantiate this module)
-16       work.topkey00.topkey0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\topkey00.vhdl (N/A, 2019-10-20 17:33:47) <-- (architecture and entity definition)
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl (N/A, 2019-10-20 17:36:26) <-- (may instantiate this module)
-18       work.toplcd00.toplcd0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl (N/A, 2019-10-20 17:36:26) <-- (architecture and entity definition)
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl (2019-10-20 17:32:00, 2019-11-05 18:07:59) <-- (architecture and entity definition)
 
 *******************************************************************
-Unmodified files: 0
+Unmodified files: 24
 FID:  path (timestamp)
+0        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl (2019-09-02 09:35:20)
+1        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd (2019-08-29 09:30:16)
+2        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\packagediv00.vhdl (2019-09-02 09:37:23)
+3        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl (2019-09-02 09:46:27)
+5        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\contring00.vhdl (2019-10-20 17:32:43)
+6        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdconfig00.vhdl (2019-10-20 17:34:20)
+7        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdcontconfig00.vhdl (2019-10-20 17:34:45)
+8        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdmux00.vhdl (2019-10-20 17:35:15)
+9        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\packagekey00.vhdl (2019-10-20 17:33:24)
+10       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\packagelcd00.vhdl (2019-10-20 17:36:37)
+11       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\topkey00.vhdl (2019-10-20 17:33:47)
+12       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl (2019-10-20 17:36:26)
+13       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+14       C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (2019-04-01 08:08:08)
+15       C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\machxo2.vhd (2019-04-01 08:08:08)
+16       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 08:07:44)
+17       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 08:07:44)
+18       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 15:01:20)
+19       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 08:07:44)
+20       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 08:07:44)
+21       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 08:07:44)
+22       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 08:07:44)
+23       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 08:07:44)
+24       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 08:07:44)
 
 *******************************************************************
-Unchanged modules: 0
+Unchanged modules: 18
 MID:  lib.cell.view
+2        work.contring00.contring0
+3        work.contring00.vhdl
+4        work.div00.div0
+5        work.div00.vhdl
+6        work.lcdconfig00.lcdconfig0
+7        work.lcdconfig00.vhdl
+8        work.lcdcontconfig00.lcdcontconfig0
+9        work.lcdcontconfig00.vhdl
+10       work.lcdmux00.lcdmux0
+11       work.lcdmux00.vhdl
+12       work.osc00.osc0
+13       work.osc00.vhdl
+14       work.topdiv00.topdiv0
+15       work.topdiv00.vhdl
+16       work.topkey00.topkey0
+17       work.topkey00.vhdl
+18       work.toplcd00.toplcd0
+19       work.toplcd00.vhdl

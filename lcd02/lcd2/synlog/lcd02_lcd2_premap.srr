@@ -1,4 +1,4 @@
-# Sun Oct 20 17:36:52 2019
+# Tue Nov  5 18:08:22 2019
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -55,7 +55,7 @@ Clock Summary
 Level     Clock                            Frequency     Period        Type                                            Group                   Load 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     24   
-1 .         div00|oscout_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     44   
+1 .         div00|oscout_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     45   
 ====================================================================================================================================================
 
 
@@ -67,7 +67,7 @@ Clock Load Summary
 Clock                            Load      Pin                            Seq Example          Seq Example       Comb Example 
 ------------------------------------------------------------------------------------------------------------------------------
 osc00|osc_int_inferred_clock     24        L00.D00.OSCinst0.OSC(OSCH)     L00.D01.oscout.C     -                 -            
-div00|oscout_derived_clock       44        L00.D01.oscout.Q[0](dffe)      L05.aux2.C           -                 -            
+div00|oscout_derived_clock       45        L00.D01.oscout.Q[0](dffe)      L05.aux2.C           -                 -            
 ==============================================================================================================================
 
 @W: MT529 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\div00vhdl\div00.vhdl":20:3:20:4|Found inferred clock osc00|osc_int_inferred_clock which controls 24 sequential elements including L00.D01.sdiv[22:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
@@ -84,13 +84,13 @@ Number of ICG latches not removed:	0
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-2 gated/generated clock tree(s) driving 68 clock pin(s) of sequential element(s)
-0 instances converted, 68 sequential instances remain driven by gated/generated clocks
+2 gated/generated clock tree(s) driving 69 clock pin(s) of sequential element(s)
+0 instances converted, 69 sequential instances remain driven by gated/generated clocks
 
 ================================================================= Gated/Generated Clocks =================================================================
 Clock Tree ID     Driving Element          Drive Element Type     Unconverted Fanout     Sample Instance        Explanation                               
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-@KP:ckid0_0       L00.D01.oscout.Q[0]      dffe                   44                     L05.aux                Derived clock on input (not legal for GCC)
+@KP:ckid0_0       L00.D01.oscout.Q[0]      dffe                   45                     L05.aux                Derived clock on input (not legal for GCC)
 @KP:ckid0_2       L00.D00.OSCinst0.OSC     OSCH                   24                     L00.D01.sdiv[22:0]     Black box on clock path                   
 ==========================================================================================================================================================
 
@@ -100,21 +100,21 @@ Clock Tree ID     Driving Element          Drive Element Type     Unconverted Fa
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 143MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 143MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 143MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 143MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 143MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:01s cputime
-# Sun Oct 20 17:36:54 2019
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Nov  5 18:08:23 2019
 
 ###########################################################]

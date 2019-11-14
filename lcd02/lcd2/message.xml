@@ -203,18 +203,6 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl&quot;:29:2:29:3|Pruning register bit 7 of outcoder(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
-            <Navigation>CL260</Navigation>
-            <Navigation>C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl</Navigation>
-            <Navigation>29</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>29</Navigation>
-            <Navigation>3</Navigation>
-            <Navigation>Pruning register bit 7 of outcoder(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
             <Dynamic>CL158 :&quot;C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl&quot;:24:2:24:11|Inout outcontcd0 is unused</Dynamic>
             <Navigation>CL158</Navigation>
             <Navigation>C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl</Navigation>

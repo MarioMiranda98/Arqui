@@ -18,24 +18,25 @@ Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
      -lpf C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd02/lcd2/lcd
      02_lcd2_synplify.lpf -lpf
      C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd02/lcd02.lpf -c
-     0 -gui 
+     0 -gui -msgset
+     C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd02/promote.xml 
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
-Mapped on:  10/20/19  17:38:10
+Mapped on:  11/05/19  18:08:33
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
-   Number of registers:     68 out of  7209 (1%)
-      PFU registers:           66 out of  6864 (1%)
+   Number of registers:     69 out of  7209 (1%)
+      PFU registers:           67 out of  6864 (1%)
       PIO registers:            2 out of   345 (1%)
    Number of SLICEs:        76 out of  3432 (2%)
       SLICEs as Logic/ROM:     76 out of  3432 (2%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:         12 out of  3432 (0%)
-   Number of LUT4s:        147 out of  6864 (2%)
-      Number used as logic LUTs:        123
+   Number of LUT4s:        149 out of  6864 (2%)
+      Number used as logic LUTs:        125
       Number used as distributed RAM:     0
       Number used as ripple logic:       24
       Number used as shift registers:     0
@@ -65,38 +66,38 @@ Mapped on:  10/20/19  17:38:10
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  2
-     Net clk0_c: 31 loads, 31 rising, 0 falling (Driver: L00/D01/oscout )
-     Net L00/sclk: 13 loads, 13 rising, 0 falling (Driver: L00/D00/OSCinst0 )
+     Net clk0_c: 32 loads, 32 rising, 0 falling (Driver: L00/D01/oscout )
 
+     Net L00/sclk: 13 loads, 13 rising, 0 falling (Driver: L00/D00/OSCinst0 )
    Number of Clock Enables:  9
      Net outFlagc0_c: 1 loads, 1 LSLICEs
      Net reset0_c: 1 loads, 1 LSLICEs
-     Net L15/K02/aux3_RNO: 1 loads, 1 LSLICEs
+     Net L15/K02/aux1_RNO: 1 loads, 1 LSLICEs
      Net L15/K02/un1_aux028_i_0: 4 loads, 4 LSLICEs
+     Net L15/K02/un1_aux027_0_a2: 1 loads, 1 LSLICEs
      Net L15/K02/un1_aux026_0_a2: 1 loads, 1 LSLICEs
-     Net L15/K02/un1_aux025_0_a2: 1 loads, 1 LSLICEs
      Net L15/K02/ENcdc_en_0: 1 loads, 1 LSLICEs
      Net L02/RSc_0_sqmuxa: 1 loads, 1 LSLICEs
      Net L02/comandoc_1_sqmuxa_i: 3 loads, 3 LSLICEs
    Number of LSRs:  6
      Net reset0_c: 12 loads, 10 LSLICEs
-     Net L05/aux2_RNIN1MV: 3 loads, 3 LSLICEs
+     Net L05/aux2_RNIN1MV: 4 loads, 4 LSLICEs
      Net outr0_c[1]: 1 loads, 1 LSLICEs
      Net L15/K02/ENcdc_0_sqmuxa: 1 loads, 1 LSLICEs
      Net L02/un1_resetc_2_i: 1 loads, 1 LSLICEs
-     Net L00/D01/un1_sdiv77_7_i_0_RNILNVS: 12 loads, 12 LSLICEs
+     Net L00/D01/un1_sdiv77_7_i_a7_RNIJ9S71: 12 loads, 12 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
      Net reset0_c: 25 loads
      Net outFlagc0_c: 20 loads
+     Net outr0_c[0]: 14 loads
      Net outr0_c[1]: 14 loads
+     Net outr0_c[3]: 14 loads
+     Net cdiv0_c[0]: 13 loads
      Net outcc0_c[1]: 13 loads
-     Net outr0_c[3]: 13 loads
-     Net cdiv0_c[0]: 12 loads
-     Net L00/D01/un1_sdiv77_7_i_0_RNILNVS: 12 loads
+     Net L00/D01/un1_sdiv77_7_i_a7_RNIJ9S71: 12 loads
      Net outcc0_c[2]: 12 loads
      Net outcc0_c[3]: 12 loads
-     Net outr0_c[2]: 12 loads
 
 
 
@@ -124,7 +125,6 @@ WARNING - map: IO buffer missing for top level port outcontcd0[5:0](1)...logic
      will be discarded.
 WARNING - map: IO buffer missing for top level port outcontcd0[5:0](0)...logic
      will be discarded.
-
 
 
 
@@ -235,8 +235,8 @@ Block L01/VCC undriven or does not drive anything - clipped.
 Block L02/VCC undriven or does not drive anything - clipped.
 Block L02/GND undriven or does not drive anything - clipped.
 Block L15/K01/VCC undriven or does not drive anything - clipped.
-Block L15/K02/VCC undriven or does not drive anything - clipped.
 Block L15/K02/GND undriven or does not drive anything - clipped.
+Block L15/K02/VCC undriven or does not drive anything - clipped.
 Block L05/VCC undriven or does not drive anything - clipped.
 Block L05/GND undriven or does not drive anything - clipped.
 Signal L00/D00/GND undriven or does not drive anything - clipped.
@@ -278,7 +278,7 @@ Instance Name: L00/D00/OSCinst0
 -------------------------
 
    Total CPU Time: 0 secs  
-   Total REAL Time: 0 secs  
+   Total REAL Time: 2 secs  
    Peak Memory Usage: 59 MB
         
 

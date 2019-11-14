@@ -23,7 +23,6 @@
 @N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0.
 @N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
 @N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdconfig00.vhdl":26:2:26:3|Register bit comandoc(6) is always 0.
-@N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl":29:2:29:3|Register bit outcoder(7) is always 0.
 @N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl":29:2:29:3|Register bit RScdc is always 1.
 @N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl":29:2:29:3|Register bit RWcdc is always 0.
 @N: CL159 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl":13:2:13:5|Input flag is unused.

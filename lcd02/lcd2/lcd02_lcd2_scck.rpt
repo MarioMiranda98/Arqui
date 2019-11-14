@@ -13,7 +13,7 @@ Hostname: LAPTOP-OVV5D9K5
 
 Implementation : lcd2
 
-# Written on Sun Oct 20 17:36:52 2019
+# Written on Tue Nov  5 18:08:22 2019
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      (none)
@@ -34,7 +34,7 @@ Clock Summary
 Level     Clock                            Frequency     Period        Type                                            Group                   Load 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     24   
-1 .         div00|oscout_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     44   
+1 .         div00|oscout_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     45   
 ====================================================================================================================================================
 
 
@@ -45,5 +45,5 @@ Clock Load Summary
 Clock                            Load      Pin                            Seq Example          Seq Example       Comb Example 
 ------------------------------------------------------------------------------------------------------------------------------
 osc00|osc_int_inferred_clock     24        L00.D00.OSCinst0.OSC(OSCH)     L00.D01.oscout.C     -                 -            
-div00|oscout_derived_clock       44        L00.D01.oscout.Q[0](dffe)      L05.aux2.C           -                 -            
+div00|oscout_derived_clock       45        L00.D01.oscout.Q[0](dffe)      L05.aux2.C           -                 -            
 ==============================================================================================================================

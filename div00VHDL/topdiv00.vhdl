@@ -7,7 +7,9 @@ use packagediv00.all;
 entity topdiv00 is
 	port(
 			cdiv0: in std_logic_vector(4 downto 0);
-			clk0: inout std_logic);
+			indiv01: in std_logic_vector(4 downto 0);
+			clk0: inout std_logic;
+			clk01: inout std_logic);
 end topdiv00;
 
 architecture topdiv0 of topdiv00 is
@@ -19,5 +21,11 @@ begin
 	D01: div00 port map(clkdiv => sclk,
 						indiv => cdiv0,
 						oscout => clk0);
+
+	D02: div01 port map(
+		clkdiv1 => sclk,
+		indiv1 => indiv01,
+		outdiv1 => clk01
+	);
 
 end topdiv0;

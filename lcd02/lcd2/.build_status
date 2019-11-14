@@ -6,38 +6,38 @@
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
             <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1571611113"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1572998935"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1571611091">
-            <Task name="Map" build_result="2" update_result="0" update_time="1571611091"/>
+        <Milestone name="Map" build_result="2" build_time="1572998914">
+            <Task name="Map" build_result="2" update_result="0" update_time="1572998914"/>
             <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1571611106">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1571611106"/>
-            <Task name="PARTrace" build_result="2" update_result="0" update_time="1571611107"/>
+        <Milestone name="PAR" build_result="2" build_time="1572998929">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1572998929"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1572998930"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1571611023">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1571611023"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1572998909">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1572998909"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1571610998"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1572998880"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1571611024">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1571611024"/>
+        <Milestone name="Translate" build_result="2" build_time="1572998911">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1572998911"/>
         </Milestone>
-        <Report name="lcd02_lcd2.bgn" last_build_time="1571611112" last_build_size="4295"/>
-        <Report name="lcd02_lcd2.edi" last_build_time="1571611018" last_build_size="147977"/>
-        <Report name="lcd02_lcd2.jed" last_build_time="1571611112" last_build_size="1465871"/>
-        <Report name="lcd02_lcd2.ncd" last_build_time="1571611106" last_build_size="174487"/>
-        <Report name="lcd02_lcd2.ngd" last_build_time="1571611024" last_build_size="142403"/>
-        <Report name="lcd02_lcd2.twr" last_build_time="1571611107" last_build_size="72504"/>
-        <Report name="lcd02_lcd2_map.ncd" last_build_time="1571611091" last_build_size="121836"/>
+        <Report name="lcd02_lcd2.bgn" last_build_time="1572998935" last_build_size="4377"/>
+        <Report name="lcd02_lcd2.edi" last_build_time="1572998905" last_build_size="150116"/>
+        <Report name="lcd02_lcd2.jed" last_build_time="1572998935" last_build_size="1465871"/>
+        <Report name="lcd02_lcd2.ncd" last_build_time="1572998929" last_build_size="177270"/>
+        <Report name="lcd02_lcd2.ngd" last_build_time="1572998911" last_build_size="144381"/>
+        <Report name="lcd02_lcd2.twr" last_build_time="1572998930" last_build_size="70605"/>
+        <Report name="lcd02_lcd2_map.ncd" last_build_time="1572998914" last_build_size="123034"/>
     </Strategy>
 </BuildStatus>

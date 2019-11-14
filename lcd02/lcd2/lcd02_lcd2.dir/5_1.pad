@@ -6,7 +6,7 @@ Performance Grade:      5
 PACKAGE:          TQFP144
 Package Status:                     Final          Version 1.39
 
-Sun Oct 20 17:38:20 2019
+Tue Nov 05 18:08:44 2019
 
 Pinout by Port Name:
 +----------------+----------+--------------+-------+-----------+-----------+--------------------------------------+
@@ -38,14 +38,14 @@ Pinout by Port Name:
 | outr0[1]       | 95/1     | LVCMOS25_OUT | PR9B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | outr0[2]       | 98/1     | LVCMOS25_OUT | PR7A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | outr0[3]       | 97/1     | LVCMOS25_OUT | PR7B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| outwordled0[0] | 114/0    | LVCMOS25_OUT | PT33A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| outwordled0[1] | 111/0    | LVCMOS25_OUT | PT35B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| outwordled0[2] | 109/0    | LVCMOS25_OUT | PT36D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| outwordled0[0] | 132/0    | LVCMOS25_OUT | PT15B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| outwordled0[1] | 114/0    | LVCMOS25_OUT | PT33A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| outwordled0[2] | 111/0    | LVCMOS25_OUT | PT35B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | outwordled0[3] | 112/0    | LVCMOS25_OUT | PT35A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | outwordled0[4] | 133/0    | LVCMOS25_OUT | PT15A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | outwordled0[5] | 138/0    | LVCMOS25_OUT | PT11B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| outwordled0[6] | 139/0    | LVCMOS25_OUT | PT11A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| outwordled0[7] | 132/0    | LVCMOS25_OUT | PT15B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| outwordled0[6] | 109/0    | LVCMOS25_OUT | PT36D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| outwordled0[7] | 110/0    | LVCMOS25_OUT | PT36C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | outworlcd0[0]  | 120/0    | LVCMOS25_OUT | PT27C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | outworlcd0[1]  | 119/0    | LVCMOS25_OUT | PT27D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | outworlcd0[2]  | 122/0    | LVCMOS25_OUT | PT25A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
@@ -165,12 +165,12 @@ Pinout by Pin Number:
 | 105/1    |     unused, PULL:DOWN |            |              | PR3A  | R_GPLLT_IN/DQ0 |           |           |
 | 106/1    |     unused, PULL:DOWN |            |              | PR2B  | R_GPLLC_FB/DQ0 |           |           |
 | 107/1    |     unused, PULL:DOWN |            |              | PR2A  | R_GPLLT_FB/DQ0 |           |           |
-| 109/0    | outwordled0[2]        |            | LVCMOS25_OUT | PT36D | DONE           |           |           |
-| 110/0    |     unused, PULL:DOWN |            |              | PT36C | INITN          |           |           |
-| 111/0    | outwordled0[1]        |            | LVCMOS25_OUT | PT35B |                |           |           |
+| 109/0    | outwordled0[6]        |            | LVCMOS25_OUT | PT36D | DONE           |           |           |
+| 110/0    | outwordled0[7]        |            | LVCMOS25_OUT | PT36C | INITN          |           |           |
+| 111/0    | outwordled0[2]        |            | LVCMOS25_OUT | PT35B |                |           |           |
 | 112/0    | outwordled0[3]        |            | LVCMOS25_OUT | PT35A |                |           |           |
 | 113/0    | RS0                   | LOCATED    | LVCMOS25_OUT | PT33B |                |           |           |
-| 114/0    | outwordled0[0]        |            | LVCMOS25_OUT | PT33A |                |           |           |
+| 114/0    | outwordled0[1]        |            | LVCMOS25_OUT | PT33A |                |           |           |
 | 115/0    | EN0                   | LOCATED    | LVCMOS25_OUT | PT28B |                |           |           |
 | 117/0    | RW0                   | LOCATED    | LVCMOS25_OUT | PT28A |                |           |           |
 | 119/0    | outworlcd0[1]         | LOCATED    | LVCMOS25_OUT | PT27D | PROGRAMN       |           |           |
@@ -183,12 +183,12 @@ Pinout by Pin Number:
 | 128/0    | outworlcd0[6]         | LOCATED    | LVCMOS25_OUT | PT18A | PCLKT0_1       |           |           |
 | 130/0    | Reserved: sysCONFIG   |            |              | PT17D | TMS            |           |           |
 | 131/0    | Reserved: sysCONFIG   |            |              | PT17C | TCK            |           |           |
-| 132/0    | outwordled0[7]        |            | LVCMOS25_OUT | PT15B |                |           |           |
+| 132/0    | outwordled0[0]        |            | LVCMOS25_OUT | PT15B |                |           |           |
 | 133/0    | outwordled0[4]        |            | LVCMOS25_OUT | PT15A |                |           |           |
 | 136/0    | Reserved: sysCONFIG   |            |              | PT14D | TDI            |           |           |
 | 137/0    | Reserved: sysCONFIG   |            |              | PT14C | TDO            |           |           |
 | 138/0    | outwordled0[5]        |            | LVCMOS25_OUT | PT11B |                |           |           |
-| 139/0    | outwordled0[6]        |            | LVCMOS25_OUT | PT11A |                |           |           |
+| 139/0    |     unused, PULL:DOWN |            |              | PT11A |                |           |           |
 | 140/0    |     unused, PULL:DOWN |            |              | PT10B |                |           |           |
 | 141/0    |     unused, PULL:DOWN |            |              | PT10A |                |           |           |
 | 142/0    |     unused, PULL:DOWN |            |              | PT9B  |                |           |           |
@@ -458,14 +458,14 @@ LOCATE  COMP  "outr0[0]"  SITE  "96";
 LOCATE  COMP  "outr0[1]"  SITE  "95";
 LOCATE  COMP  "outr0[2]"  SITE  "98";
 LOCATE  COMP  "outr0[3]"  SITE  "97";
-LOCATE  COMP  "outwordled0[0]"  SITE  "114";
-LOCATE  COMP  "outwordled0[1]"  SITE  "111";
-LOCATE  COMP  "outwordled0[2]"  SITE  "109";
+LOCATE  COMP  "outwordled0[0]"  SITE  "132";
+LOCATE  COMP  "outwordled0[1]"  SITE  "114";
+LOCATE  COMP  "outwordled0[2]"  SITE  "111";
 LOCATE  COMP  "outwordled0[3]"  SITE  "112";
 LOCATE  COMP  "outwordled0[4]"  SITE  "133";
 LOCATE  COMP  "outwordled0[5]"  SITE  "138";
-LOCATE  COMP  "outwordled0[6]"  SITE  "139";
-LOCATE  COMP  "outwordled0[7]"  SITE  "132";
+LOCATE  COMP  "outwordled0[6]"  SITE  "109";
+LOCATE  COMP  "outwordled0[7]"  SITE  "110";
 LOCATE  COMP  "outworlcd0[0]"  SITE  "120";
 LOCATE  COMP  "outworlcd0[1]"  SITE  "119";
 LOCATE  COMP  "outworlcd0[2]"  SITE  "122";
@@ -486,5 +486,5 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Sun Oct 20 17:38:22 2019
+Tue Nov 05 18:08:45 2019
 

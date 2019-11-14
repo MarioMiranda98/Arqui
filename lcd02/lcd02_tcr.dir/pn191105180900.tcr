@@ -1,0 +1,5 @@
+#Start recording tcl command: 11/5/2019 17:06:40
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd02; Project name: lcd02
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd02/lcd02.ldf"
+prj_run Export -impl lcd2 -task Jedecgen
+#Stop recording: 11/5/2019 18:09:00

@@ -1,0 +1,10 @@
+#Start recording tcl command: 10/23/2019 08:46:24
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd00; Project name: lcd00
+prj_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd00/lcd00.ldf"
+pgr_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd00/lcd0/lcd0.xcf"
+pgr_program run
+pgr_project close
+pgr_project open "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd00/lcd0/lcd0.xcf"
+pgr_project save "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd00/lcd0/lcd0.xcf"
+prj_project close
+#Stop recording: 10/23/2019 08:56:56

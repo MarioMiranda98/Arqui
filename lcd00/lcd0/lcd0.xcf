@@ -20,7 +20,7 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd00/lcd0/lcd00_lcd0.jed</File>
-			<FileTime>10/17/19 11:01:59</FileTime>
+			<FileTime>10/23/19 10:00:30</FileTime>
 			<JedecChecksum>0x4B5C</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>

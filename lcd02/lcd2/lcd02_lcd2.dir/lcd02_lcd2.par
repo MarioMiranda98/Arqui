@@ -4,10 +4,11 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Sun Oct 20 17:38:11 2019
+Tue Nov 05 18:08:35 2019
 
 C:/lscc/diamond/3.11_x64/ispfpga\bin\nt64\par -f lcd02_lcd2.p2t
-lcd02_lcd2_map.ncd lcd02_lcd2.dir lcd02_lcd2.prf -gui
+lcd02_lcd2_map.ncd lcd02_lcd2.dir lcd02_lcd2.prf -gui -msgset
+C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcd02/promote.xml
 
 
 Preference file: lcd02_lcd2.prf.
@@ -15,11 +16,11 @@ Preference file: lcd02_lcd2.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            466.573      0            0.379        0            15           Completed
+5_1   *      0            466.463      0            0.379        0            13           Completed
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 15 secs 
+Total (real) run time for 1-seed: 13 secs 
 
 par done!
 

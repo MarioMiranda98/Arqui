@@ -1,7 +1,0 @@
-C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toplcd01  -multisrs  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd01\lcd1\synwork\lcd01_lcd1_comp.srs  -osyn  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd01\lcd1\synwork\lcd01_lcd1_mult.srs  -log  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd01\lcd1\synlog\lcd01_lcd1_multi_srs_gen.srr 
-relcom:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top toplcd01 -multisrs ..\synwork\lcd01_lcd1_comp.srs -osyn ..\synwork\lcd01_lcd1_mult.srs -log ..\synlog\lcd01_lcd1_multi_srs_gen.srr
-rc:0 success:1 runtime:0
-file:..\synwork\lcd01_lcd1_comp.srs|io:i|time:1571609572|size:14486|exec:0|csum:15EF9F5907F11211EFC5C1CCCC3680B2
-file:..\synwork\lcd01_lcd1_mult.srs|io:o|time:1571609574|size:4707|exec:0|csum:
-file:..\synlog\lcd01_lcd1_multi_srs_gen.srr|io:o|time:1571609574|size:1054|exec:0|csum:
-file:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

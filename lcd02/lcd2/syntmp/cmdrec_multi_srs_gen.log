@@ -1,7 +1,7 @@
 C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toplcd00  -multisrs  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcd2\synwork\lcd02_lcd2_comp.srs  -osyn  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcd2\synwork\lcd02_lcd2_mult.srs  -log  C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcd2\synlog\lcd02_lcd2_multi_srs_gen.srr 
 relcom:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top toplcd00 -multisrs ..\synwork\lcd02_lcd2_comp.srs -osyn ..\synwork\lcd02_lcd2_mult.srs -log ..\synlog\lcd02_lcd2_multi_srs_gen.srr
 rc:0 success:1 runtime:0
-file:..\synwork\lcd02_lcd2_comp.srs|io:i|time:1571611009|size:16784|exec:0|csum:5D3D5D2A6569ED36AC00ABEF7497AFB6
-file:..\synwork\lcd02_lcd2_mult.srs|io:o|time:1571611011|size:4670|exec:0|csum:
-file:..\synlog\lcd02_lcd2_multi_srs_gen.srr|io:o|time:1571611011|size:1054|exec:0|csum:
+file:..\synwork\lcd02_lcd2_comp.srs|io:i|time:1572998898|size:16840|exec:0|csum:2F63BAF8C6342CFCEB6D8913D2EC365D
+file:..\synwork\lcd02_lcd2_mult.srs|io:o|time:1572998900|size:4677|exec:0|csum:
+file:..\synlog\lcd02_lcd2_multi_srs_gen.srr|io:o|time:1572998900|size:1177|exec:0|csum:
 file:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

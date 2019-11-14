@@ -1,6 +1,6 @@
 i L00.D01.oscout_i
 m 0 0
-u 19 44
+u 19 45
 n ckid0_0 {t:L05.aux.C} Derived clock on input (not legal for GCC)
 p {t:L00.D01.oscout.Q[0]}{t:L00.D01.oscout_derived_clock.I[0]}{t:L00.D01.oscout_derived_clock.OUT[0]}{p:L00.D01.oscout}{t:L00.D01.oscout}{p:L00.clk0}{t:L00.clk0}{t:L05.clklcdm}{p:L05.clklcdm}{t:L05.aux.C}
 e ckid0_0 {t:L05.aux.C} dffre

@@ -39,7 +39,7 @@ begin
 						when "0001" =>
 							if(aux0 = '0') then
 								aux0:='1';
-								outcoder <= "01000001"; --A
+								outcoder <= "01001000"; --H
 								RWcdc<='0';
 								RScdc<='1';
 								ENcdc<='1';
@@ -48,7 +48,7 @@ begin
 						when "0010" =>
 							if(aux0 = '0') then
 								aux0:='1';
-								outcoder <= "01000010"; --C 
+								outcoder <= "01001111"; --O 
 								RWcdc<='0';
 								RScdc<='1';
 								ENcdc<='1';
@@ -57,7 +57,7 @@ begin
 						when "0100" =>
 							if(aux0 = '0') then
 								aux0:='1';
-								outcoder <= "01000011"; --B
+								outcoder <= "01001100"; --L
 								RWcdc<='0';
 								RScdc<='1';
 								ENcdc<='1';
@@ -66,7 +66,7 @@ begin
 						when "1000" =>
 							if(aux0 = '0') then
 								aux0:='1';
-								outcoder <= "01000100"; --D
+								outcoder <= "01000001"; --A
 								RWcdc<='0';
 								RScdc<='1';
 								ENcdc<='1';
@@ -86,7 +86,7 @@ begin
 						when "0001" =>
 							if(aux1 = '0') then
 								aux1:='1';
-								outcoder <= "00110011"; --3
+								outcoder <= "01001101"; --M
 								RWcdc<='0';
 								RScdc<='1';
 								ENcdc<='1';
@@ -95,7 +95,7 @@ begin
 						when "0010" =>
 							if(aux1 = '0') then
 								aux1:='1';
-								outcoder <= "00110110"; --9  00111001
+								outcoder <= "01010101"; --U  00111001
 								RWcdc<='0';
 								RScdc<='1';
 								ENcdc<='1';
@@ -104,7 +104,7 @@ begin
 						when "0100" =>
 							if(aux1 = '0') then
 								aux1:='1';
-								outcoder <= "00111001"; --6
+								outcoder <= "01001110"; --N
 								RWcdc<='0';
 								RScdc<='1';
 								ENcdc<='1';
@@ -113,7 +113,7 @@ begin
 						when "1000" =>
 							if(aux1 = '0') then
 								aux1:='1';
-								outcoder <= "00100011"; --#
+								outcoder <= "01000100"; --D
 								RWcdc<='0';
 								RScdc<='1';
 								ENcdc<='1';
@@ -133,7 +133,7 @@ begin
 						when "0001" =>
 							if(aux2 = '0') then
 								aux2:='1';
-								outcoder <= "00110010"; --2
+								outcoder <= "01001010"; --J
 								RWcdc <= '0';
 								RScdc <= '1';
 								ENcdc <= '1';
@@ -142,7 +142,7 @@ begin
 						when "0010" =>
 							if(aux2 = '0') then
 								aux2:='1';
-								outcoder <= "00110101"; --5  
+								outcoder <= "01010011"; --S  
 								RWcdc<='0';
 								RScdc<='1';
 								ENcdc<='1';
@@ -151,7 +151,7 @@ begin
 						when "0100" =>
 							if(aux2 = '0') then
 								aux2:='1';
-								outcoder <= "00111000"; --8
+								outcoder <= "10101001"; --DDRAM AD SET
 								RWcdc<='0';
 								RScdc<='1';
 								ENcdc<='1';
@@ -160,7 +160,7 @@ begin
 						when "1000" =>
 							if(aux2 = '0') then
 								aux2:='1';
-								outcoder <= "00110000"; --0
+								outcoder <= "00100000"; --Espacio
 								RWcdc<='0';
 								RScdc<='1';
 								ENcdc<='1';

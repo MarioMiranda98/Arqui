@@ -33,7 +33,22 @@ Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:1
 
 @N|Running in 64-bit mode
 @N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl":9:7:9:14|Top entity is set to toplcd00.
+File C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\packagediv00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl changed - recompiling
+File C:\lscc\diamond\3.11_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\contring00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\packagekey00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdconfig00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdcontconfig00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdmux00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\packagelcd00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\topkey00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl changed - recompiling
 VHDL syntax check successful!
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl changed - recompiling
 @N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\toplcd00.vhdl":9:7:9:14|Synthesizing work.toplcd00.toplcd0.
 @N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdmux00.vhdl":8:7:8:14|Synthesizing work.lcdmux00.lcdmux0.
 @W: CD434 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdmux00.vhdl":33:27:33:35|Signal inflagcdm in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
@@ -93,10 +108,8 @@ Running optimization stage 2 on lcdconfig00 .......
 @W: CL260 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcdconfig00.vhdl":26:2:26:3|Pruning register bit 6 of comandoc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 Running optimization stage 2 on contring00 .......
 Running optimization stage 2 on coder00 .......
-@N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl":29:2:29:3|Register bit outcoder(7) is always 0.
 @N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl":29:2:29:3|Register bit RScdc is always 1.
 @N: CL189 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl":29:2:29:3|Register bit RWcdc is always 0.
-@W: CL260 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl":29:2:29:3|Pruning register bit 7 of outcoder(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @N: CL159 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\coder00.vhdl":13:2:13:5|Input flag is unused.
 Running optimization stage 2 on topkey00 .......
 Running optimization stage 2 on lcdmux00 .......
@@ -114,7 +127,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Oct 20 17:36:49 2019
+# Tue Nov  5 18:08:18 2019
 
 ###########################################################]
 
@@ -134,13 +147,14 @@ Implementation : lcd2
 Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd02\lcd2\synwork\layer0.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Oct 20 17:36:49 2019
+# Tue Nov  5 18:08:18 2019
 
 ###########################################################]
 
@@ -155,6 +169,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Oct 20 17:36:49 2019
+# Tue Nov  5 18:08:19 2019
 
 ###########################################################]

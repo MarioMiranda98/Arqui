@@ -33,9 +33,19 @@ Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:1
 
 @N|Running in 64-bit mode
 @N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl":9:7:9:14|Top entity is set to toplcd00.
-Options changed - recompiling
+File C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\packagediv00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contconfigLCD00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\configLCD00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\contdataLCD00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\dataLCD00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\muxLCD00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\packageLCD00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl changed - recompiling
 VHDL syntax check successful!
-Options changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\configLCD00.vhdl changed - recompiling
 @N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl":9:7:9:14|Synthesizing work.toplcd00.toplcd0.
 @W: CD326 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\toplcd00.vhdl":65:2:65:5|Port outflagcw of entity work.contdatalcd00 is unconnected. If a port needs to remain unconnected, use the keyword open.
 @N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\lcd00\muxLCD00.vhdl":8:7:8:14|Synthesizing work.muxlcd00.muxlcd0.
@@ -111,7 +121,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Oct 17 11:00:34 2019
+# Wed Oct 23 10:00:01 2019
 
 ###########################################################]
 
@@ -138,7 +148,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Oct 17 11:00:34 2019
+# Wed Oct 23 10:00:01 2019
 
 ###########################################################]
 
@@ -153,6 +163,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Oct 17 11:00:34 2019
+# Wed Oct 23 10:00:01 2019
 
 ###########################################################]
