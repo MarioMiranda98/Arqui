@@ -1,0 +1,312 @@
+<HTML>
+<HEAD><TITLE>Lattice TRACE Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Par_Twr"></A><B><U><big>Place & Route TRACE Report</big></U></B>
+
+Loading design for application trce from file signo00_signo0.ncd.
+Design name: signo00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application trce from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+<A name="Par_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4</big></U></B>
+Wed Nov 20 16:27:49 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="ptwr_set_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o signo00_signo0.twr -gui signo00_signo0.ncd signo00_signo0.prf 
+Design file:     signo00_signo0.ncd
+Preference file: signo00_signo0.prf
+Device,speed:    LCMXO2-7000HE,5
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+<A name="ptwr_set_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#par_twr_pref_0_0' Target='right'>Default path enumeration(0 errors)</A></LI>            32 items scored, 0 timing errors detected.
+
+<LI><A href='#par_twr_pref_0_1' Target='right'>Default net enumeration(0 errors)</A></LI>            16 items scored, 0 timing errors detected.
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+<A name="par_twr_pref_0_0"></A>Preference: Default path enumeration
+            32 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:   13.748ns delay entrada[15] to salida[16]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI entrada[15]
+ROUTE        17     8.928        5.PADDI to       41.PADDO entrada_c[15]
+DOPAD_DEL   ---     3.448       41.PADDO to         41.PAD salida[16]
+                  --------
+                   13.748   (35.1% logic, 64.9% route), 2 logic levels.
+
+Report:   13.748ns delay entrada[15] to salida[17]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI entrada[15]
+ROUTE        17     8.928        5.PADDI to       39.PADDO entrada_c[15]
+DOPAD_DEL   ---     3.448       39.PADDO to         39.PAD salida[17]
+                  --------
+                   13.748   (35.1% logic, 64.9% route), 2 logic levels.
+
+Report:   13.662ns delay entrada[15] to salida[19]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI entrada[15]
+ROUTE        17     8.842        5.PADDI to       42.PADDO entrada_c[15]
+DOPAD_DEL   ---     3.448       42.PADDO to         42.PAD salida[19]
+                  --------
+                   13.662   (35.3% logic, 64.7% route), 2 logic levels.
+
+Report:   13.662ns delay entrada[15] to salida[20]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI entrada[15]
+ROUTE        17     8.842        5.PADDI to       43.PADDO entrada_c[15]
+DOPAD_DEL   ---     3.448       43.PADDO to         43.PAD salida[20]
+                  --------
+                   13.662   (35.3% logic, 64.7% route), 2 logic levels.
+
+Report:   13.283ns delay entrada[15] to salida[18]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI entrada[15]
+ROUTE        17     8.463        5.PADDI to       44.PADDO entrada_c[15]
+DOPAD_DEL   ---     3.448       44.PADDO to         44.PAD salida[18]
+                  --------
+                   13.283   (36.3% logic, 63.7% route), 2 logic levels.
+
+Report:   13.283ns delay entrada[15] to salida[21]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI entrada[15]
+ROUTE        17     8.463        5.PADDI to       45.PADDO entrada_c[15]
+DOPAD_DEL   ---     3.448       45.PADDO to         45.PAD salida[21]
+                  --------
+                   13.283   (36.3% logic, 63.7% route), 2 logic levels.
+
+Report:   12.891ns delay entrada[15] to salida[22]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI entrada[15]
+ROUTE        17     8.071        5.PADDI to       47.PADDO entrada_c[15]
+DOPAD_DEL   ---     3.448       47.PADDO to         47.PAD salida[22]
+                  --------
+                   12.891   (37.4% logic, 62.6% route), 2 logic levels.
+
+Report:   12.891ns delay entrada[15] to salida[24]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI entrada[15]
+ROUTE        17     8.071        5.PADDI to       48.PADDO entrada_c[15]
+DOPAD_DEL   ---     3.448       48.PADDO to         48.PAD salida[24]
+                  --------
+                   12.891   (37.4% logic, 62.6% route), 2 logic levels.
+
+Report:   12.505ns delay entrada[15] to salida[23]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI entrada[15]
+ROUTE        17     7.685        5.PADDI to       49.PADDO entrada_c[15]
+DOPAD_DEL   ---     3.448       49.PADDO to         49.PAD salida[23]
+                  --------
+                   12.505   (38.5% logic, 61.5% route), 2 logic levels.
+
+Report:   12.505ns delay entrada[15] to salida[25]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372          5.PAD to        5.PADDI entrada[15]
+ROUTE        17     7.685        5.PADDI to       50.PADDO entrada_c[15]
+DOPAD_DEL   ---     3.448       50.PADDO to         50.PAD salida[25]
+                  --------
+                   12.505   (38.5% logic, 61.5% route), 2 logic levels.
+
+Report:   13.748ns is the maximum delay for this preference.
+
+
+================================================================================
+<A name="par_twr_pref_0_1"></A>Preference: Default net enumeration
+            16 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    8.928ns maximum delay on entrada_c[15]
+
+           Delays             Connection(s)
+           4.856ns          5.PADDI to 91.PADDO        
+           8.928ns          5.PADDI to 41.PADDO        
+           8.928ns          5.PADDI to 39.PADDO        
+           8.463ns          5.PADDI to 44.PADDO        
+           8.842ns          5.PADDI to 42.PADDO        
+           8.842ns          5.PADDI to 43.PADDO        
+           8.463ns          5.PADDI to 45.PADDO        
+           8.071ns          5.PADDI to 47.PADDO        
+           7.685ns          5.PADDI to 49.PADDO        
+           8.071ns          5.PADDI to 48.PADDO        
+           7.685ns          5.PADDI to 50.PADDO        
+           7.299ns          5.PADDI to 52.PADDO        
+           6.851ns          5.PADDI to 55.PADDO        
+           7.299ns          5.PADDI to 54.PADDO        
+           6.851ns          5.PADDI to 56.PADDO        
+           6.458ns          5.PADDI to 57.PADDO        
+           5.687ns          5.PADDI to 59.PADDO        
+
+Report:    5.725ns maximum delay on entrada_c[4]
+
+           Delays             Connection(s)
+           5.725ns         22.PADDI to 105.PADDO       
+
+Report:    5.691ns maximum delay on entrada_c[5]
+
+           Delays             Connection(s)
+           5.691ns         21.PADDI to 104.PADDO       
+
+Report:    5.261ns maximum delay on entrada_c[8]
+
+           Delays             Connection(s)
+           5.261ns         14.PADDI to 97.PADDO        
+
+Report:    5.261ns maximum delay on entrada_c[7]
+
+           Delays             Connection(s)
+           5.261ns         19.PADDI to 99.PADDO        
+
+Report:    5.227ns maximum delay on entrada_c[6]
+
+           Delays             Connection(s)
+           5.227ns         20.PADDI to 100.PADDO       
+
+Report:    5.226ns maximum delay on entrada_c[14]
+
+           Delays             Connection(s)
+           5.226ns          6.PADDI to 92.PADDO        
+
+Report:    4.869ns maximum delay on entrada_c[12]
+
+           Delays             Connection(s)
+           4.869ns         10.PADDI to 94.PADDO        
+
+Report:    4.858ns maximum delay on entrada_c[11]
+
+           Delays             Connection(s)
+           4.858ns         11.PADDI to 96.PADDO        
+
+Report:    4.848ns maximum delay on entrada_c[9]
+
+           Delays             Connection(s)
+           4.848ns         13.PADDI to 98.PADDO        
+
+Report:    8.928ns is the maximum delay for this preference.
+
+<A name="ptwr_set_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+Default path enumeration                |     0.000 ns|    13.748 ns|   0  
+                                        |             |             |
+Default net enumeration                 |     0.000 ns|     8.928 ns|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="ptwr_set_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 0 clocks:
+
+
+<A name="ptwr_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 32 paths, 16 nets, and 32 connections (100.00% coverage)
+
+--------------------------------------------------------------------------------
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

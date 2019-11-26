@@ -1,0 +1,56 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Nov 20 16:27:54 2019 *
+NOTE DESIGN NAME: signo00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS salida[0] : 38 : out *
+NOTE PINS entrada[0] : 23 : in *
+NOTE PINS salida[31] : 59 : out *
+NOTE PINS salida[30] : 57 : out *
+NOTE PINS salida[29] : 56 : out *
+NOTE PINS salida[28] : 54 : out *
+NOTE PINS salida[27] : 55 : out *
+NOTE PINS salida[26] : 52 : out *
+NOTE PINS salida[25] : 50 : out *
+NOTE PINS salida[24] : 48 : out *
+NOTE PINS salida[23] : 49 : out *
+NOTE PINS salida[22] : 47 : out *
+NOTE PINS salida[21] : 45 : out *
+NOTE PINS salida[20] : 43 : out *
+NOTE PINS salida[19] : 42 : out *
+NOTE PINS salida[18] : 44 : out *
+NOTE PINS salida[17] : 39 : out *
+NOTE PINS salida[16] : 41 : out *
+NOTE PINS salida[15] : 91 : out *
+NOTE PINS salida[14] : 92 : out *
+NOTE PINS salida[13] : 93 : out *
+NOTE PINS salida[12] : 94 : out *
+NOTE PINS salida[11] : 96 : out *
+NOTE PINS salida[10] : 95 : out *
+NOTE PINS salida[9] : 98 : out *
+NOTE PINS salida[8] : 97 : out *
+NOTE PINS salida[7] : 99 : out *
+NOTE PINS salida[6] : 100 : out *
+NOTE PINS salida[5] : 104 : out *
+NOTE PINS salida[4] : 105 : out *
+NOTE PINS salida[3] : 106 : out *
+NOTE PINS salida[2] : 107 : out *
+NOTE PINS salida[1] : 40 : out *
+NOTE PINS entrada[15] : 5 : in *
+NOTE PINS entrada[14] : 6 : in *
+NOTE PINS entrada[13] : 9 : in *
+NOTE PINS entrada[12] : 10 : in *
+NOTE PINS entrada[11] : 11 : in *
+NOTE PINS entrada[10] : 12 : in *
+NOTE PINS entrada[9] : 13 : in *
+NOTE PINS entrada[8] : 14 : in *
+NOTE PINS entrada[7] : 19 : in *
+NOTE PINS entrada[6] : 20 : in *
+NOTE PINS entrada[5] : 21 : in *
+NOTE PINS entrada[4] : 22 : in *
+NOTE PINS entrada[3] : 132 : in *
+NOTE PINS entrada[2] : 133 : in *
+NOTE PINS entrada[1] : 24 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

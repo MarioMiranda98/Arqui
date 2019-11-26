@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\signo00\signo00.vhdl":6:7:6:13|Top entity is set to signo00.
+@N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\signo00\signo00.vhdl":6:7:6:13|Synthesizing work.signo00.signo0.
+@N|Running in 64-bit mode
+

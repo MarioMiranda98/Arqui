@@ -16,7 +16,7 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
-Mapped on:  11/13/19  09:29:02
+Mapped on:  11/20/19  10:02:25
 
 Design Summary
 --------------
@@ -66,7 +66,7 @@ Design Summary
 
 
 
-Design:  topbcd00                                      Date:  11/13/19  09:29:02
+Design:  topbcd00                                      Date:  11/20/19  10:02:25
 
 Design Summary (cont)
 ---------------------
@@ -132,7 +132,7 @@ Design Summary (cont)
 
 
 
-Design:  topbcd00                                      Date:  11/13/19  09:29:02
+Design:  topbcd00                                      Date:  11/20/19  10:02:25
 
 Design Errors/Warnings
 ----------------------
@@ -198,7 +198,7 @@ WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd01/bcd
 
 
 
-Design:  topbcd00                                      Date:  11/13/19  09:29:02
+Design:  topbcd00                                      Date:  11/20/19  10:02:25
 
 Design Errors/Warnings (cont)
 -----------------------------
@@ -264,7 +264,7 @@ IO (PIO) Attributes
 
 
 
-Design:  topbcd00                                      Date:  11/13/19  09:29:02
+Design:  topbcd00                                      Date:  11/20/19  10:02:25
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -330,7 +330,7 @@ IO (PIO) Attributes (cont)
 
 
 
-Design:  topbcd00                                      Date:  11/13/19  09:29:02
+Design:  topbcd00                                      Date:  11/20/19  10:02:25
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -396,7 +396,7 @@ Block BD09/VCC undriven or does not drive anything - clipped.
 
 
 
-Design:  topbcd00                                      Date:  11/13/19  09:29:02
+Design:  topbcd00                                      Date:  11/20/19  10:02:25
 
 Removed logic (cont)
 --------------------
@@ -453,7 +453,7 @@ Run Time and Memory Usage
 -------------------------
 
    Total CPU Time: 1 secs  
-   Total REAL Time: 2 secs  
+   Total REAL Time: 0 secs  
    Peak Memory Usage: 61 MB
         
 

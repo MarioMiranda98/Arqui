@@ -1,4 +1,4 @@
-# Mon Nov 11 09:56:11 2019
+# Wed Nov 20 08:46:53 2019
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -44,7 +44,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: MH105 |UMR3 is only supported for HAPS-80.
 syn_allowed_resources : blockrams=26  set on top level netlist topbcd00
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
 
 
 
@@ -103,21 +103,21 @@ Clock Tree ID     Driving Element            Drive Element Type     Unconverted 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
 
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 144MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 144MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Nov 11 09:56:12 2019
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Wed Nov 20 08:46:55 2019
 
 ###########################################################]

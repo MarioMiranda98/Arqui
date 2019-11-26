@@ -1,4 +1,4 @@
-# Wed Nov 13 09:28:49 2019
+# Wed Nov 20 10:02:16 2019
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -103,10 +103,10 @@ Clock Tree ID     Driving Element           Drive Element Type     Unconverted F
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
 
 None
 None
@@ -115,9 +115,9 @@ Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 58MB peak: 144MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 144MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Nov 13 09:28:51 2019
+# Wed Nov 20 10:02:17 2019
 
 ###########################################################]

@@ -1,0 +1,296 @@
+<HTML>
+<HEAD><TITLE>Lattice Map TRACE Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Map TRACE Report</big></U></B>
+
+Loading design for application trce from file lcdram00_lcdram00_map.ncd.
+Design name: toplcdram00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application trce from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+<A name="Map_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4</big></U></B>
+Tue Nov 26 17:07:34 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_set_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o lcdram00_lcdram00.tw1 -gui -msgset C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcdram00/promote.xml lcdram00_lcdram00_map.ncd lcdram00_lcdram00.prf 
+Design file:     lcdram00_lcdram00_map.ncd
+Preference file: lcdram00_lcdram00.prf
+Device,speed:    LCMXO2-7000HE,5
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+<A name="mtw1_set_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#map_twr_pref_0_0' Target='right'>FREQUENCY NET "U0/soscout0" 2.080000 MHz (0 errors)</A></LI>            1444 items scored, 0 timing errors detected.
+Report:  100.412MHz is the maximum frequency for this preference.
+
+BLOCK ASYNCPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+<A name="map_twr_pref_0_0"></A>Preference: FREQUENCY NET "U0/soscout0" 2.080000 MHz ;
+            1444 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 470.810ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              U0/OS01/sdiv[9]  (from U0/soscout0 -)
+   Destination:    FF         Data in        U0/OS01/sdiv[4]  (to U0/soscout0 -)
+                   FF                        U0/OS01/sdiv[3]
+
+   Delay:               9.702ns  (32.2% logic, 67.8% route), 7 logic levels.
+
+ Constraint Details:
+
+      9.702ns physical path delay U0/OS01/SLICE_22 to U0/OS01/SLICE_25 meets
+    480.769ns delay constraint less
+      0.257ns LSR_SET requirement (totaling 480.512ns) by 470.810ns
+
+ Physical Path Details:
+
+      Data path U0/OS01/SLICE_22 to U0/OS01/SLICE_25:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409 */SLICE_22.CLK to *1/SLICE_22.Q0 U0/OS01/SLICE_22 (from U0/soscout0)
+ROUTE         2   e 1.030 *1/SLICE_22.Q0 to   SLICE_327.C0 U0/OS01/sdiv[9]
+CTOF_DEL    ---     0.452   SLICE_327.C0 to   SLICE_327.F0 SLICE_327
+ROUTE         1   e 1.030   SLICE_327.F0 to   SLICE_296.C1 U0/OS01/un15_sdivlto18_i_a2_17_0_a2_0_a2_1_7
+CTOF_DEL    ---     0.452   SLICE_296.C1 to   SLICE_296.F1 SLICE_296
+ROUTE         2   e 0.401   SLICE_296.F1 to   SLICE_296.A0 U0/OS01/N_88
+CTOF_DEL    ---     0.452   SLICE_296.A0 to   SLICE_296.F0 SLICE_296
+ROUTE         2   e 1.030   SLICE_296.F0 to   SLICE_295.A0 U0/OS01/N_27
+CTOF_DEL    ---     0.452   SLICE_295.A0 to   SLICE_295.F0 SLICE_295
+ROUTE         1   e 1.030   SLICE_295.F0 to   SLICE_294.A0 U0/OS01/N_59
+CTOF_DEL    ---     0.452   SLICE_294.A0 to   SLICE_294.F0 SLICE_294
+ROUTE         1   e 1.030   SLICE_294.F0 to */SLICE_180.C1 U0/OS01/sdiv_54_4
+CTOF_DEL    ---     0.452 */SLICE_180.C1 to */SLICE_180.F1 U0/OS01/SLICE_180
+ROUTE        12   e 1.030 */SLICE_180.F1 to */SLICE_25.LSR U0/OS01/un1_outdiv_0_sqmuxa_1_0_a2_10_RNIQFK96 (to U0/soscout0)
+                  --------
+                    9.702   (32.2% logic, 67.8% route), 7 logic levels.
+
+Report:  100.412MHz is the maximum frequency for this preference.
+
+<A name="mtw1_set_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "U0/soscout0" 2.080000    |             |             |
+MHz ;                                   |    2.080 MHz|  100.412 MHz|   7  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="mtw1_set_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: clk0_c   Source: U0/OS01/SLICE_180.Q0   Loads: 173
+   No transfer within this clock domain is found
+
+Clock Domain: U0/soscout0   Source: U0/OS00/OSCInst0.OSC   Loads: 12
+   Covered under: FREQUENCY NET "U0/soscout0" 2.080000 MHz ;
+
+
+<A name="mtw1_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1444 paths, 1 nets, and 1464 connections (65.24% coverage)
+
+--------------------------------------------------------------------------------
+<A name="Map_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.0.396.4</big></U></B>
+Tue Nov 26 17:07:34 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_hold_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o lcdram00_lcdram00.tw1 -gui -msgset C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/lcdram00/promote.xml lcdram00_lcdram00_map.ncd lcdram00_lcdram00.prf 
+Design file:     lcdram00_lcdram00_map.ncd
+Preference file: lcdram00_lcdram00.prf
+Device,speed:    LCMXO2-7000HE,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+<A name="mtw1_hold_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#map_twr_pref_1_0' Target='right'>FREQUENCY NET "U0/soscout0" 2.080000 MHz (0 errors)</A></LI>            1444 items scored, 0 timing errors detected.
+
+BLOCK ASYNCPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+<A name="map_twr_pref_1_0"></A>Preference: FREQUENCY NET "U0/soscout0" 2.080000 MHz ;
+            1444 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.447ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              U0/OS01/sdiv[14]  (from U0/soscout0 -)
+   Destination:    FF         Data in        U0/OS01/sdiv[14]  (to U0/soscout0 -)
+
+   Delay:               0.434ns  (53.9% logic, 46.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.434ns physical path delay U0/OS01/SLICE_20 to U0/OS01/SLICE_20 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.447ns
+
+ Physical Path Details:
+
+      Data path U0/OS01/SLICE_20 to U0/OS01/SLICE_20:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133 */SLICE_20.CLK to *1/SLICE_20.Q1 U0/OS01/SLICE_20 (from U0/soscout0)
+ROUTE         2   e 0.199 *1/SLICE_20.Q1 to *1/SLICE_20.A1 U0/OS01/sdiv[14]
+CTOF_DEL    ---     0.101 *1/SLICE_20.A1 to *1/SLICE_20.F1 U0/OS01/SLICE_20
+ROUTE         1   e 0.001 *1/SLICE_20.F1 to */SLICE_20.DI1 U0/OS01/un1_sdiv_1[15] (to U0/soscout0)
+                  --------
+                    0.434   (53.9% logic, 46.1% route), 2 logic levels.
+
+<A name="mtw1_hold_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "U0/soscout0" 2.080000    |             |             |
+MHz ;                                   |     0.000 ns|     0.447 ns|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="mtw1_hold_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: clk0_c   Source: U0/OS01/SLICE_180.Q0   Loads: 173
+   No transfer within this clock domain is found
+
+Clock Domain: U0/soscout0   Source: U0/OS00/OSCInst0.OSC   Loads: 12
+   Covered under: FREQUENCY NET "U0/soscout0" 2.080000 MHz ;
+
+
+<A name="mtw1_hold_ts"></A><B><U><big>Timing summary (Hold):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1444 paths, 1 nets, and 1464 connections (65.24% coverage)
+
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary (Setup and Hold):</big></U></B>
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

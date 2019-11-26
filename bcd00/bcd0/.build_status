@@ -6,38 +6,38 @@
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
             <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Jedecgen" build_result="0" update_result="2" update_time="1573487810"/>
+            <Task name="Jedecgen" build_result="0" update_result="2" update_time="1574261268"/>
         </Milestone>
-        <Milestone name="Map" build_result="0" build_time="1573487783">
-            <Task name="Map" build_result="0" update_result="2" update_time="1573487783"/>
+        <Milestone name="Map" build_result="0" build_time="1574261232">
+            <Task name="Map" build_result="0" update_result="2" update_time="1574261232"/>
             <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="0" build_time="1573487805">
-            <Task name="PAR" build_result="0" update_result="2" update_time="1573487805"/>
-            <Task name="PARTrace" build_result="0" update_result="2" update_time="1573487806"/>
+        <Milestone name="PAR" build_result="0" build_time="1574261259">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1574261259"/>
+            <Task name="PARTrace" build_result="0" update_result="2" update_time="1574261261"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1573487781">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1573487781"/>
+        <Milestone name="Synthesis" build_result="0" build_time="1574261227">
+            <Task name="Synplify_Synthesis" build_result="0" update_result="2" update_time="1574261227"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1573487759"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1574263636"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1573487782">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1573487782"/>
+        <Milestone name="Translate" build_result="0" build_time="1574261229">
+            <Task name="Translate" build_result="0" update_result="2" update_time="1574261229"/>
         </Milestone>
-        <Report name="bcd00_bcd0.bgn" last_build_time="1573487810" last_build_size="4377"/>
-        <Report name="bcd00_bcd0.edi" last_build_time="1573487777" last_build_size="383045"/>
-        <Report name="bcd00_bcd0.jed" last_build_time="1573487810" last_build_size="1467180"/>
-        <Report name="bcd00_bcd0.ncd" last_build_time="1573487805" last_build_size="418131"/>
-        <Report name="bcd00_bcd0.ngd" last_build_time="1573487782" last_build_size="345511"/>
-        <Report name="bcd00_bcd0.twr" last_build_time="1573487806" last_build_size="61463"/>
-        <Report name="bcd00_bcd0_map.ncd" last_build_time="1573487783" last_build_size="284349"/>
+        <Report name="bcd00_bcd0.bgn" last_build_time="1574261268" last_build_size="4377"/>
+        <Report name="bcd00_bcd0.edi" last_build_time="1574261221" last_build_size="375176"/>
+        <Report name="bcd00_bcd0.jed" last_build_time="1574261268" last_build_size="1467190"/>
+        <Report name="bcd00_bcd0.ncd" last_build_time="1574261259" last_build_size="397853"/>
+        <Report name="bcd00_bcd0.ngd" last_build_time="1574261229" last_build_size="340096"/>
+        <Report name="bcd00_bcd0.twr" last_build_time="1574261261" last_build_size="61116"/>
+        <Report name="bcd00_bcd0_map.ncd" last_build_time="1574261232" last_build_size="269790"/>
     </Strategy>
 </BuildStatus>

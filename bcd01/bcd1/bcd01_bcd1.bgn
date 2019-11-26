@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Wed Nov 13 09:29:28 2019
+Wed Nov 20 10:02:40 2019
 
 
 Command: bitgen -g RamCfg:Reset -path C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd01 -w -jedec -gui -msgset C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd01/promote.xml bcd01_bcd1.ncd bcd01_bcd1.prf 

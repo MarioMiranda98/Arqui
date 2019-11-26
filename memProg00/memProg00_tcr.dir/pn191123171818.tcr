@@ -1,0 +1,14 @@
+#Start recording tcl command: 11/23/2019 15:03:59
+#Project Location: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/memProg00; Project name: memProg00
+prj_project new -name "memProg00" -impl "memProg0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/memProg00/osc00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/memProg00/div00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/memProg00/packagediv00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/memProg00/topdiv00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/memProg00/contRead00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/memProg00/decoderInst00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/memProg00/mP0.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/memProg00/packagememProg00.vhdl"
+prj_src add "C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/memProg00/toprom00.vhdl"
+#Stop recording: 11/23/2019 17:18:18

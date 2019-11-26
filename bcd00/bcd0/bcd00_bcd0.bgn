@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Nov 11 09:56:46 2019
+Wed Nov 20 08:47:43 2019
 
 
 Command: bitgen -g RamCfg:Reset -path C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00 -w -jedec -gui -msgset C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/promote.xml bcd00_bcd0.ncd bcd00_bcd0.prf 
@@ -81,6 +81,6 @@ UFM Utilization: General Purpose Flash Memory.
 Available General Purpose Flash Memory: 2046 Pages (Page 0 to Page 2045).
 Initialized UFM Pages:                     0 Page.
  
-Total CPU Time: 3 secs 
-Total REAL Time: 4 secs 
-Peak Memory Usage: 291 MB
+Total CPU Time: 4 secs 
+Total REAL Time: 5 secs 
+Peak Memory Usage: 290 MB

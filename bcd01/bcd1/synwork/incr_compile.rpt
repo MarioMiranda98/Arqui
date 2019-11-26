@@ -14,81 +14,45 @@ Hostname: LAPTOP-OVV5D9K5
 Implementation : bcd1
 Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
-Modified Files: 1
+Modified Files: 3
 FID:  path (prevtimestamp, timestamp)
-17       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38)
+3        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\coderNibbles00.vhdl (2019-11-20 09:29:12, 2019-11-20 09:59:32)
+6        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\contring00.vhdl (2019-11-20 09:56:58, 2019-11-20 09:58:57)
+10       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\mux00.vhdl (2019-11-20 09:33:04, 2019-11-20 09:59:17)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 21
+Modules that may have changed as a result of file changes: 3
 MID:  lib.cell.view
-0        work.ac1200.ac120 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-2        work.ac800.ac80 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-4        work.checkcode00.checkcode0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
 6        work.codernibbles00.codernibbles0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-8        work.compadd00.compadd0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-10       work.contiter00.contiter0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\coderNibbles00.vhdl (2019-11-20 09:29:12, 2019-11-20 09:59:32) <-- (architecture and entity definition)
 12       work.contring00.contring0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-14       work.div00.div0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-16       work.div01.div0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-18       work.init00.init0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-20       work.memprog00.memprog0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\contring00.vhdl (2019-11-20 09:56:58, 2019-11-20 09:58:57) <-- (architecture and entity definition)
 22       work.mux00.mux0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-24       work.osc00.osc0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-26       work.pc00.pc0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-28       work.readdata00.readdata0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-30       work.shift1200.shift120 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-32       work.shift800.shift80 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-34       work.sust00.sust0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-36       work.topbcd00.topbcd0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (architecture and entity definition)
-38       work.topdiv00.topdiv0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
-40       work.uc00.uc0 may have changed because the following files changed:
-                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-13 09:04:27, 2019-11-13 09:28:38) <-- (may instantiate this module)
+                        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\mux00.vhdl (2019-11-20 09:33:04, 2019-11-20 09:59:17) <-- (architecture and entity definition)
 
 *******************************************************************
-Unmodified files: 33
+Unmodified files: 31
 FID:  path (timestamp)
 0        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\ac1200.vhdl (2019-11-12 18:36:12)
 1        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\ac800.vhdl (2019-11-12 18:35:50)
 2        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\checkCode00.vhdl (2019-11-12 18:33:48)
-3        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\coderNibbles00.vhdl (2019-11-12 18:33:12)
 4        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\compadd00.vhdl (2019-11-12 18:29:20)
 5        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\contIter00.vhdl (2019-11-12 18:28:27)
-6        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\contring00.vhdl (2019-11-13 09:20:21)
-7        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\div01.vhdl (2019-11-12 18:21:59)
+7        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\div01.vhdl (2019-11-20 09:29:58)
 8        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\init00.vhdl (2019-11-12 18:26:44)
 9        C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\memProg00.vhdl (2019-11-12 18:25:25)
-10       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\mux00.vhdl (2019-11-13 09:20:56)
-11       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\packagebcd00.vhdl (2019-11-12 18:38:34)
+11       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\packagebcd00.vhdl (2019-11-20 09:30:13)
 12       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\pc00.vhdl (2019-11-12 18:21:33)
 13       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\readData00.vhdl (2019-11-12 18:24:15)
 14       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\shift1200.vhdl (2019-11-12 18:20:58)
 15       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\shift800.vhdl (2019-11-12 18:20:23)
 16       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\sust00.vhdl (2019-11-12 18:19:45)
+17       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl (2019-11-20 09:30:20)
 18       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\uc00.vhdl (2019-11-12 18:35:13)
 19       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl (2019-09-02 09:35:20)
 20       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\osc00.vhd (2019-08-29 09:30:16)
-21       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\packagediv00.vhdl (2019-11-12 18:22:16)
-22       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl (2019-11-12 18:23:13)
+21       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\packagediv00.vhdl (2019-11-20 09:31:15)
+22       C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl (2019-11-20 09:30:05)
 23       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
 24       C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (2019-04-01 08:08:08)
 25       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 08:07:44)
@@ -102,5 +66,41 @@ FID:  path (timestamp)
 33       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 08:07:44)
 
 *******************************************************************
-Unchanged modules: 0
+Unchanged modules: 36
 MID:  lib.cell.view
+0        work.ac1200.ac120
+1        work.ac1200.vhdl
+2        work.ac800.ac80
+3        work.ac800.vhdl
+4        work.checkcode00.checkcode0
+5        work.checkcode00.vhdl
+8        work.compadd00.compadd0
+9        work.compadd00.vhdl
+10       work.contiter00.contiter0
+11       work.contiter00.vhdl
+14       work.div00.div0
+15       work.div00.vhdl
+16       work.div01.div0
+17       work.div01.vhdl
+18       work.init00.init0
+19       work.init00.vhdl
+20       work.memprog00.memprog0
+21       work.memprog00.vhdl
+24       work.osc00.osc0
+25       work.osc00.vhdl
+26       work.pc00.pc0
+27       work.pc00.vhdl
+28       work.readdata00.readdata0
+29       work.readdata00.vhdl
+30       work.shift1200.shift120
+31       work.shift1200.vhdl
+32       work.shift800.shift80
+33       work.shift800.vhdl
+34       work.sust00.sust0
+35       work.sust00.vhdl
+36       work.topbcd00.topbcd0
+37       work.topbcd00.vhdl
+38       work.topdiv00.topdiv0
+39       work.topdiv00.vhdl
+40       work.uc00.uc0
+41       work.uc00.vhdl

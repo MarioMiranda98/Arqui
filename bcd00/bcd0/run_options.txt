@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version N-2018.03L-SP1-1
 #--  Project file C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\bcd0\run_options.txt
-#--  Written on Mon Nov 11 09:56:07 2019
+#--  Written on Wed Nov 20 08:46:46 2019
 
 
 #project files

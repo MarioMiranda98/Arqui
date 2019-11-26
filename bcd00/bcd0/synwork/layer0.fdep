@@ -15,7 +15,7 @@
 #CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\cpld\\lattice.vhd":1554127688
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\div00VHDL\\div00.vhdl":1567434920
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\div00VHDL\\osc00.vhd":1567089016
-#CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\div00VHDL\\packagediv00.vhdl":1573138448
+#CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\div00VHDL\\packagediv00.vhdl":1574261069
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\sust00.vhdl":1573486278
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\shift800.vhdl":1573478206
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\shift1200.vhdl":1573478376
@@ -28,14 +28,14 @@
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\contIter00.vhdl":1573487140
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\compadd00.vhdl":1573478764
 #CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1554127688
-#CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\coderNibbles00.vhdl":1573479033
+#CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\coderNibbles00.vhdl":1574261189
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\checkCode00.vhdl":1573479093
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\uc00.vhdl":1573487020
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\ac800.vhdl":1573479180
 #CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\ac1200.vhdl":1573479208
-#CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\packagebcd00.vhdl":1573487298
-#CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\div00VHDL\\topdiv00.vhdl":1573479454
-#CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\topbcd00.vhdl":1573487759
+#CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\packagebcd00.vhdl":1574261065
+#CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\div00VHDL\\topdiv00.vhdl":1574261074
+#CUR:"C:\\Users\\FAROL\\Documents\\ArquitecturaDeComputadoras3CM1\\bcd00\\topbcd00.vhdl":1574261040
 0 "C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
 1 "C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\div01.vhdl" vhdl
 2 "C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\div00.vhdl" vhdl

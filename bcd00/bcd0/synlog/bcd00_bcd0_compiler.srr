@@ -58,6 +58,11 @@ File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\packagebcd00.
 File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl changed - recompiling
 File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl changed - recompiling
 VHDL syntax check successful!
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\packagediv00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\coderNibbles00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\packagebcd00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl changed - recompiling
 @N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl":7:7:7:14|Synthesizing work.topbcd00.topbcd0.
 @W: CD638 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl":43:7:43:14|Signal sflagfff is undriven. Either assign the signal a value or remove the signal declaration.
 @N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\mux00.vhdl":8:7:8:11|Synthesizing work.mux00.mux0.
@@ -196,12 +201,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\bcd0\synwork\layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 82MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 82MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Nov 11 09:56:09 2019
+# Wed Nov 20 08:46:49 2019
 
 ###########################################################]
 
@@ -228,7 +233,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Nov 11 09:56:09 2019
+# Wed Nov 20 08:46:50 2019
 
 ###########################################################]
 
@@ -238,11 +243,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Nov 11 09:56:09 2019
+# Wed Nov 20 08:46:50 2019
 
 ###########################################################]

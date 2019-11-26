@@ -27,25 +27,25 @@ begin
     begin
        case nibbU is
           when "0000" => 
-             outU <= not ("0000001");
+             outU <= ("0000001");
           when "0001" => 
-             outU <= not ("1001111");
+             outU <= ("1001111");
           when "0010" => 
-             outU <= not ("0010010");
+             outU <= ("0010010");
           when "0011" => 
-             outU <= not ("0000110");
+             outU <= ("0000110");
           when "0100" => 
-             outU <= not ("1001100");
+             outU <= ("1001100");
           when "0101" => 
-             outU <= not ("0100100");
+             outU <= ("0100100");
           when "0110" => 
-             outU <= not ("0100000");
+             outU <= ("0100000");
           when "0111" => 
-             outU <= not ("0001111");
+             outU <= ("0001111");
           when "1000" => 
-             outU <= not ("0000000");
+             outU <= ("0000000");
           when "1001" => 
-             outU <= not ("0000100");
+             outU <= ("0000100");
           when others => outU <= not ("1111111");
        end case;
     end process pcoderU;
@@ -54,26 +54,26 @@ begin
     begin
        case nibbD is
           when "0000" => 
-             outD <= not ("0000001");
+             outD <= ("0000001");
           when "0001" => 
-             outD <= not ("1001111");
+             outD <= ("1001111");
           when "0010" => 
-             outD <= not ("0010010");
+             outD <= ("0010010");
           when "0011" => 
-             outD <= not ("0000110");
+             outD <= ("0000110");
           when "0100" => 
-             outD <= not ("1001100");
+             outD <= ("1001100");
           when "0101" => 
-             outD <= not ("0100100");
+             outD <= ("0100100");
           when "0110" => 
-             outD <= not ("0100000");
+             outD <= ("0100000");
           when "0111" => 
-             outD <= not ("0001111");
+             outD <= ("0001111");
           when "1000" => 
-             outD <= not ("0000000");
+             outD <= ("0000000");
           when "1001" => 
-             outD <= not ("0000100");
-          when others => outD <= not ("1111111");
+             outD <= ("0000100");
+          when others => outD <= ("1111111");
        end case;
     end process pcoderD;
 
@@ -81,26 +81,26 @@ begin
     begin
        case nibbC is
           when "0000" => 
-             outC <= not ("0000001");
+             outC <= ("0000001");
           when "0001" => 
-             outC <= not ("1001111");
+             outC <= ("1001111");
           when "0010" => 
-             outC <= not ("0010010");
+             outC <= ("0010010");
           when "0011" => 
-             outC <= not ("0000110");
+             outC <= ("0000110");
           when "0100" => 
-             outC <= not ("1001100");
+             outC <= ("1001100");
           when "0101" => 
-             outC <= not ("0100100");
+             outC <= ("0100100");
           when "0110" => 
-             outC <= not ("0100000");
+             outC <= ("0100000");
           when "0111" => 
-             outC <= not ("0001111");
+             outC <= ("0001111");
           when "1000" => 
-             outC <= not ("0000000");
+             outC <= ("0000000");
           when "1001" => 
-             outC <= not ("0000100");
-          when others => outC <= not ("1111111");
+             outC <= ("0000100");
+          when others => outC <= ("1111111");
        end case;
     end process pcoderC;
 end coderNibbles0;

@@ -16,7 +16,7 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
-Mapped on:  11/11/19  09:56:22
+Mapped on:  11/20/19  08:47:10
 
 Design Summary
 --------------
@@ -24,12 +24,12 @@ Design Summary
    Number of registers:    185 out of  7209 (3%)
       PFU registers:          172 out of  6864 (3%)
       PIO registers:           13 out of   345 (4%)
-   Number of SLICEs:       180 out of  3432 (5%)
-      SLICEs as Logic/ROM:    180 out of  3432 (5%)
+   Number of SLICEs:       166 out of  3432 (5%)
+      SLICEs as Logic/ROM:    166 out of  3432 (5%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:         23 out of  3432 (1%)
-   Number of LUT4s:        350 out of  6864 (5%)
-      Number used as logic LUTs:        304
+   Number of LUT4s:        325 out of  6864 (5%)
+      Number used as logic LUTs:        279
       Number used as distributed RAM:     0
       Number used as ripple logic:       46
       Number used as shift registers:     0
@@ -66,7 +66,7 @@ Design Summary
 
 
 
-Design:  topbcd00                                      Date:  11/11/19  09:56:22
+Design:  topbcd00                                      Date:  11/20/19  08:47:10
 
 Design Summary (cont)
 ---------------------
@@ -75,31 +75,33 @@ Design Summary (cont)
      )
    Number of Clock Enables:  11
      Net outDataLD_1ce[0]: 8 loads, 0 LSLICEs
-     Net BCD01/aux0_RNO_0: 1 loads, 1 LSLICEs
+     Net BCD01/aux0_0_sqmuxa_i: 1 loads, 1 LSLICEs
+     Net BCD04/aux_RNO_0: 1 loads, 1 LSLICEs
      Net BCD04/outAC12ca_0_sqmuxa: 6 loads, 6 LSLICEs
      Net BCD04/outAC12ca_1ce[0]: 6 loads, 6 LSLICEs
-     Net BCD04/aux_0_sqmuxa_i_0: 1 loads, 1 LSLICEs
      Net BCD06/outACs12_1ce[10]: 6 loads, 6 LSLICEs
      Net BCD03/outAC12su_1ce[0]: 6 loads, 6 LSLICEs
      Net outFlagpc0_c: 2 loads, 2 LSLICEs
      Net BCD08/aux_0_sqmuxa: 6 loads, 6 LSLICEs
      Net BCD07/aux_0_sqmuxa: 4 loads, 4 LSLICEs
      Net BCD05/outACs8_1ce[1]: 4 loads, 4 LSLICEs
-   Number of LSRs:  23
+   Number of LSRs:  25
      Net BCD03.aux: 2 loads, 1 LSLICEs
      Net BCD13.pcheck.outflagch2_ac0_3_i: 1 loads, 0 LSLICEs
-     Net outcodePM0_c[2]: 4 loads, 4 LSLICEs
-     Net outFlagPM0_c: 2 loads, 2 LSLICEs
-     Net BCD01/N_484: 1 loads, 1 LSLICEs
-     Net outcodePM0_c[1]: 4 loads, 4 LSLICEs
-     Net outcodePM0_c[0]: 4 loads, 4 LSLICEs
-     Net BCD01/fb: 1 loads, 1 LSLICEs
+     Net outcodePM0_c[1]: 5 loads, 5 LSLICEs
+     Net outcodePM0_c[2]: 1 loads, 1 LSLICEs
      Net BCD01/aux1_0_sqmuxa: 1 loads, 1 LSLICEs
+     Net outFlagPM0_c: 2 loads, 2 LSLICEs
+     Net BCD01/fb: 1 loads, 1 LSLICEs
+     Net BCD01.outAC8init_clc_0_i: 1 loads, 1 LSLICEs
      Net BCD04/aux: 1 loads, 1 LSLICEs
+     Net BCD04/N_627: 1 loads, 1 LSLICEs
+     Net N_425_1: 1 loads, 1 LSLICEs
      Net BCD06/aux: 1 loads, 1 LSLICEs
+     Net BCD03/fb: 1 loads, 1 LSLICEs
      Net BCD14/sintRing[3]: 1 loads, 0 LSLICEs
      Net BCD11/m2_i_a3: 1 loads, 1 LSLICEs
-     Net BCD11/outpc_704: 3 loads, 3 LSLICEs
+     Net BCD11/outpc_707: 3 loads, 3 LSLICEs
      Net BCD11.ppc.outpc14: 1 loads, 1 LSLICEs
      Net F1F2F3uc0_c_i[1]: 1 loads, 1 LSLICEs
      Net enable0_c: 2 loads, 2 LSLICEs
@@ -111,31 +113,31 @@ Design Summary (cont)
      Net BCD00/D01/oscout_0_sqmuxa_i_a7_RNI9I351: 12 loads, 12 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net outcodePM0_c[2]: 28 loads
-     Net outcodePM0_c[0]: 26 loads
-     Net outcodePM0_c[1]: 24 loads
-     Net outFlagPM0_c: 21 loads
-     Net sAC12a[10]: 16 loads
-     Net sAC12a[1]: 16 loads
-     Net sAC12a[2]: 16 loads
-     Net sAC12a[5]: 16 loads
-     Net sAC12a[6]: 16 loads
-     Net sAC12a[9]: 16 loads
+     Net outcodePM0_c[1]: 30 loads
+     Net outcodePM0_c[2]: 23 loads
+     Net outFlagPM0_c: 22 loads
+     Net outcodePM0_c[0]: 19 loads
+     Net outFlagIterA0_c: 15 loads
+     Net outAC12ca_cl[11]: 14 loads
+     Net outAC12su_cl[11]: 14 loads
+     Net sAC12a[1]: 13 loads
+     Net sAC12a[2]: 13 loads
+     Net sAC12a[3]: 13 loads
 
 
 
-
-   Number of warnings:  28
 
                                     Page 2
 
 
 
 
-Design:  topbcd00                                      Date:  11/11/19  09:56:22
+Design:  topbcd00                                      Date:  11/20/19  08:47:10
 
- (cont)
--------
+
+
+
+   Number of warnings:  28
    Number of errors:    0
      
 
@@ -180,69 +182,69 @@ WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
      00.lpf(15): Semantic error in "LOCATE COMP "outBCD0[0]" SITE "85" ;": COMP
      "outBCD0[0]" cannot be found in design. This preference has been disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(25): Semantic error in "LOCATE COMP "outAC120[10]" SITE "52" ;":
+     00.lpf(17): Semantic error in "LOCATE COMP "outAC120[10]" SITE "52" ;":
      COMP "outAC120[10]" cannot be found in design. This preference has been
      disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(26): Semantic error in "LOCATE COMP "outAC120[9]" SITE "50" ;": COMP
+     00.lpf(18): Semantic error in "LOCATE COMP "outAC120[9]" SITE "50" ;": COMP
      "outAC120[9]" cannot be found in design. This preference has been disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(27): Semantic error in "LOCATE COMP "outAC120[8]" SITE "48" ;": COMP
+     00.lpf(19): Semantic error in "LOCATE COMP "outAC120[8]" SITE "48" ;": COMP
      "outAC120[8]" cannot be found in design. This preference has been disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(28): Semantic error in "LOCATE COMP "outAC120[7]" SITE "49" ;": COMP
-     "outAC120[7]" cannot be found in design. This preference has been disabled.
 
                                     Page 3
 
 
 
 
-Design:  topbcd00                                      Date:  11/11/19  09:56:22
+Design:  topbcd00                                      Date:  11/20/19  08:47:10
 
 Design Errors/Warnings (cont)
 -----------------------------
+     00.lpf(20): Semantic error in "LOCATE COMP "outAC120[7]" SITE "49" ;": COMP
+     "outAC120[7]" cannot be found in design. This preference has been disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(29): Semantic error in "LOCATE COMP "outAC120[6]" SITE "47" ;": COMP
+     00.lpf(21): Semantic error in "LOCATE COMP "outAC120[6]" SITE "47" ;": COMP
      "outAC120[6]" cannot be found in design. This preference has been disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(30): Semantic error in "LOCATE COMP "outAC120[5]" SITE "45" ;": COMP
+     00.lpf(22): Semantic error in "LOCATE COMP "outAC120[5]" SITE "45" ;": COMP
      "outAC120[5]" cannot be found in design. This preference has been disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(31): Semantic error in "LOCATE COMP "outAC120[4]" SITE "43" ;": COMP
+     00.lpf(23): Semantic error in "LOCATE COMP "outAC120[4]" SITE "43" ;": COMP
      "outAC120[4]" cannot be found in design. This preference has been disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(32): Semantic error in "LOCATE COMP "outAC120[3]" SITE "42" ;": COMP
+     00.lpf(24): Semantic error in "LOCATE COMP "outAC120[3]" SITE "42" ;": COMP
      "outAC120[3]" cannot be found in design. This preference has been disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(33): Semantic error in "LOCATE COMP "outAC120[2]" SITE "44" ;": COMP
+     00.lpf(25): Semantic error in "LOCATE COMP "outAC120[2]" SITE "44" ;": COMP
      "outAC120[2]" cannot be found in design. This preference has been disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(34): Semantic error in "LOCATE COMP "outAC120[1]" SITE "39" ;": COMP
+     00.lpf(26): Semantic error in "LOCATE COMP "outAC120[1]" SITE "39" ;": COMP
      "outAC120[1]" cannot be found in design. This preference has been disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(35): Semantic error in "LOCATE COMP "outAC120[0]" SITE "41" ;": COMP
+     00.lpf(27): Semantic error in "LOCATE COMP "outAC120[0]" SITE "41" ;": COMP
      "outAC120[0]" cannot be found in design. This preference has been disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(36): Semantic error in "LOCATE COMP "outCode0[3]" SITE "99" ;": COMP
+     00.lpf(28): Semantic error in "LOCATE COMP "outCode0[3]" SITE "99" ;": COMP
      "outCode0[3]" cannot be found in design. This preference has been disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(37): Semantic error in "LOCATE COMP "outCode0[2]" SITE "100" ;":
+     00.lpf(29): Semantic error in "LOCATE COMP "outCode0[2]" SITE "100" ;":
      COMP "outCode0[2]" cannot be found in design. This preference has been
      disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(38): Semantic error in "LOCATE COMP "outCode0[1]" SITE "104" ;":
+     00.lpf(30): Semantic error in "LOCATE COMP "outCode0[1]" SITE "104" ;":
      COMP "outCode0[1]" cannot be found in design. This preference has been
      disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(39): Semantic error in "LOCATE COMP "outCode0[0]" SITE "105" ;":
+     00.lpf(31): Semantic error in "LOCATE COMP "outCode0[0]" SITE "105" ;":
      COMP "outCode0[0]" cannot be found in design. This preference has been
      disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(40): Semantic error in "LOCATE COMP "outFlagPC0" SITE "106" ;": COMP
+     00.lpf(32): Semantic error in "LOCATE COMP "outFlagPC0" SITE "106" ;": COMP
      "outFlagPC0" cannot be found in design. This preference has been disabled.
 WARNING - map: C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd
-     00.lpf(41): Semantic error in "LOCATE COMP "outFlagMP0" SITE "107" ;": COMP
+     00.lpf(33): Semantic error in "LOCATE COMP "outFlagMP0" SITE "107" ;": COMP
      "outFlagMP0" cannot be found in design. This preference has been disabled.
 
 IO (PIO) Attributes
@@ -256,18 +258,18 @@ IO (PIO) Attributes
 +---------------------+-----------+-----------+------------+
 | outACsust120[0]     | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| clk00               | OUTPUT    | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
 
                                     Page 4
 
 
 
 
-Design:  topbcd00                                      Date:  11/11/19  09:56:22
+Design:  topbcd00                                      Date:  11/20/19  08:47:10
 
 IO (PIO) Attributes (cont)
 --------------------------
+| clk00               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
 | cdiv00[0]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | outtransist0[3]     | OUTPUT    | LVCMOS25  |            |
@@ -322,18 +324,18 @@ IO (PIO) Attributes (cont)
 +---------------------+-----------+-----------+------------+
 | F1F2F3uc0[0]        | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| outFlagIterB0       | OUTPUT    | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
 
                                     Page 5
 
 
 
 
-Design:  topbcd00                                      Date:  11/11/19  09:56:22
+Design:  topbcd00                                      Date:  11/20/19  08:47:10
 
 IO (PIO) Attributes (cont)
 --------------------------
+| outFlagIterB0       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
 | outFlagIterA0       | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | outFlagSustIter0    | OUTPUT    | LVCMOS25  | OUT        |
@@ -388,18 +390,18 @@ IO (PIO) Attributes (cont)
 +---------------------+-----------+-----------+------------+
 | outFlagAC80         | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| outFlag80           | BIDIR     | LVCMOS25  | IN         |
-+---------------------+-----------+-----------+------------+
 
                                     Page 6
 
 
 
 
-Design:  topbcd00                                      Date:  11/11/19  09:56:22
+Design:  topbcd00                                      Date:  11/20/19  08:47:10
 
 IO (PIO) Attributes (cont)
 --------------------------
+| outFlag80           | BIDIR     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
 | inData0[7]          | INPUT     | LVCMOS25  | IN         |
 +---------------------+-----------+-----------+------------+
 | inData0[6]          | INPUT     | LVCMOS25  | IN         |
@@ -454,25 +456,25 @@ Block BCD07/GND undriven or does not drive anything - clipped.
 Block BCD07/VCC undriven or does not drive anything - clipped.
 Block BCD08/GND undriven or does not drive anything - clipped.
 Block BCD08/VCC undriven or does not drive anything - clipped.
-Block BCD09/VCC undriven or does not drive anything - clipped.
-Block BCD09/GND undriven or does not drive anything - clipped.
 
                                     Page 7
 
 
 
 
-Design:  topbcd00                                      Date:  11/11/19  09:56:22
+Design:  topbcd00                                      Date:  11/20/19  08:47:10
 
 Removed logic (cont)
 --------------------
+Block BCD09/VCC undriven or does not drive anything - clipped.
+Block BCD09/GND undriven or does not drive anything - clipped.
 Block BCD10/GND undriven or does not drive anything - clipped.
 Block BCD11/VCC undriven or does not drive anything - clipped.
 Block BCD11/GND undriven or does not drive anything - clipped.
-Block BCD12/GND undriven or does not drive anything - clipped.
 Block BCD12/VCC undriven or does not drive anything - clipped.
 Block BCD13/GND undriven or does not drive anything - clipped.
 Block BCD14/VCC undriven or does not drive anything - clipped.
+Block BCD15/GND undriven or does not drive anything - clipped.
 Block BCD16/GND undriven or does not drive anything - clipped.
 Block BCD03/VCC undriven or does not drive anything - clipped.
 Block BCD03/GND undriven or does not drive anything - clipped.
@@ -481,13 +483,12 @@ Block BCD06/GND undriven or does not drive anything - clipped.
 Block BCD04/VCC undriven or does not drive anything - clipped.
 Block BCD04/GND undriven or does not drive anything - clipped.
 Block BCD01/VCC undriven or does not drive anything - clipped.
+Block BCD01/GND undriven or does not drive anything - clipped.
 Signal enable0_c_i was merged into signal enable0_c
 Signal BCD14.sintRing_i[3] was merged into signal BCD14/sintRing[3]
-Signal BCD01/fb_am undriven or does not drive anything - clipped.
 Signal BCD00/D00/GND undriven or does not drive anything - clipped.
 Signal BCD00/D01/GND undriven or does not drive anything - clipped.
 Signal BCD00/D02/GND undriven or does not drive anything - clipped.
-Signal BCD01/GND undriven or does not drive anything - clipped.
 Signal VCC undriven or does not drive anything - clipped.
 Signal BCD00/D00/OSCinst0_SEDSTDBY undriven or does not drive anything -
      clipped.
@@ -503,11 +504,9 @@ Signal BCD00/D02/un1_sdiv1_cry_19_0_COUT undriven or does not drive anything -
      clipped.
 Block enable0_pad_RNIB6SA was optimized away.
 Block BCD14/sintRing_RNILIDF[3] was optimized away.
-Block BCD01/outAC12init_1_6_.fb_am was optimized away.
 Block BCD00/D00/GND was optimized away.
 Block BCD00/D01/GND was optimized away.
 Block BCD00/D02/GND was optimized away.
-Block BCD01/GND was optimized away.
 
      
 
@@ -523,12 +522,13 @@ OSC 1:                                     Pin/Node Value
 
 
 
+
                                     Page 8
 
 
 
 
-Design:  topbcd00                                      Date:  11/11/19  09:56:22
+Design:  topbcd00                                      Date:  11/20/19  08:47:10
 
 ASIC Components
 ---------------
@@ -539,9 +539,9 @@ Instance Name: BCD00/D00/OSCinst0
 Run Time and Memory Usage
 -------------------------
 
-   Total CPU Time: 0 secs  
-   Total REAL Time: 0 secs  
-   Peak Memory Usage: 60 MB
+   Total CPU Time: 1 secs  
+   Total REAL Time: 2 secs  
+   Peak Memory Usage: 61 MB
         
 
 

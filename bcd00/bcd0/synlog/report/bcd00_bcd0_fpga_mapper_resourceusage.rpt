@@ -9,8 +9,8 @@ Details:
 BB:             2
 CCU2D:          23
 FD1P3AX:        79
-FD1S3AX:        12
-FD1S3IX:        75
+FD1S3AX:        15
+FD1S3IX:        72
 FD1S3JX:        6
 GSR:            1
 IB:             19
@@ -20,11 +20,11 @@ INV:            5
 OB:             45
 OBZ:            12
 OFS1P3IX:       1
-ORCALUT4:       301
+ORCALUT4:       276
 OSCH:           1
-PFUMX:          7
+PFUMX:          11
 PUR:            1
 VHI:            15
 VLO:            18
-false:          2
-true:           5
+false:          3
+true:           6

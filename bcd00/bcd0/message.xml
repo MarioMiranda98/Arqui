@@ -92,138 +92,138 @@
         <Message>
             <ID>1100679</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(25): Semantic error in &quot;LOCATE COMP &quot;outAC120[10]&quot; SITE &quot;52&quot; ;&quot;: </Dynamic>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(17): Semantic error in &quot;LOCATE COMP &quot;outAC120[10]&quot; SITE &quot;52&quot; ;&quot;: </Dynamic>
             <Dynamic>outAC120[10]</Dynamic>
+            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(18): Semantic error in &quot;LOCATE COMP &quot;outAC120[9]&quot; SITE &quot;50&quot; ;&quot;: </Dynamic>
+            <Dynamic>outAC120[9]</Dynamic>
+            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(19): Semantic error in &quot;LOCATE COMP &quot;outAC120[8]&quot; SITE &quot;48&quot; ;&quot;: </Dynamic>
+            <Dynamic>outAC120[8]</Dynamic>
+            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
+            <Navigation>19</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(20): Semantic error in &quot;LOCATE COMP &quot;outAC120[7]&quot; SITE &quot;49&quot; ;&quot;: </Dynamic>
+            <Dynamic>outAC120[7]</Dynamic>
+            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
+            <Navigation>20</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(21): Semantic error in &quot;LOCATE COMP &quot;outAC120[6]&quot; SITE &quot;47&quot; ;&quot;: </Dynamic>
+            <Dynamic>outAC120[6]</Dynamic>
+            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
+            <Navigation>21</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(22): Semantic error in &quot;LOCATE COMP &quot;outAC120[5]&quot; SITE &quot;45&quot; ;&quot;: </Dynamic>
+            <Dynamic>outAC120[5]</Dynamic>
+            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
+            <Navigation>22</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(23): Semantic error in &quot;LOCATE COMP &quot;outAC120[4]&quot; SITE &quot;43&quot; ;&quot;: </Dynamic>
+            <Dynamic>outAC120[4]</Dynamic>
+            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
+            <Navigation>23</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(24): Semantic error in &quot;LOCATE COMP &quot;outAC120[3]&quot; SITE &quot;42&quot; ;&quot;: </Dynamic>
+            <Dynamic>outAC120[3]</Dynamic>
+            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
+            <Navigation>24</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(25): Semantic error in &quot;LOCATE COMP &quot;outAC120[2]&quot; SITE &quot;44&quot; ;&quot;: </Dynamic>
+            <Dynamic>outAC120[2]</Dynamic>
             <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
             <Navigation>25</Navigation>
         </Message>
         <Message>
             <ID>1100679</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(26): Semantic error in &quot;LOCATE COMP &quot;outAC120[9]&quot; SITE &quot;50&quot; ;&quot;: </Dynamic>
-            <Dynamic>outAC120[9]</Dynamic>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(26): Semantic error in &quot;LOCATE COMP &quot;outAC120[1]&quot; SITE &quot;39&quot; ;&quot;: </Dynamic>
+            <Dynamic>outAC120[1]</Dynamic>
             <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
             <Navigation>26</Navigation>
         </Message>
         <Message>
             <ID>1100679</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(27): Semantic error in &quot;LOCATE COMP &quot;outAC120[8]&quot; SITE &quot;48&quot; ;&quot;: </Dynamic>
-            <Dynamic>outAC120[8]</Dynamic>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(27): Semantic error in &quot;LOCATE COMP &quot;outAC120[0]&quot; SITE &quot;41&quot; ;&quot;: </Dynamic>
+            <Dynamic>outAC120[0]</Dynamic>
             <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
             <Navigation>27</Navigation>
         </Message>
         <Message>
             <ID>1100679</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(28): Semantic error in &quot;LOCATE COMP &quot;outAC120[7]&quot; SITE &quot;49&quot; ;&quot;: </Dynamic>
-            <Dynamic>outAC120[7]</Dynamic>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(28): Semantic error in &quot;LOCATE COMP &quot;outCode0[3]&quot; SITE &quot;99&quot; ;&quot;: </Dynamic>
+            <Dynamic>outCode0[3]</Dynamic>
             <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
             <Navigation>28</Navigation>
         </Message>
         <Message>
             <ID>1100679</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(29): Semantic error in &quot;LOCATE COMP &quot;outAC120[6]&quot; SITE &quot;47&quot; ;&quot;: </Dynamic>
-            <Dynamic>outAC120[6]</Dynamic>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(29): Semantic error in &quot;LOCATE COMP &quot;outCode0[2]&quot; SITE &quot;100&quot; ;&quot;: </Dynamic>
+            <Dynamic>outCode0[2]</Dynamic>
             <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
             <Navigation>29</Navigation>
         </Message>
         <Message>
             <ID>1100679</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(30): Semantic error in &quot;LOCATE COMP &quot;outAC120[5]&quot; SITE &quot;45&quot; ;&quot;: </Dynamic>
-            <Dynamic>outAC120[5]</Dynamic>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(30): Semantic error in &quot;LOCATE COMP &quot;outCode0[1]&quot; SITE &quot;104&quot; ;&quot;: </Dynamic>
+            <Dynamic>outCode0[1]</Dynamic>
             <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
             <Navigation>30</Navigation>
         </Message>
         <Message>
             <ID>1100679</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(31): Semantic error in &quot;LOCATE COMP &quot;outAC120[4]&quot; SITE &quot;43&quot; ;&quot;: </Dynamic>
-            <Dynamic>outAC120[4]</Dynamic>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(31): Semantic error in &quot;LOCATE COMP &quot;outCode0[0]&quot; SITE &quot;105&quot; ;&quot;: </Dynamic>
+            <Dynamic>outCode0[0]</Dynamic>
             <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
             <Navigation>31</Navigation>
         </Message>
         <Message>
             <ID>1100679</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(32): Semantic error in &quot;LOCATE COMP &quot;outAC120[3]&quot; SITE &quot;42&quot; ;&quot;: </Dynamic>
-            <Dynamic>outAC120[3]</Dynamic>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(32): Semantic error in &quot;LOCATE COMP &quot;outFlagPC0&quot; SITE &quot;106&quot; ;&quot;: </Dynamic>
+            <Dynamic>outFlagPC0</Dynamic>
             <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
             <Navigation>32</Navigation>
         </Message>
         <Message>
             <ID>1100679</ID>
             <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(33): Semantic error in &quot;LOCATE COMP &quot;outAC120[2]&quot; SITE &quot;44&quot; ;&quot;: </Dynamic>
-            <Dynamic>outAC120[2]</Dynamic>
-            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
-            <Navigation>33</Navigation>
-        </Message>
-        <Message>
-            <ID>1100679</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(34): Semantic error in &quot;LOCATE COMP &quot;outAC120[1]&quot; SITE &quot;39&quot; ;&quot;: </Dynamic>
-            <Dynamic>outAC120[1]</Dynamic>
-            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
-            <Navigation>34</Navigation>
-        </Message>
-        <Message>
-            <ID>1100679</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(35): Semantic error in &quot;LOCATE COMP &quot;outAC120[0]&quot; SITE &quot;41&quot; ;&quot;: </Dynamic>
-            <Dynamic>outAC120[0]</Dynamic>
-            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
-            <Navigation>35</Navigation>
-        </Message>
-        <Message>
-            <ID>1100679</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(36): Semantic error in &quot;LOCATE COMP &quot;outCode0[3]&quot; SITE &quot;99&quot; ;&quot;: </Dynamic>
-            <Dynamic>outCode0[3]</Dynamic>
-            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
-            <Navigation>36</Navigation>
-        </Message>
-        <Message>
-            <ID>1100679</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(37): Semantic error in &quot;LOCATE COMP &quot;outCode0[2]&quot; SITE &quot;100&quot; ;&quot;: </Dynamic>
-            <Dynamic>outCode0[2]</Dynamic>
-            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
-            <Navigation>37</Navigation>
-        </Message>
-        <Message>
-            <ID>1100679</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(38): Semantic error in &quot;LOCATE COMP &quot;outCode0[1]&quot; SITE &quot;104&quot; ;&quot;: </Dynamic>
-            <Dynamic>outCode0[1]</Dynamic>
-            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
-            <Navigation>38</Navigation>
-        </Message>
-        <Message>
-            <ID>1100679</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(39): Semantic error in &quot;LOCATE COMP &quot;outCode0[0]&quot; SITE &quot;105&quot; ;&quot;: </Dynamic>
-            <Dynamic>outCode0[0]</Dynamic>
-            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
-            <Navigation>39</Navigation>
-        </Message>
-        <Message>
-            <ID>1100679</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(40): Semantic error in &quot;LOCATE COMP &quot;outFlagPC0&quot; SITE &quot;106&quot; ;&quot;: </Dynamic>
-            <Dynamic>outFlagPC0</Dynamic>
-            <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
-            <Navigation>40</Navigation>
-        </Message>
-        <Message>
-            <ID>1100679</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(41): Semantic error in &quot;LOCATE COMP &quot;outFlagMP0&quot; SITE &quot;107&quot; ;&quot;: </Dynamic>
+            <Dynamic>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf(33): Semantic error in &quot;LOCATE COMP &quot;outFlagMP0&quot; SITE &quot;107&quot; ;&quot;: </Dynamic>
             <Dynamic>outFlagMP0</Dynamic>
             <Navigation>C:/Users/FAROL/Documents/ArquitecturaDeComputadoras3CM1/bcd00/bcd00.lpf</Navigation>
-            <Navigation>41</Navigation>
+            <Navigation>33</Navigation>
         </Message>
     </Task>
     <Task name="Translate">

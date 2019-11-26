@@ -57,7 +57,9 @@ File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\packagebcd00.
 File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl changed - recompiling
 File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl changed - recompiling
 VHDL syntax check successful!
-File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\mux00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\contring00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\coderNibbles00.vhdl changed - recompiling
 @N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\topbcd00.vhdl":7:7:7:14|Synthesizing work.topbcd00.topbcd0.
 @N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd01\mux00.vhdl":8:7:8:11|Synthesizing work.mux00.mux0.
 Post processing for work.mux00.mux0
@@ -210,7 +212,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Nov 13 09:28:47 2019
+# Wed Nov 20 10:02:14 2019
 
 ###########################################################]
 
@@ -237,7 +239,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Nov 13 09:28:47 2019
+# Wed Nov 20 10:02:14 2019
 
 ###########################################################]
 
@@ -247,11 +249,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Nov 13 09:28:47 2019
+# Wed Nov 20 10:02:14 2019
 
 ###########################################################]

@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: LAPTOP-OVV5D9K5
 
-# Mon Nov 11 09:56:08 2019
+# Wed Nov 20 08:46:46 2019
 
 #Implementation: bcd0
 
@@ -67,6 +67,11 @@ File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\packagebcd00.
 File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl changed - recompiling
 File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl changed - recompiling
 VHDL syntax check successful!
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\packagediv00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\coderNibbles00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\packagebcd00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\div00VHDL\topdiv00.vhdl changed - recompiling
+File C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl changed - recompiling
 @N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl":7:7:7:14|Synthesizing work.topbcd00.topbcd0.
 @W: CD638 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\topbcd00.vhdl":43:7:43:14|Signal sflagfff is undriven. Either assign the signal a value or remove the signal declaration.
 @N: CD630 :"C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\mux00.vhdl":8:7:8:11|Synthesizing work.mux00.mux0.
@@ -205,12 +210,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\bcd0\synwork\layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 82MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 82MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Nov 11 09:56:09 2019
+# Wed Nov 20 08:46:49 2019
 
 ###########################################################]
 
@@ -237,7 +242,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Nov 11 09:56:09 2019
+# Wed Nov 20 08:46:50 2019
 
 ###########################################################]
 
@@ -247,12 +252,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Nov 11 09:56:09 2019
+# Wed Nov 20 08:46:50 2019
 
 ###########################################################]
 
@@ -279,12 +284,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Nov 11 09:56:11 2019
+# Wed Nov 20 08:46:52 2019
 
 ###########################################################]
 Premap Report
 
-# Mon Nov 11 09:56:11 2019
+# Wed Nov 20 08:46:53 2019
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -330,7 +335,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: MH105 |UMR3 is only supported for HAPS-80.
 syn_allowed_resources : blockrams=26  set on top level netlist topbcd00
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
 
 
 
@@ -389,27 +394,27 @@ Clock Tree ID     Driving Element            Drive Element Type     Unconverted 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
 
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 144MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 144MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Nov 11 09:56:12 2019
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Wed Nov 20 08:46:55 2019
 
 ###########################################################]
 Map & Optimize Report
 
-# Mon Nov 11 09:56:13 2019
+# Wed Nov 20 08:46:56 2019
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -576,53 +581,53 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 143MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 147MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 146MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 147MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 146MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 148MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 147MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 148MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 147MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 148MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 147MB)
 
 @N: MO106 :"c:\users\farol\documents\arquitecturadecomputadoras3cm1\bcd00\uc00.vhdl":39:5:39:9|Found ROM BCD10.F1F2F3uc_1[2:0] (in view: work.topbcd00(topbcd0)) with 16 words by 3 bits.
 
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 148MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 147MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 170MB)
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 154MB peak: 158MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:02s		   468.81ns		 318 /       185
+   1		0h:00m:03s		   468.81ns		 290 /       185
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 170MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 154MB peak: 158MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 159MB peak: 170MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 154MB peak: 158MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 124MB peak: 170MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 119MB peak: 158MB)
 
 Writing Analyst data base C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\bcd0\synwork\bcd00_bcd0_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 158MB peak: 170MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 153MB peak: 158MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\FAROL\Documents\ArquitecturaDeComputadoras3CM1\bcd00\bcd0\bcd00_bcd0.edi
 N-2018.03L-SP1-1
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 162MB peak: 170MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 157MB peak: 159MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 162MB peak: 170MB)
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 157MB peak: 159MB)
 
 @W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net BCD00.D00.sclk.
 @N: MT615 |Found clock div00|oscout_derived_clock with period 480.77ns 
@@ -630,7 +635,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Mon Nov 11 09:56:18 2019
+# Timing Report written on Wed Nov 20 08:47:02 2019
 #
 
 
@@ -654,7 +659,7 @@ Worst slack in design: 466.716
                                  Requested     Estimated      Requested     Estimated                 Clock                                           Clock              
 Starting Clock                   Frequency     Frequency      Period        Period        Slack       Type                                            Group              
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-div00|oscout_derived_clock       2.1 MHz       283.4 MHz      480.769       3.529         954.480     derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0
+div00|oscout_derived_clock       2.1 MHz       283.5 MHz      480.769       3.527         954.484     derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0
 div01|outdiv1_derived_clock      2.1 MHz       1083.1 MHz     480.769       0.923         959.692     derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0
 osc00|osc_int_inferred_clock     2.1 MHz       71.2 MHz       480.769       14.053        466.716     inferred                                        Inferred_clkgroup_0
 =========================================================================================================================================================================
@@ -671,7 +676,7 @@ Clocks                                                      |    rise  to  rise 
 Starting                      Ending                        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  480.769     466.716  |  No paths    -      |  No paths    -      |  No paths    -    
-div00|oscout_derived_clock    div00|oscout_derived_clock    |  480.769     954.480  |  No paths    -      |  No paths    -      |  No paths    -    
+div00|oscout_derived_clock    div00|oscout_derived_clock    |  480.769     954.484  |  No paths    -      |  No paths    -      |  No paths    -    
 div01|outdiv1_derived_clock   div01|outdiv1_derived_clock   |  480.769     959.692  |  No paths    -      |  No paths    -      |  No paths    -    
 ====================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
@@ -699,16 +704,16 @@ Starting Points with Worst Slack
 Instance                 Reference                      Type         Pin     Net                 Time        Slack  
                          Clock                                                                                      
 --------------------------------------------------------------------------------------------------------------------
-BCD08.outFlagac12        div00|oscout_derived_clock     FD1S3IX      Q       outFlagAC120_c      1.232       954.480
+BCD08.outFlagac12        div00|oscout_derived_clock     FD1S3IX      Q       outFlagAC120_c      1.228       954.484
 BCD07.outFlagac8         div00|oscout_derived_clock     FD1S3IX      Q       outFlagAC80_c       1.188       954.524
 BCD13_outFlagchio        div00|oscout_derived_clock     IFS1P3IX     Q       outFlagch0_c        1.228       954.620
 BCD09.outFlagIterB       div00|oscout_derived_clock     FD1S3IX      Q       outFlagIterB0_c     1.180       956.003
-BCD12.outcodePM_1[0]     div00|oscout_derived_clock     FD1P3AX      Q       outcodePM0_c[0]     1.305       956.974
-BCD12.outcodePM_1[1]     div00|oscout_derived_clock     FD1P3AX      Q       outcodePM0_c[1]     1.296       956.984
-BCD12.outcodePM_1[2]     div00|oscout_derived_clock     FD1P3AX      Q       outcodePM0_c[2]     1.309       957.003
-BCD12.outFlagPM          div00|oscout_derived_clock     FD1S3AX      Q       outFlagPM0_c        1.272       957.008
+BCD12.outcodePM_1[2]     div00|oscout_derived_clock     FD1P3AX      Q       outcodePM0_c[2]     1.288       957.046
+BCD12.outcodePM_1[0]     div00|oscout_derived_clock     FD1P3AX      Q       outcodePM0_c[0]     1.272       957.062
 BCD09.outFlagIterA       div00|oscout_derived_clock     FD1S3IX      Q       outFlagIterA0_c     1.260       957.092
-BCD01.aux0               div00|oscout_derived_clock     FD1P3AX      Q       aux0                1.044       957.268
+BCD12.outcodePM_1[1]     div00|oscout_derived_clock     FD1P3AX      Q       outcodePM0_c[1]     1.317       957.165
+BCD12.outFlagPM          div00|oscout_derived_clock     FD1S3AX      Q       outFlagPM0_c        1.276       957.205
+BCD11.outpc[0]           div00|oscout_derived_clock     FD1S3IX      Q       outPC0_c[0]         1.188       957.613
 ====================================================================================================================
 
 
@@ -719,16 +724,16 @@ Ending Points with Worst Slack
 Instance                 Reference                      Type        Pin     Net                        Time         Slack  
                          Clock                                                                                             
 ---------------------------------------------------------------------------------------------------------------------------
-BCD11.outpc[4]           div00|oscout_derived_clock     FD1S3IX     D       un1_outpc_axbxc4           961.627      954.480
-BCD09.outContIter[1]     div00|oscout_derived_clock     FD1S3IX     D       un1_outContIter_axbxc1     961.627      954.833
-BCD09.outContIter[2]     div00|oscout_derived_clock     FD1S3IX     D       un1_outContIter_axbxc2     961.627      954.833
-BCD09.outContIter[3]     div00|oscout_derived_clock     FD1S3IX     D       un1_outContIter_axbxc3     961.627      954.833
-BCD09.outContIter[0]     div00|oscout_derived_clock     FD1S3IX     CD      outFlagIterA_RNIJUUC9      960.736      955.406
-BCD09.outContIter[1]     div00|oscout_derived_clock     FD1S3IX     CD      outFlagIterA_RNIJUUC9      960.736      955.406
-BCD09.outContIter[2]     div00|oscout_derived_clock     FD1S3IX     CD      outFlagIterA_RNIJUUC9      960.736      955.406
-BCD09.outContIter[3]     div00|oscout_derived_clock     FD1S3IX     CD      outFlagIterA_RNIJUUC9      960.736      955.406
-BCD11.outpc[0]           div00|oscout_derived_clock     FD1S3IX     CD      outpc_704                  960.736      955.406
-BCD11.outpc[2]           div00|oscout_derived_clock     FD1S3IX     CD      outpc_704                  960.736      955.406
+BCD11.outpc[4]           div00|oscout_derived_clock     FD1S3IX     D       un1_outpc_axbxc4           961.627      954.484
+BCD09.outContIter[1]     div00|oscout_derived_clock     FD1S3IX     D       un1_outContIter_axbxc1     961.627      954.837
+BCD09.outContIter[2]     div00|oscout_derived_clock     FD1S3IX     D       un1_outContIter_axbxc2     961.627      954.837
+BCD09.outContIter[3]     div00|oscout_derived_clock     FD1S3IX     D       un1_outContIter_axbxc3     961.627      954.837
+BCD09.outContIter[0]     div00|oscout_derived_clock     FD1S3IX     CD      outFlagIterA_RNIJUUC9      960.736      955.410
+BCD09.outContIter[1]     div00|oscout_derived_clock     FD1S3IX     CD      outFlagIterA_RNIJUUC9      960.736      955.410
+BCD09.outContIter[2]     div00|oscout_derived_clock     FD1S3IX     CD      outFlagIterA_RNIJUUC9      960.736      955.410
+BCD09.outContIter[3]     div00|oscout_derived_clock     FD1S3IX     CD      outFlagIterA_RNIJUUC9      960.736      955.410
+BCD11.outpc[0]           div00|oscout_derived_clock     FD1S3IX     CD      outpc_707                  960.736      955.410
+BCD11.outpc[2]           div00|oscout_derived_clock     FD1S3IX     CD      outpc_707                  960.736      955.410
 ===========================================================================================================================
 
 
@@ -743,9 +748,9 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         961.627
 
-    - Propagation time:                      7.147
+    - Propagation time:                      7.143
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 954.480
+    = Slack (non-critical) :                 954.484
 
     Number of logic level(s):                7
     Starting point:                          BCD08.outFlagac12 / Q
@@ -757,30 +762,30 @@ Path information for path number 1:
 Instance / Net                                Pin      Pin               Arrival     No. of    
 Name                             Type         Name     Dir     Delay     Time        Fan Out(s)
 -----------------------------------------------------------------------------------------------
-BCD08.outFlagac12                FD1S3IX      Q        Out     1.232     1.232       -         
-outFlagAC120_c                   Net          -        -       -         -           10        
-BCD10.F1F2F3uc_1_2_0_.m16_e      ORCALUT4     B        In      0.000     1.232       -         
-BCD10.F1F2F3uc_1_2_0_.m16_e      ORCALUT4     Z        Out     1.153     2.385       -         
+BCD08.outFlagac12                FD1S3IX      Q        Out     1.228     1.228       -         
+outFlagAC120_c                   Net          -        -       -         -           9         
+BCD10.F1F2F3uc_1_2_0_.m16_e      ORCALUT4     B        In      0.000     1.228       -         
+BCD10.F1F2F3uc_1_2_0_.m16_e      ORCALUT4     Z        Out     1.153     2.381       -         
 m16_e                            Net          -        -       -         -           3         
-BCD10.F1F2F3uc_1_2_0_.m18_bm     ORCALUT4     A        In      0.000     2.385       -         
-BCD10.F1F2F3uc_1_2_0_.m18_bm     ORCALUT4     Z        Out     1.017     3.401       -         
+BCD10.F1F2F3uc_1_2_0_.m18_bm     ORCALUT4     A        In      0.000     2.381       -         
+BCD10.F1F2F3uc_1_2_0_.m18_bm     ORCALUT4     Z        Out     1.017     3.397       -         
 m18_bm                           Net          -        -       -         -           1         
-BCD10.F1F2F3uc_1_2_0_.m18        PFUMX        ALUT     In      0.000     3.401       -         
-BCD10.F1F2F3uc_1_2_0_.m18        PFUMX        Z        Out     0.470     3.872       -         
+BCD10.F1F2F3uc_1_2_0_.m18        PFUMX        ALUT     In      0.000     3.397       -         
+BCD10.F1F2F3uc_1_2_0_.m18        PFUMX        Z        Out     0.470     3.868       -         
 i4_mux                           Net          -        -       -         -           9         
-BCD10.F1F2F3uc_1_2_0_.m19        ORCALUT4     A        In      0.000     3.872       -         
-BCD10.F1F2F3uc_1_2_0_.m19        ORCALUT4     Z        Out     0.449     4.320       -         
+BCD10.F1F2F3uc_1_2_0_.m19        ORCALUT4     A        In      0.000     3.868       -         
+BCD10.F1F2F3uc_1_2_0_.m19        ORCALUT4     Z        Out     0.449     4.316       -         
 F1F2F3uc0_c_i[1]                 Net          -        -       -         -           3         
-BCD11.un1_outpc_ac0              ORCALUT4     B        In      0.000     4.320       -         
-BCD11.un1_outpc_ac0              ORCALUT4     Z        Out     1.193     5.513       -         
+BCD11.un1_outpc_ac0              ORCALUT4     B        In      0.000     4.316       -         
+BCD11.un1_outpc_ac0              ORCALUT4     Z        Out     1.193     5.509       -         
 un1_outpc_c1                     Net          -        -       -         -           4         
-BCD11.un1_outpc_ac0_1            ORCALUT4     A        In      0.000     5.513       -         
-BCD11.un1_outpc_ac0_1            ORCALUT4     Z        Out     1.017     6.530       -         
+BCD11.un1_outpc_ac0_1            ORCALUT4     A        In      0.000     5.509       -         
+BCD11.un1_outpc_ac0_1            ORCALUT4     Z        Out     1.017     6.526       -         
 un1_outpc_c2                     Net          -        -       -         -           1         
-BCD11.un1_outpc_axbxc4           ORCALUT4     A        In      0.000     6.530       -         
-BCD11.un1_outpc_axbxc4           ORCALUT4     Z        Out     0.617     7.147       -         
+BCD11.un1_outpc_axbxc4           ORCALUT4     A        In      0.000     6.526       -         
+BCD11.un1_outpc_axbxc4           ORCALUT4     Z        Out     0.617     7.143       -         
 un1_outpc_axbxc4                 Net          -        -       -         -           1         
-BCD11.outpc[4]                   FD1S3IX      D        In      0.000     7.147       -         
+BCD11.outpc[4]                   FD1S3IX      D        In      0.000     7.143       -         
 ===============================================================================================
 
 
@@ -937,25 +942,25 @@ BCD00.D01.un1_sdiv77_i_a2_7_6      ORCALUT4     Z        Out     1.017     2.061
 un1_sdiv77_i_a2_7_6                Net          -        -       -         -           1         
 BCD00.D01.un1_sdiv77_i_a2_7        ORCALUT4     C        In      0.000     2.061       -         
 BCD00.D01.un1_sdiv77_i_a2_7        ORCALUT4     Z        Out     1.089     3.149       -         
-N_777                              Net          -        -       -         -           2         
+N_704                              Net          -        -       -         -           2         
 BCD00.D01.un1_sdiv77_i_a2_8        ORCALUT4     D        In      0.000     3.149       -         
 BCD00.D01.un1_sdiv77_i_a2_8        ORCALUT4     Z        Out     1.193     4.342       -         
-N_779                              Net          -        -       -         -           4         
+N_706                              Net          -        -       -         -           4         
 BCD00.D01.un1_sdiv77_i_o3_2        ORCALUT4     B        In      0.000     4.342       -         
 BCD00.D01.un1_sdiv77_i_o3_2        ORCALUT4     Z        Out     1.017     5.359       -         
-N_738                              Net          -        -       -         -           1         
+N_664                              Net          -        -       -         -           1         
 BCD00.D01.un1_sdiv77_i_0_RNO_1     ORCALUT4     B        In      0.000     5.359       -         
 BCD00.D01.un1_sdiv77_i_0_RNO_1     ORCALUT4     Z        Out     1.017     6.376       -         
-un1_sdiv77_i_0_696_tz_1_0          Net          -        -       -         -           1         
+un1_sdiv77_i_0_699_tz_1_0          Net          -        -       -         -           1         
 BCD00.D01.un1_sdiv77_i_0_RNO_0     ORCALUT4     A        In      0.000     6.376       -         
 BCD00.D01.un1_sdiv77_i_0_RNO_0     ORCALUT4     Z        Out     1.017     7.393       -         
-N_805_tz                           Net          -        -       -         -           1         
+N_734_tz                           Net          -        -       -         -           1         
 BCD00.D01.un1_sdiv77_i_0_RNO       ORCALUT4     B        In      0.000     7.393       -         
 BCD00.D01.un1_sdiv77_i_0_RNO       ORCALUT4     Z        Out     1.017     8.409       -         
 un1_sdiv77_i_0_RNO                 Net          -        -       -         -           1         
 BCD00.D01.un1_sdiv77_i_0           ORCALUT4     D        In      0.000     8.409       -         
 BCD00.D01.un1_sdiv77_i_0           ORCALUT4     Z        Out     1.017     9.426       -         
-un1_sdiv77_i_0                     Net          -        -       -         -           1         
+N_10                               Net          -        -       -         -           1         
 BCD00.D01.un1_sdiv_cry_0_0         CCU2D        B0       In      0.000     9.426       -         
 BCD00.D01.un1_sdiv_cry_0_0         CCU2D        COUT     Out     1.544     10.971      -         
 un1_sdiv_cry_0                     Net          -        -       -         -           1         
@@ -1002,10 +1007,10 @@ BCD00.D01.sdiv[22]                 FD1S3IX      D        In      0.000     13.94
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 162MB peak: 170MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 157MB peak: 159MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 162MB peak: 170MB)
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 157MB peak: 159MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -1020,8 +1025,8 @@ Details:
 BB:             2
 CCU2D:          23
 FD1P3AX:        79
-FD1S3AX:        12
-FD1S3IX:        75
+FD1S3AX:        15
+FD1S3IX:        72
 FD1S3JX:        6
 GSR:            1
 IB:             19
@@ -1031,19 +1036,19 @@ INV:            5
 OB:             45
 OBZ:            12
 OFS1P3IX:       1
-ORCALUT4:       301
+ORCALUT4:       276
 OSCH:           1
-PFUMX:          7
+PFUMX:          11
 PUR:            1
 VHI:            15
 VLO:            18
-false:          2
-true:           5
+false:          3
+true:           6
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 33MB peak: 170MB)
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 33MB peak: 159MB)
 
 Process took 0h:00m:05s realtime, 0h:00m:04s cputime
-# Mon Nov 11 09:56:18 2019
+# Wed Nov 20 08:47:02 2019
 
 ###########################################################]
